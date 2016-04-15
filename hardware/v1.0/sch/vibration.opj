@@ -1,6 +1,5 @@
 (ExpressProject "vibration"
   (ProjectVersion "19981106")
-  (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File "e:\cadence lib\mylibrary.olb"
@@ -16,6 +15,10 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (Res
+      (FullPartName "Res.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
     (LT1963
       (FullPartName "LT1963.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
@@ -47,12 +50,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "E:\material\lool Inds Vibration\hardware\v1.0\sch\vibration.dsn")
-      (Path "Design Resources"
-         "E:\material\lool Inds Vibration\hardware\v1.0\sch\vibration.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources" "Library"))
+      (Path "Design Resources" ".\vibration.dsn")
+      (Path "Design Resources" ".\vibration.dsn" "Design Cache")
+      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LM2596")
+      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LM334SM")
+      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LT1763")
+      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LT1963")
+      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LT1964BYP")
+      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LT3080"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -63,10 +68,11 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 100 844 100 509")
-        (Scroll "622 724")
-        (Zoom "164")
+        (Scroll "225 0")
+        (Zoom "158")
         (Occurrence "/"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "SCHEMATIC1")
       (Page "POWER")))
-  (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.6\tools\capture\library"))
+  (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.6\tools\capture\library")
+  (MPSSessionName "psai"))
