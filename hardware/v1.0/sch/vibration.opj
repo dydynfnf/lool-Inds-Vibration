@@ -15,16 +15,48 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (Res
-      (FullPartName "Res.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
     (LT1963
       (FullPartName "LT1963.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
       (DeviceIndex "0"))
     (LT1763
       (FullPartName "LT1763.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LT1964-5
+      (FullPartName "LT1964-5.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Inductor
+      (FullPartName "Inductor.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (1n5819
+      (FullPartName "1n5819.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Cap+
+      (FullPartName "Cap+.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (Cap
+      (FullPartName "Cap.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (Res
+      (FullPartName "Res.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
       (DeviceIndex "0"))
     (LT1964BYP
@@ -52,12 +84,10 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\vibration.dsn")
       (Path "Design Resources" ".\vibration.dsn" "Design Cache")
-      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LM2596")
-      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LM334SM")
-      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LT1763")
-      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LT1963")
-      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LT1964BYP")
-      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "LT3080"))
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "e:\cadence lib\mylibrary.olb")
+      (Select "Design Resources" "Library" "e:\cadence lib\mylibrary.olb"
+         "LT1763"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -68,8 +98,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 100 844 100 509")
-        (Scroll "225 0")
-        (Zoom "158")
+        (Scroll "-14 -9")
+        (Zoom "59")
         (Occurrence "/"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "SCHEMATIC1")
