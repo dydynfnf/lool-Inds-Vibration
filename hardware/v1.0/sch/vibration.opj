@@ -15,6 +15,14 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (OPA350UA
+      (FullPartName "OPA350UA.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (REF3125
+      (FullPartName "REF3125.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
     (PORTBOTH-L
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -101,7 +109,7 @@
       (Path "Design Resources" ".\vibration.dsn" "SCHEMATIC1")
       (Path "Design Resources" ".\vibration.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "Res"))
+      (Select "Design Resources" ".\vibration.dsn" "SCHEMATIC1" "ADC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -112,8 +120,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 25 769 25 434")
-        (Scroll "79 204")
-        (Zoom "118")
+        (Scroll "-2 -78")
+        (Zoom "60")
         (Occurrence "/"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "SCHEMATIC1")
@@ -122,8 +130,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 505 50 463")
-        (Scroll "798 483")
-        (Zoom "118")
+        (Scroll "0 0")
+        (Zoom "60")
         (Occurrence "/"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "SCHEMATIC1")
