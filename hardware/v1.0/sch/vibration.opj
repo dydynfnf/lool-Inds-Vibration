@@ -15,6 +15,10 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (JTAG
+      (FullPartName "JTAG.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
     (GX12-2P
       (FullPartName "GX12-2P.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
@@ -105,10 +109,6 @@
     (R
       (FullPartName "R.Normal")
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (LM334SM
-      (FullPartName "LM334SM.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -117,22 +117,33 @@
       (Path "Design Resources" ".\vibration.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "e:\cadence lib\mylibrary.olb")
-      (Select "Design Resources" "Library" "e:\cadence lib\mylibrary.olb"))
+      (Select "Design Resources" ".\vibration.dsn" "SCHEMATIC1" "MCU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 811"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 555"))
       (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 984 100 464")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1343 485")
+        (Zoom "425"))
+      (Path "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (Package "OSC"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 505 50 463")
-        (Scroll "899 0")
-        (Zoom "120")
+        (Placement "44 2 3 -1 -1 -8 -30 50 934 50 414")
+        (Scroll "0 459")
+        (Zoom "132")
         (Occurrence "/"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
+      (Path "E:\VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "POWER")))
+      (Page "MCU")))
   (LastUsedLibraryBrowseDirectory "E:\CADENCE LIB")
-  (MPSSessionName "psai"))
+  (MPSSessionName "DaQi"))
