@@ -15,6 +15,14 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (Key
+      (FullPartName "Key.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (OSC-N
+      (FullPartName "OSC-N.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
     (JTAG
       (FullPartName "JTAG.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
@@ -101,14 +109,6 @@
     (LM2596
       (FullPartName "LM2596.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (LT3080
-      (FullPartName "LT3080.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -131,15 +131,48 @@
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "1343 485")
-        (Zoom "425"))
+        (Scroll "905 0")
+        (Zoom "224"))
       (Path "E:\CADENCE LIB\MYLIBRARY.OLB")
       (Package "OSC"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1034 150 514")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "101 66")
+        (Zoom "125"))
+      (Path "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (Package "LCD"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 591 0 364")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "893 485")
+        (Zoom "425"))
+      (Path "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (Package "OSC-N"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 616 25 389")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1147 636")
+        (Zoom "526"))
+      (Path "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (Package "OSC-CLK"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 50 934 50 414")
-        (Scroll "0 459")
+        (Scroll "404 0")
         (Zoom "132")
         (Occurrence "/"))
       (Path "E:\VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
