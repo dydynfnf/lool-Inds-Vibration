@@ -15,6 +15,29 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (PORTBOTH-L
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Inductor
+      (FullPartName "Inductor.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (OSC-N
+      (FullPartName "OSC-N.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (RJ45
+      (FullPartName "RJ45.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (BAW56
+      (FullPartName "BAW56.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (W5300
+      (FullPartName "W5300.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
     ("4 HEADER"
       (FullPartName "4 HEADER.Normal")
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -27,10 +50,6 @@
       (FullPartName "Key.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
       (DeviceIndex "0"))
-    (OSC-N
-      (FullPartName "OSC-N.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
     (JTAG
       (FullPartName "JTAG.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
@@ -38,9 +57,6 @@
     (GX12-2P
       (FullPartName "GX12-2P.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (PORTBOTH-L
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (ADA4898-2
       (FullPartName "ADA4898-2.Normal")
@@ -92,22 +108,8 @@
     (VCC_BAR
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (Inductor
-      (FullPartName "Inductor.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
     (1n5819
       (FullPartName "1n5819.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (PORTBOTH-R
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (Cap+
-      (FullPartName "Cap+.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
       (DeviceIndex "0")))
   (GlobalState
@@ -115,8 +117,9 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\vibration.dsn")
       (Path "Design Resources" ".\vibration.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\vibration.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Select "Design Resources"))
+      (Select "Design Resources" ".\vibration.dsn" "Design Cache" "4 HEADER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -126,12 +129,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 744 50 566")
-        (Scroll "643 0")
-        (Zoom "120")
+        (Placement "44 0 1 -1 -1 -8 -30 100 798 100 620")
+        (Scroll "0 0")
+        (Zoom "93")
         (Occurrence "/"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "POWER")))
+      (Page "ETHERNET")))
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.6\tools\capture\library")
   (MPSSessionName "psai"))
