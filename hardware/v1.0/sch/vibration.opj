@@ -15,6 +15,14 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("4 HEADER"
+      (FullPartName "4 HEADER.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (LED-3
+      (FullPartName "LED-3.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
     (Key
       (FullPartName "Key.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
@@ -101,14 +109,6 @@
     (Cap+
       (FullPartName "Cap+.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (LT1964BYP
-      (FullPartName "LT1964BYP.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (LM2596
-      (FullPartName "LM2596.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -116,67 +116,22 @@
       (Path "Design Resources" ".\vibration.dsn")
       (Path "Design Resources" ".\vibration.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "e:\cadence lib\mylibrary.olb")
-      (Select "Design Resources" ".\vibration.dsn" "SCHEMATIC1" "MCU"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 555"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 811"))
       (Tab 0))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 984 100 464")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "905 0")
-        (Zoom "224"))
-      (Path "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (Package "OSC"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 1034 150 514")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "101 66")
-        (Zoom "125"))
-      (Path "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (Package "LCD"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 591 0 364")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "893 485")
-        (Zoom "425"))
-      (Path "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (Package "OSC-N"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 616 25 389")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1147 636")
-        (Zoom "526"))
-      (Path "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (Package "OSC-CLK"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 934 50 414")
-        (Scroll "404 0")
-        (Zoom "132")
+        (Placement "44 2 3 -1 -1 -8 -30 50 744 50 566")
+        (Scroll "643 0")
+        (Zoom "120")
         (Occurrence "/"))
-      (Path "E:\VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
+      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "MCU")))
-  (LastUsedLibraryBrowseDirectory "E:\CADENCE LIB")
-  (MPSSessionName "DaQi"))
+      (Page "POWER")))
+  (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.6\tools\capture\library")
+  (MPSSessionName "psai"))
