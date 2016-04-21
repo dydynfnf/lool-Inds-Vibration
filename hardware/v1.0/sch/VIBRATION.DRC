@@ -1,0 +1,590 @@
+Date and Time : 04/21/16 13:38:08
+
+--------------------------------------------------
+Checking Schematic: TOP
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+
+Reporting Net Names
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: FILTER
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    F-OUT
+    F-IN
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC5
+    VCC-5
+    GND
+
+Reporting Net Names
+    F-IN
+    VCC-5
+    N101702
+    N99836
+    GND
+    N99973
+    N99831
+    N100067
+    VCC5
+    F-OUT
+    N100071
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: ETHERNET
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    OE
+    WE
+    DATA0
+    DATA1
+    DATA2
+    DATA3
+    DATA4
+    DATA5
+    DATA6
+    DATA7
+    DATA8
+    DATA9
+    DATA10
+    DATA11
+    DATA12
+    DATA13
+    DATA14
+    DATA15
+    W_RST
+    ne2
+    ADDR0
+    ADDR1
+    ADDR2
+    ADDR3
+    ADDR4
+    ADDR5
+    ADDR6
+    ADDR7
+    ADDR8
+    ADDR9
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+    VDD3.3-ETH
+
+Reporting Net Names
+    OE
+    WE
+    W_RST
+    DATA1
+    ADDR0
+    N141281
+    ADDR7
+    VDD3.3-ETH
+    DATA9
+    ADDR3
+    X1
+    RXIP
+    DATA5
+    N141324
+    DATA12
+    1V8
+    DATA15
+    N141270
+    X2
+    ADDR9
+    ADDR6
+    ACT_LED
+    DATA8
+    ADDR2
+    N155515
+    N141537
+    DATA4
+    N140989
+    N145835
+    DATA11
+    ADDR5
+    GND
+    RXIN
+    DATA7
+    DATA14
+    N145831
+    ADDR8
+    VCCA
+    DATA3
+    ADDR1
+    1V8A
+    DATA2
+    N142046
+    DATA10
+    ADDR4
+    N158706
+    TXON
+    DATA6
+    DATA13
+    L_LINK
+    DATA0
+    TXOP
+    NE2
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: MCU
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    ADDR10
+    ADDR11
+    ADDR12
+    ADDR13
+    ADDR14
+    ADDR15
+    ADDR16
+    ADDR17
+    ADDR18
+    SPI1_MOSI
+    W-RST
+    LED_G
+    LED_R
+    LED_Y
+    SPI2_MISO
+    LB
+    OE
+    UB
+    WE
+    DATA0
+    DATA1
+    DATA2
+    DATA3
+    DATA4
+    DATA5
+    DATA6
+    DATA7
+    DATA8
+    DATA9
+    SPI1_MISO
+    SPI1_SCK
+    DATA10
+    DATA11
+    DATA12
+    DATA13
+    DATA14
+    DATA15
+    NE2
+    SPI2_MOSI
+    ADDR0
+    ADDR1
+    ADDR2
+    ADDR3
+    ADDR4
+    ADDR5
+    ADDR6
+    ADDR7
+    ADDR8
+    ADDR9
+    SPI2_SCK
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VDD3.3
+    GND
+
+Reporting Net Names
+    JTRST
+    VCAP_2
+    N66345
+    VDD3.3
+    JTCK
+    JTDI
+    OSC_IN
+    VCAP_1
+    JTDO
+    JTMS
+    BOOT0
+    BOOT1
+    OSC_OUT
+    RESET
+    GND
+    KEY
+    ADDR1
+    ADDR9
+    ADDR2
+    ADDR0
+    ADDR7
+    ADDR8
+    ADDR5
+    ADDR6
+    ADDR3
+    ADDR4
+    ADDR13
+    ADDR15
+    ADDR12
+    ADDR10
+    ADDR11
+    ADDR14
+    ADDR16
+    ADDR17
+    ADDR18
+    DATA12
+    DATA5
+    DATA7
+    DATA8
+    DATA10
+    DATA4
+    DATA9
+    DATA11
+    DATA6
+    DATA0
+    DATA1
+    SPI1_SCK
+    DATA2
+    DATA3
+    DATA13
+    DATA14
+    DATA15
+    SPI1_MISO
+    SPI1_MOSI
+    SPI2_SCK
+    SPI2_MOSI
+    SPI2_MISO
+    OE
+    WE
+    LB
+    UB
+    NE2
+    NE3
+    W-RST
+    LED_R
+    LED_G
+    LED_Y
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: ADC
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    SYNC
+    DOUT
+    DRDY
+    CLK
+    SCLK
+    AIN1
+    AIN2
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC5
+    VDD3.3-ADC
+    VCC-5
+    GND
+    VCC5-ADC
+    VREF
+
+Reporting Net Names
+    SCLK
+    N71065
+    N71687
+    N76992
+    N78778
+    N76702
+    DOUT
+    AINN1
+    N71562
+    AINN2
+    VCC5-ADC
+    VDD3.3-ADC
+    SYNC
+    N76854
+    DRDY
+    VREF
+    N76822
+    AIN1
+    N96537
+    VCC-5
+    N76742
+    N70987
+    VCC5
+    N78774
+    N96901
+    AINP2
+    CLK
+    AIN2
+    N73540
+    AINP1
+    GND
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: POWER
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    IN1
+    IN2
+    IN3
+    IN4
+    LED_G
+    LED_R
+    LED_Y
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC5
+    VCC24
+    VDD3.3
+    VDD3.3-ADC
+    VCC-5
+    GND
+    VCC5-ADC
+    VREF
+    VDD3.3-ETH
+    VBAT
+
+Reporting Net Names
+    LED_R
+    GND
+    LED_G
+    LED_Y
+    IN1
+    N18135
+    N52365
+    N25711
+    VBAT
+    N17736
+    VCC-5
+    N02842
+    N84190
+    N02351
+    VDD3.3
+    N128201
+    N132822
+    VCC24
+    VDD3.3-ADC
+    N128205
+    IN3
+    N86153
+    N11014
+    N86146
+    N132056
+    N54087
+    N86184
+    VCC5
+    VCC5-ADC
+    VREF
+    N09919
+    N02371
+    N17764
+    N02340
+    N86139
+    N14732
+    N02329
+    N22091
+    N53987
+    N21501
+    VDD3.3-ETH
+    N128197
+    IN2
+    N37420
+    IN4
+    N07964
+    N52465
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: TOP
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: FILTER
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: ETHERNET
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: MCU
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: ADC
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: POWER
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: VIBRATION 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
