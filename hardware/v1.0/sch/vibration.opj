@@ -69,8 +69,16 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GX12-3P
+      (FullPartName "GX12-3P.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
     (PORTBOTH-L
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (FOD060L
+      (FullPartName "FOD060L.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
       (DeviceIndex "0"))
     (Cap
       (FullPartName "Cap.Normal")
@@ -158,13 +166,6 @@
     (LT1763
       (FullPartName "LT1763.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (LT1964-5
-      (FullPartName "LT1964-5.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -176,13 +177,31 @@
       (Path "Design Resources" ".\vibration.dsn" "FILTER")
       (Path "Design Resources" ".\vibration.dsn" "MCU")
       (Path "Design Resources" ".\vibration.dsn" "POWER")
-      (Path "Outputs")
-      (Select "Design Resources" ".\vibration.dsn"))
+      (Path "Design Resources" ".\vibration.dsn" "SPEED")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 846"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 25 769 25 469")
+        (Scroll "898 0")
+        (Zoom "120"))
+      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
+      (Schematic "POWER")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 848 100 548")
+        (Scroll "0 138")
+        (Zoom "168"))
+      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
+      (Schematic "SPEED")
+      (Page "SPEED")))
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.6\tools\capture\library")
   (MPSSessionName "psai"))
