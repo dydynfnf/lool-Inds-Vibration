@@ -50,7 +50,7 @@
     (DRC_Run_Physical_Custom_DRC "FALSE")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "2")
+    (ANNOTATE_Action "0")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -65,12 +65,46 @@
     (width_start "80")
     (width_End "80")
     ("True Reuse Generate Reuse Module" "FALSE")
-    ("Layout Reuse: Action" "0"))
+    ("Layout Reuse: Action" "0")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\VIBRATION.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Outputs"
     (File ".\vibration.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (LT3580
+      (FullPartName "LT3580.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (MP1584
+      (FullPartName "MP1584.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
     (PORTBOTH-L
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -160,14 +194,6 @@
     (Res
       (FullPartName "Res.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (STM32F407ZGT6
-      (FullPartName "STM32F407ZGT6A.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (LT1963
-      (FullPartName "LT1963.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -176,13 +202,12 @@
       (Path "Design Resources" ".\vibration.dsn" "TOP")
       (Path "Design Resources" ".\vibration.dsn" "ADC")
       (Path "Design Resources" ".\vibration.dsn" "ETHERNET")
-      (Path "Design Resources" ".\vibration.dsn" "FILTER")
       (Path "Design Resources" ".\vibration.dsn" "MCU")
       (Path "Design Resources" ".\vibration.dsn" "POWER")
       (Path "Design Resources" ".\vibration.dsn" "SPEED")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\vibration.dsn"))
+      (Select "Design Resources" ".\vibration.dsn" "ADC" "ADC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -193,7 +218,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 75 823 75 523")
-        (Scroll "-50 -5")
+        (Scroll "-50 0")
         (Zoom "84")
         (Occurrence "/"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
@@ -202,19 +227,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 898 150 598")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/M1"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "MCU")
-      (Page "MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 923 175 623")
-        (Scroll "0 185")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -30 200 948 200 648")
+        (Scroll "241 0")
+        (Zoom "120")
         (Occurrence "/P1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "POWER")
@@ -222,22 +237,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 948 200 648")
-        (Scroll "610 469")
-        (Zoom "168")
+        (Placement "44 0 1 -1 -1 -8 -30 200 948 200 618")
+        (Scroll "0 0")
+        (Zoom "100")
         (Occurrence "/A1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "ADC")
-      (Page "ADC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 748 0 448")
-        (Scroll "0 0")
-        (Zoom "84")
-        (Occurrence "/F1"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "FILTER")
-      (Page "FILTER")))
+      (Page "ADC")))
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.6\tools\capture\library")
-  (MPSSessionName "psai"))
+  (MPSSessionName "psai")
+  (ISPCBBASICLICENSE "false"))
