@@ -1,29 +1,47 @@
-\t (00:00:16) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:16)     Journal start - Sun Apr 24 13:12:19 2016
-\t (00:00:16)         Host=PSAI-PC User=psai Pid=9940 CPUs=4
-\t (00:00:16) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:16) 
-\t (00:00:18) Opening existing design...
-\d (00:00:18) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
-\i (00:00:18) trapsize 2335
-\i (00:00:19) trapsize 2267
-\i (00:00:19) trapsize 2347
-\i (00:00:19) trapsize 1928
-\i (00:00:19) trapsize 1928
-\i (00:00:20) generaledit 
-\i (00:00:22) toolswap 
-\i (00:00:30) fillin PowerIntegrity
-\t (00:00:30) Opening existing design...
-\i (00:00:30) trapsize 1928
-\i (00:00:30) trapsize 1874
-\i (00:00:30) trapsize 1928
-\i (00:00:31) trapsize 1928
-\i (00:00:31) generaledit 
-\i (00:00:33) open 
-\e (00:00:33) Do you want to save the changes you made to E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd?
-\i (00:00:36) fillin no 
-\i (00:00:46) fillin "E:\allegro si\pcb\f429a.brd"
-\i (00:00:46) cd "E:\allegro si\pcb"
-\t (00:00:46) Opening existing design...
-\i (00:00:46) trapsize 1506
-\t (00:00:46)     Journal end - Sun Apr 24 13:12:49 2016
+\t (00:00:01) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:01)     Journal start - Wed Apr 27 15:16:24 2016
+\t (00:00:01)         Host=PSAI-PC User=psai Pid=7040 CPUs=4
+\t (00:00:01) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:01) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
+\i (00:00:04) trapsize 43942
+\i (00:00:04) trapsize 42661
+\i (00:00:04) trapsize 44163
+\i (00:00:04) trapsize 36280
+\i (00:00:04) trapsize 36280
+\i (00:00:04) generaledit 
+\i (00:00:06) plot preview 
+\i (00:00:06) trapsize 34403
+\i (00:00:21) trapsize 36280
+\i (00:00:22) plot 
+\i (00:00:27) plotwint initialize "Foxit Reader PDF Printer"
+\i (00:00:27) plotwint orientation 1
+\i (00:00:27) plotwint papername "A4"
+\i (00:00:27) plotwint scale 100
+\i (00:00:27) plotwint copies 1
+\i (00:00:27) plotwint defaultsource 7
+\i (00:00:27) plotwint printquality 600
+\i (00:00:27) plotwint color 2
+\i (00:00:27) plotwint duplex 1
+\i (00:00:27) plotwint execute
+\i (00:01:40) plot setup 
+\i (00:01:42) setwindow form.fpfileplotsetup
+\i (00:01:42) FORM fpfileplotsetup windows  
+\i (00:01:45) FORM fpfileplotsetup general  
+\i (00:01:47) FORM fpfileplotsetup fpplotblackwhite YES 
+\i (00:02:00) FORM fpfileplotsetup fpplotautocenter YES 
+\i (00:02:01) FORM fpfileplotsetup done  
+\i (00:02:01) setwindow pcb
+\i (00:02:01) generaledit 
+\i (00:02:05) plot 
+\w (00:02:05) WARNING(SPMHMF-375): Holes will generally not appear in a 'Black and white' plot. [help]
+\i (00:02:15) plotwint initialize "Foxit Reader PDF Printer"
+\i (00:02:15) plotwint execute
+\i (00:03:00) plot setup 
+\i (00:03:08) setwindow form.fpfileplotsetup
+\i (00:03:08) FORM fpfileplotsetup cancel  
+\i (00:03:08) setwindow pcb
+\i (00:03:08) generaledit 
+\i (00:03:27) exit 
+\t (00:03:28)     Journal end - Wed Apr 27 15:19:50 2016

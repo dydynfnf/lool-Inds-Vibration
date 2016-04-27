@@ -4,13 +4,13 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Mon Apr 25 20:42:07 2016                      )
+(    Date/Time        : Sat Apr 23 08:48:32 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 	Paramfile Name : E:/cadence lib/parameters.prm
-	Layout Name   : E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
+	Layout Name   : vibration.brd
 
 Reading...parameter_header:
 Reading...db_common_type:

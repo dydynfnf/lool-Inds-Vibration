@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Sat Apr 23 08:50:29 2016                      )
+(    Date/Time        : Wed Apr 27 15:09:50 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,19 +19,19 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'E:/material/lool Inds Vibration/hardware/v1.0/sch/allegro'
 Design Directory:            '.'
-Old design name:             'vibration.brd'
-New design name:             'vibration.brd'
+Old design name:             'E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd'
+New design name:             'E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd'
 
-CmdLine: netrev -$ -i E:/material/lool Inds Vibration/hardware/v1.0/sch/allegro -y 1 -q netrev_constraint_report.xml E:/material/lool Inds Vibration/hardware/v1.0/pcb/#Taaaaaf00724.tmp
+CmdLine: netrev -$ -i E:/material/lool Inds Vibration/hardware/v1.0/sch/allegro -y 1 -q netrev_constraint_report.xml E:/material/lool Inds Vibration/hardware/v1.0/pcb/#Taaaaah03360.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read E:/material/lool Inds Vibration/hardware/v1.0/sch/allegro/pstchip.dat 
-   Finished reading E:/material/lool Inds Vibration/hardware/v1.0/sch/allegro/pstchip.dat (00:00:00.06)
+   Finished reading E:/material/lool Inds Vibration/hardware/v1.0/sch/allegro/pstchip.dat (00:00:00.05)
 Starting to read E:/material/lool Inds Vibration/hardware/v1.0/sch/allegro/pstxprt.dat 
    Finished reading E:/material/lool Inds Vibration/hardware/v1.0/sch/allegro/pstxprt.dat (00:00:00.01)
 Starting to read E:/material/lool Inds Vibration/hardware/v1.0/sch/allegro/pstxnet.dat 
-   Finished reading E:/material/lool Inds Vibration/hardware/v1.0/sch/allegro/pstxnet.dat (00:00:00.02)
+   Finished reading E:/material/lool Inds Vibration/hardware/v1.0/sch/allegro/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -62,7 +62,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Apr 23 8:50:29 2016
+netrev run on Apr 27 15:09:50 2016
    DESIGN NAME : 'VIBRATION'
    PACKAGING ON Aug  3 2015 18:16:55
 
@@ -87,6 +87,6 @@ netrev run on Apr 23 8:50:29 2016
  No oversight detected
  No warning detected
 
-cpu time      0:04:06
-elapsed time  0:00:03
+cpu time      0:01:31
+elapsed time  0:00:01
 
