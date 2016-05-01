@@ -97,6 +97,22 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (S9014
+      (FullPartName "S9014.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (AO3407
+      (FullPartName "AO3407.Normal")
+      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (PWRMOSFET_EP_GSD
+      (FullPartName "PWRMOSFET_EP_GSD.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("NPN BEC"
+      (FullPartName "NPN BEC.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
     (MTG
       (FullPartName "MTG.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
@@ -179,22 +195,6 @@
     (Key
       (FullPartName "Key.Normal")
       (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (JTAG
-      (FullPartName "JTAG.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (GX12-2P
-      (FullPartName "GX12-2P.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (ADA4898-2
-      (FullPartName "ADA4898-2.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
-      (DeviceIndex "0"))
-    (OPA350UA
-      (FullPartName "OPA350UA.Normal")
-      (LibraryName "E:\CADENCE LIB\MYLIBRARY.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -218,9 +218,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 823 75 523")
-        (Scroll "-46 -7")
-        (Zoom "85")
+        (Placement "44 0 1 -1 -1 -8 -30 75 823 75 523")
+        (Scroll "133 103")
+        (Zoom "93")
         (Occurrence "/"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "TOP")
@@ -228,9 +228,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 798 100 665")
-        (Scroll "0 0")
-        (Zoom "60")
+        (Placement "44 2 3 -1 -1 -8 -30 250 948 250 815")
+        (Scroll "375 177")
+        (Zoom "100")
         (Occurrence "/P1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "POWER")
@@ -238,8 +238,43 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 698 0 565")
+        (Scroll "145 0")
+        (Zoom "100")
+        (Occurrence "/A2"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 723 25 590")
+        (Scroll "145 0")
+        (Zoom "100")
+        (Occurrence "/A4"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 798 100 665")
+        (Scroll "145 0")
+        (Zoom "100")
+        (Occurrence "/A1"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 823 125 690")
+        (Scroll "145 0")
+        (Zoom "100")
+        (Occurrence "/A3"))
+      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
+      (Schematic "ADC")
+      (Page "ADC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 748 50 615")
-        (Scroll "0 0")
+        (Scroll "430 402")
+        (Zoom "100")
+        (Occurrence "/M1"))
+      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
+      (Schematic "MCU")
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 773 75 640")
+        (Scroll "151 85")
         (Zoom "100")
         (Occurrence "/E1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
@@ -248,13 +283,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 773 75 640")
-        (Scroll "0 0")
-        (Zoom "60")
-        (Occurrence "/M1"))
+        (Placement "44 0 1 -1 -1 -8 -30 150 848 150 715")
+        (Scroll "80 0")
+        (Zoom "100")
+        (Occurrence "/S1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "MCU")
-      (Page "MCU")))
+      (Schematic "SPEED")
+      (Page "SPEED")))
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.6\tools\capture\library")
   (MPSSessionName "psai")
   (ISPCBBASICLICENSE "false"))

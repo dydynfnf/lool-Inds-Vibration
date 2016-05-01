@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Apr-27-2016 at 13:41:54}
+{ Using PSTWRITER 16.6.0 d001Apr-30-2016 at 21:20:41}
 primitive 'RES_0805_10R';
   pin
     '1':
@@ -405,6 +405,21 @@ primitive '1N5819_SOD123_CMMSH1-40';
     VALUE='CMMSH1-40';
   end_body;
 end_primitive;
+primitive '1N5819_LL34_1N457';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='1n5819';
+    JEDEC_TYPE='LL34';
+    VALUE='1N457';
+  end_body;
+end_primitive;
 primitive 'GX12-3P_GX12-3P_GX12-3P';
   pin
     '1':
@@ -633,6 +648,18 @@ primitive 'LED-3_LED-3_LED-3';
     VALUE='LED-3';
   end_body;
 end_primitive;
+primitive 'MTG_MTG_MTG';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MTG';
+    JEDEC_TYPE='MTG';
+    VALUE='MTG';
+  end_body;
+end_primitive;
 primitive 'OSC-N_OSC-3225_OSC-N';
   pin
     'X1':
@@ -742,6 +769,42 @@ primitive 'JTAG_H-10-2_JTAG';
     PART_NAME='JTAG';
     JEDEC_TYPE='H-10-2';
     VALUE='JTAG';
+  end_body;
+end_primitive;
+primitive 'AO3407_AO3407-SOT23_AO3407';
+  pin
+    'G':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'S':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'D':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='AO3407';
+    JEDEC_TYPE='AO3407-SOT23';
+    VALUE='AO3407';
+  end_body;
+end_primitive;
+primitive 'S9014_S9014-SOT23_S9014';
+  pin
+    'B':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='S9014';
+    JEDEC_TYPE='S9014-SOT23';
+    VALUE='S9014';
   end_body;
 end_primitive;
 primitive 'RES_0603_51';
@@ -879,6 +942,36 @@ primitive 'RES_0603_2.7K';
     VALUE='2.7K';
   end_body;
 end_primitive;
+primitive 'RES_0603_4.7K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='4.7K';
+  end_body;
+end_primitive;
+primitive 'RES_0603_NC';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='NC';
+  end_body;
+end_primitive;
 primitive 'RES_0603_6.8K';
   pin
     '1':
@@ -892,6 +985,51 @@ primitive 'RES_0603_6.8K';
     PART_NAME='Res';
     JEDEC_TYPE='0603';
     VALUE='6.8K';
+  end_body;
+end_primitive;
+primitive 'RES_0603_33K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='33K';
+  end_body;
+end_primitive;
+primitive 'RES_0603_330';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='330';
+  end_body;
+end_primitive;
+primitive 'RES_0603_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='10K';
   end_body;
 end_primitive;
 primitive 'RES_0603_200K';
@@ -984,21 +1122,6 @@ primitive 'RES_0603_0';
     VALUE='0';
   end_body;
 end_primitive;
-primitive 'RES_0603_NC';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Res';
-    JEDEC_TYPE='0603';
-    VALUE='NC';
-  end_body;
-end_primitive;
 primitive 'RES_0603_200';
   pin
     '1':
@@ -1044,36 +1167,6 @@ primitive 'RES_0603_12';
     VALUE='12';
   end_body;
 end_primitive;
-primitive 'RES_0603_10K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Res';
-    JEDEC_TYPE='0603';
-    VALUE='10K';
-  end_body;
-end_primitive;
-primitive 'RES_0603_4.7K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Res';
-    JEDEC_TYPE='0603';
-    VALUE='4.7K';
-  end_body;
-end_primitive;
 primitive 'RES_0603_360';
   pin
     '1':
@@ -1089,7 +1182,7 @@ primitive 'RES_0603_360';
     VALUE='360';
   end_body;
 end_primitive;
-primitive 'RES_0603_2.4M';
+primitive 'RES_0603_2M';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1101,7 +1194,7 @@ primitive 'RES_0603_2.4M';
   body
     PART_NAME='Res';
     JEDEC_TYPE='0603';
-    VALUE='2.4M';
+    VALUE='2M';
   end_body;
 end_primitive;
 primitive 'RES_0603_500';
@@ -1147,6 +1240,21 @@ primitive 'RES_0603_68K';
     PART_NAME='Res';
     JEDEC_TYPE='0603';
     VALUE='68K';
+  end_body;
+end_primitive;
+primitive 'RES_0603_33';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='33';
   end_body;
 end_primitive;
 primitive 'FOD060L_FOD060L-SOIC8_FOD060L';

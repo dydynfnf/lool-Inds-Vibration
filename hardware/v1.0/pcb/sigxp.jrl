@@ -1,0 +1,26 @@
+\t (00:00:00) sigxp 16.6-2015 S065 (v16-6-112FG) Windows 32
+\t (00:00:00)     Journal start - Sun May 01 21:20:21 2016
+\t (00:00:00)         Host=PSAI-PC User=psai Pid=5432 CPUs=4
+\t (00:00:00) CmdLine= sigxp -spawn -p E:\material\lool Inds Vibration\hardware\v1.0\pcb
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 1189
+\i (00:00:00) trapsize 1150
+\i (00:00:00) trapsize 1196
+\i (00:00:00) trapsize 1267
+\i (00:00:00) trapsize 1267
+\i (00:00:00) trapsize 6634
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 6634
+\i (00:00:00) trapsize 6634
+\i (00:00:00) trapsize 6634
+\i (00:00:00) trapsize 24
+   (00:00:00) Loading signal.cxt 
+   (00:00:00) Loading sigxp.cxt 
+   (00:00:00) Loading sxutil.cxt 
+   (00:00:00) Loading axlcore.cxt 
+   (00:00:00) Loading skillExt.cxt 
+   (00:00:00) Loading fputil.cxt 
+\i (00:00:00) sigxp background 
+\i (00:00:01) exit 
+\t (00:00:02)     Journal end - Sun May 01 21:20:23 2016
