@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Apr-29-2016 at 00:24:42 }
+{ Using PSTWRITER 16.6.0 d001May-01-2016 at 18:54:36 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='VIBRATION';
@@ -2724,6 +2724,16 @@ SECTION_NUMBER 1
  '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS254037@MYLIBRARY.RES.NORMAL(CHIPS)':
  C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins254037@mylibrary.\res.normal\(chips)',
  P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins254037@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R121 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS209535@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins209535@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins209535@mylibrary.\res.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

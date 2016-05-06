@@ -4,51 +4,12 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Sun May 01 21:15:03 2016                      )
+(    Date/Time        : Fri May 06 18:24:11 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
-ERROR IN CONNECT LINE (2240.158 1540.000) - (2211.944 1540.000)
-  class = ETCH
-  subclass = TOP 
-  ERROR(SPMHA1-415): Line segments cannot overlap.
-   Error was fixed.
+WARNING   WARNING(SPMHDB-42): Run batch DRC to correctly regenerate DRC errs.
 
-ERROR IN CONNECT LINE (752.000 914.000) - (736.000 930.000)
-  class = ETCH
-  subclass = TOP 
-  ERROR(SPMHA1-415): Line segments cannot overlap.
-   Error was fixed.
-
-ERROR IN CONNECT LINE (413.070 1381.575) - (362.000 1381.575)
-  class = ETCH
-  subclass = TOP 
-  ERROR(SPMHA1-415): Line segments cannot overlap.
-   Error was fixed.
-
-ERROR IN CONNECT LINE (1304.252 1304.252) - (1265.724 1304.252)
-  class = ETCH
-  subclass = TOP 
-  ERROR(SPMHA1-415): Line segments cannot overlap.
-   Error was fixed.
-
-ERROR IN CONNECT LINE (1223.270 1520.000) - (1246.826 1520.000)
-  class = ETCH
-  subclass = TOP 
-  ERROR(SPMHA1-415): Line segments cannot overlap.
-   Error was fixed.
-
-ERROR IN CONNECT LINE (1499.134 2118.162) - (1510.972 2130.000)
-  class = ETCH
-  subclass = TOP 
-  ERROR(SPMHA1-415): Line segments cannot overlap.
-   Error was fixed.
-
-Regenerating DRC
-  Original DRC errors:   1
-  Updated DRC errors:    1
-  DRC elapsed time:      00:00:01
-
-0 warnings, 6 errors detected, 6 errors  fixed.
+1 warnings, 0 errors detected, 0 errors could be fixed.

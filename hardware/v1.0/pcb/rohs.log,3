@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : ROHS.dra                                      )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Thu May 05 16:23:35 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FORMAT
+    Directory = E:/material/lool Inds Vibration/hardware/v1.0/pcb
+    Name      = rohs.osm
+    User      = psai
+    Machine   = PSAI-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

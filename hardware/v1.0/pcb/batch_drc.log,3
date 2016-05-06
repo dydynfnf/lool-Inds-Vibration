@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Sun May 01 21:36:57 2016                      )
+(    Date/Time        : Fri May 06 18:18:34 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,11 +20,8 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  592
+ ..... Total number of DRC errors  0
 
-
-WARNING: 10 dynamic shape(s) out of date; checking skipped on these elements.
-
- ..... DRC update completed, total CPU time   0:00:01
+ ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
 

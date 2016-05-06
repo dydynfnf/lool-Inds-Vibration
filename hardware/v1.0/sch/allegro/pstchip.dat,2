@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Apr-29-2016 at 20:49:04}
+{ Using PSTWRITER 16.6.0 d001May-02-2016 at 15:44:05}
 primitive 'RES_0805_10R';
   pin
     '1':
@@ -418,6 +418,21 @@ primitive '1N5819_LL34_1N457';
     PART_NAME='1n5819';
     JEDEC_TYPE='LL34';
     VALUE='1N457';
+  end_body;
+end_primitive;
+primitive 'LED_0603_LED';
+  pin
+    'ANODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='0603';
+    VALUE='LED';
   end_body;
 end_primitive;
 primitive 'GX12-3P_GX12-3P_GX12-3P';
@@ -1032,6 +1047,21 @@ primitive 'RES_0603_10K';
     VALUE='10K';
   end_body;
 end_primitive;
+primitive 'RES_0603_2K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='2K';
+  end_body;
+end_primitive;
 primitive 'RES_0603_200K';
   pin
     '1':
@@ -1195,21 +1225,6 @@ primitive 'RES_0603_2M';
     PART_NAME='Res';
     JEDEC_TYPE='0603';
     VALUE='2M';
-  end_body;
-end_primitive;
-primitive 'RES_0603_500';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Res';
-    JEDEC_TYPE='0603';
-    VALUE='500';
   end_body;
 end_primitive;
 primitive 'RES_0603_36K';

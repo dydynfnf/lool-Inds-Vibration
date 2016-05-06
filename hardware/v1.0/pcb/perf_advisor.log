@@ -1,0 +1,100 @@
+
+********************************************************************************
+*  Performance checking for design E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
+********************************************************************************
+
+Ratsnest schedule check
+-------------------------------
+* VCC20 net has VOLTAGE property, but the ratsnest schedule is is NOT
+  "POWER_AND_GROUND".
+* VCC5-ADC net has VOLTAGE property, but the ratsnest schedule is is NOT
+  "POWER_AND_GROUND".
+* GND net has VOLTAGE property, but the ratsnest schedule is is NOT
+  "POWER_AND_GROUND".
+* VDD3.3-ADC net has VOLTAGE property, but the ratsnest schedule is is NOT
+  "POWER_AND_GROUND".
+* VBAT net has VOLTAGE property, but the ratsnest schedule is is NOT
+  "POWER_AND_GROUND".
+* VDD3.3 net has VOLTAGE property, but the ratsnest schedule is is NOT
+  "POWER_AND_GROUND".
+* VDD3.3-ETH net has VOLTAGE property, but the ratsnest schedule is is NOT
+  "POWER_AND_GROUND".
+* VCC-5 net has VOLTAGE property, but the ratsnest schedule is is NOT
+  "POWER_AND_GROUND".
+* VCC5 net has VOLTAGE property, but the ratsnest schedule is is NOT
+  "POWER_AND_GROUND".
+* 1V8 net has VOLTAGE property, but the ratsnest schedule is is NOT
+  "POWER_AND_GROUND".
+
+DRC checks
+----------------------
+* OK.
+
+Constraint region check
+-------------------------------
+* The constraint regions RGN and RGN overlapped. Suggest fixing the overlap.
+  ISSUE: Constraint regions that overlap require significantly more processing
+          to solve.
+
+    Intersection point of shapes listed below:	(1173.000, 1733.000)
+      shape/region location:  (1173.000 2185.000)
+      layer:                  CONSTRAINT REGION/TOP
+      shape/region location:  (251.000 1733.000)
+      layer:                  CONSTRAINT REGION/TOP
+
+
+Dynamic shape check
+-------------------------------
+* OK.
+
+Sector table check
+-------------------------------
+* The ratio of design extent to route keepin extent is too large (86.537324).
+  Suggest reducing design extent.
+
+Constraint set check
+---------------------------------
+* Unused csets list (2):
+  ISSUE: Design maintenance issue, slight performance impact.
+
+    SCS:	POWER
+    SCS:	AN
+
+
+NODRC_SYM_SAME_PIN check
+---------------------------------
+* OK.
+
+Cross section check for bad dielectric constant values
+--------------------------------------------------------
+* OK.
+
+Padstack size check
+----------------------
+* OK.
+
+Conductor line check
+------------------------------
+* OK.
+
+Design Constraints Statistics
+---------------------------------
+  Physical csets       =     3
+  Spacing csets        =     3
+  Same net csets       =     1
+  Electrical csets     =     6
+  Other csets          =     0
+  Total csets        ===    13
+
+  Cset relation table  =     0
+
+  Constraint regions   =     1
+  Constraint shapes    =     2
+
+* OK.
+
+=========
+SUMMARY
+=========
+
+12 problems found.	1 maintenance problems found.

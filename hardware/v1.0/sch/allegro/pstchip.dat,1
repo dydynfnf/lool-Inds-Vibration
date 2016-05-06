@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Apr-29-2016 at 00:24:42}
+{ Using PSTWRITER 16.6.0 d001May-01-2016 at 18:54:36}
 primitive 'RES_0805_10R';
   pin
     '1':
@@ -1017,6 +1017,21 @@ primitive 'RES_0603_330';
     VALUE='330';
   end_body;
 end_primitive;
+primitive 'RES_0603_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='10K';
+  end_body;
+end_primitive;
 primitive 'RES_0603_200K';
   pin
     '1':
@@ -1150,21 +1165,6 @@ primitive 'RES_0603_12';
     PART_NAME='Res';
     JEDEC_TYPE='0603';
     VALUE='12';
-  end_body;
-end_primitive;
-primitive 'RES_0603_10K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Res';
-    JEDEC_TYPE='0603';
-    VALUE='10K';
   end_body;
 end_primitive;
 primitive 'RES_0603_360';

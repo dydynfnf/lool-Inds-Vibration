@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : ESD.dra                                       )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Thu May 05 13:26:37 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FORMAT
+    Directory = E:/material/lool Inds Vibration/hardware/v1.0/pcb
+    Name      = esd.osm
+    User      = psai
+    Machine   = PSAI-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

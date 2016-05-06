@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Apr-30-2016 at 21:20:41}
+{ Using PSTWRITER 16.6.0 d001May-03-2016 at 16:13:05}
 primitive 'RES_0805_10R';
   pin
     '1':
@@ -420,6 +420,21 @@ primitive '1N5819_LL34_1N457';
     VALUE='1N457';
   end_body;
 end_primitive;
+primitive 'LED_0603_LED';
+  pin
+    'ANODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='0603';
+    VALUE='LED';
+  end_body;
+end_primitive;
 primitive 'GX12-3P_GX12-3P_GX12-3P';
   pin
     '1':
@@ -807,7 +822,7 @@ primitive 'S9014_S9014-SOT23_S9014';
     VALUE='S9014';
   end_body;
 end_primitive;
-primitive 'RES_0603_51';
+primitive 'RES_0603_75';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -819,7 +834,7 @@ primitive 'RES_0603_51';
   body
     PART_NAME='Res';
     JEDEC_TYPE='0603';
-    VALUE='51';
+    VALUE='75';
   end_body;
 end_primitive;
 primitive 'RES_0603_240';
@@ -1032,6 +1047,21 @@ primitive 'RES_0603_10K';
     VALUE='10K';
   end_body;
 end_primitive;
+primitive 'RES_0603_2K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='2K';
+  end_body;
+end_primitive;
 primitive 'RES_0603_200K';
   pin
     '1':
@@ -1060,6 +1090,21 @@ primitive 'RES_0603_510';
     PART_NAME='Res';
     JEDEC_TYPE='0603';
     VALUE='510';
+  end_body;
+end_primitive;
+primitive 'RES_0603_51';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='51';
   end_body;
 end_primitive;
 primitive 'RES_0603_1M';
@@ -1137,7 +1182,7 @@ primitive 'RES_0603_200';
     VALUE='200';
   end_body;
 end_primitive;
-primitive 'RES_0603_24';
+primitive 'RES_0603_36';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1149,10 +1194,10 @@ primitive 'RES_0603_24';
   body
     PART_NAME='Res';
     JEDEC_TYPE='0603';
-    VALUE='24';
+    VALUE='36';
   end_body;
 end_primitive;
-primitive 'RES_0603_12';
+primitive 'RES_0603_18';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1164,7 +1209,7 @@ primitive 'RES_0603_12';
   body
     PART_NAME='Res';
     JEDEC_TYPE='0603';
-    VALUE='12';
+    VALUE='18';
   end_body;
 end_primitive;
 primitive 'RES_0603_360';
@@ -1195,21 +1240,6 @@ primitive 'RES_0603_2M';
     PART_NAME='Res';
     JEDEC_TYPE='0603';
     VALUE='2M';
-  end_body;
-end_primitive;
-primitive 'RES_0603_500';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Res';
-    JEDEC_TYPE='0603';
-    VALUE='500';
   end_body;
 end_primitive;
 primitive 'RES_0603_36K';

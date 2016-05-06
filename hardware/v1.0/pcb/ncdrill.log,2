@@ -1,0 +1,66 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : vibration.brd                                 )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Fri May 06 18:19:09 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (inch)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	YES
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-360): Design precision is greater than that of the drill output file data.
+ WARNING(SPMHMF-361): Data rounding errors are very possible.
+
+
+Drill files being output to directory 'E:/material/lool Inds Vibration/hardware/v1.0/pcb' ...
+
+
+
+     'vibration-1-4.drl' created for holes connecting TOP and BOTTOM
+     ---------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.  12.0000    0.0000/  0.0000      PLATED        822
+            2.  35.4330    0.0000/  0.0000      PLATED          6
+            3.  39.3700    0.0000/  0.0000      PLATED         18
+            4.  41.3390    0.0000/  0.0000      PLATED         20
+            5.  55.1180    0.0000/  0.0000      PLATED         20
+            6.  59.0550    0.0000/  0.0000      PLATED          2
+            7.  66.9290    0.0000/  0.0000      PLATED          3
+            8. 125.9840    0.0000/  0.0000      PLATED          4
+            9.  33.4650    0.0000/  0.0000  NON_PLATED          2
+           10.  39.3700    0.0000/  0.0000  NON_PLATED          4
+           11. 137.7950    0.0000/  0.0000  NON_PLATED          2
+
+     ---- Total holes:                                        903
+
+     ---- Total head travel:              13.23 feet (4.03 meters)
+
