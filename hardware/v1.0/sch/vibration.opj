@@ -82,7 +82,21 @@
     ("Allegro Setup Part Type Length" "31")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE"))
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "1")
+    (BOM_Report_File
+       "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCB Footprint")
+    (BOM_Include_File
+       "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
   (Folder "Outputs"
     (File ".\vibration.drc"
       (Type "Report"))
@@ -94,7 +108,9 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\vibration.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (LED
@@ -207,93 +223,13 @@
       (Path "Design Resources" ".\vibration.dsn" "POWER")
       (Path "Design Resources" ".\vibration.dsn" "SPEED")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources" ".\vibration.dsn" "POWER" "POWER"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 856"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 823 75 523")
-        (Scroll "618 396")
-        (Zoom "186")
-        (Occurrence "/"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "TOP")
-      (Page "TOP"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 250 948 250 815")
-        (Scroll "445 342")
-        (Zoom "100"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "728 590")
-        (Zoom "100")
-        (Occurrence "/M1"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "MCU")
-      (Page "MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 934 75 459")
-        (Scroll "346 255")
-        (Zoom "108")
-        (Occurrence "/P1"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "POWER")
-      (Page "POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 959 100 484")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/S1"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "SPEED")
-      (Page "SPEED"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "378 290")
-        (Zoom "100")
-        (Occurrence "/A2"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "378 290")
-        (Zoom "100")
-        (Occurrence "/A4"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "378 290")
-        (Zoom "100")
-        (Occurrence "/A1"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "378 290")
-        (Zoom "100")
-        (Occurrence "/A3"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "ADC")
-      (Page "ADC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "423 305")
-        (Zoom "100")
-        (Occurrence "/E1"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "ETHERNET")
-      (Page "ETHERNET")))
+      (Tab 0)))
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.6\tools\capture\library")
   (MPSSessionName "psai")
   (ISPCBBASICLICENSE "false"))

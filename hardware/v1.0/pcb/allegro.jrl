@@ -1,14 +1,23 @@
-\t (00:00:02) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:02)     Journal start - Fri May 06 20:38:16 2016
-\t (00:00:02)         Host=PSAI-PC User=psai Pid=10072 CPUs=4
-\t (00:00:02) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:02) 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
-\i (00:00:04) trapsize 89658
-\i (00:00:04) trapsize 87044
-\i (00:00:04) trapsize 90109
+\t (00:00:03) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:03)     Journal start - Fri May 06 23:19:50 2016
+\t (00:00:03)         Host=PSAI-PC User=psai Pid=10072 CPUs=4
+\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:03) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
+\i (00:00:05) trapsize 89658
+\i (00:00:05) trapsize 87044
+\i (00:00:05) trapsize 90109
 \i (00:00:05) trapsize 74023
 \i (00:00:05) trapsize 74023
-\i (00:05:14) exit 
-\t (00:05:14)     Journal end - Fri May 06 20:43:28 2016
+\i (00:00:08) reports 
+\i (00:01:13) reports "Bill of Material Report"
+\i (00:01:43) setwindow text
+\i (00:01:43) close 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) reports "Summary Drawing Report"
+\i (00:02:02) setwindow text
+\i (00:02:02) close 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) exit 
+\t (00:02:05)     Journal end - Fri May 06 23:21:53 2016
