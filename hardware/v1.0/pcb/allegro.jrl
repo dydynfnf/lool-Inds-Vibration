@@ -1,23 +1,65 @@
-\t (00:00:03) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:03)     Journal start - Fri May 06 23:19:50 2016
-\t (00:00:03)         Host=PSAI-PC User=psai Pid=10072 CPUs=4
-\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:03) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
-\i (00:00:05) trapsize 89658
-\i (00:00:05) trapsize 87044
-\i (00:00:05) trapsize 90109
-\i (00:00:05) trapsize 74023
-\i (00:00:05) trapsize 74023
-\i (00:00:08) reports 
-\i (00:01:13) reports "Bill of Material Report"
-\i (00:01:43) setwindow text
-\i (00:01:43) close 
-\i (00:01:56) setwindow pcb
-\i (00:01:56) reports "Summary Drawing Report"
-\i (00:02:02) setwindow text
-\i (00:02:02) close 
-\i (00:02:05) setwindow pcb
-\i (00:02:05) exit 
-\t (00:02:05)     Journal end - Fri May 06 23:21:53 2016
+\t (00:02:37) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:02:37)     Journal start - Mon May 09 01:12:17 2016
+\t (00:02:37)         Host=PSAI-PC User=psai Pid=7640 CPUs=4
+\t (00:02:37) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:02:37) 
+\d (00:02:37) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
+\i (00:02:37) generaledit 
+\i (00:02:41) settoggle no_etch_shape_display 
+\i (00:02:41) redraw 
+\i (00:02:41) trapsize 111772
+\i (00:02:42) settoggle no_etch_shape_display 
+\i (00:02:42) redraw 
+\i (00:02:42) trapsize 111772
+\i (00:02:42) settoggle no_etch_shape_display 
+\i (00:02:42) redraw 
+\i (00:02:42) trapsize 111772
+\i (00:02:44) zoom in 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom in 2219.808 1508.090
+\i (00:02:44) trapsize 55886
+\i (00:02:44) zoom in 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom in 2219.807 1508.091
+\i (00:02:44) trapsize 27943
+\i (00:02:44) zoom in 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom in 2219.807 1508.091
+\i (00:02:44) trapsize 13972
+\i (00:02:44) zoom in 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom in 2219.807 1508.091
+\i (00:02:44) trapsize 6986
+\i (00:02:44) zoom in 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom in 2219.807 1508.091
+\i (00:02:44) trapsize 3493
+\i (00:02:44) zoom in 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom in 2219.807 1508.092
+\i (00:02:44) trapsize 1746
+\i (00:02:45) zoom out 1 
+\i (00:02:45) setwindow pcb
+\i (00:02:45) zoom out 2219.807 1508.092
+\i (00:02:45) trapsize 3493
+\i (00:02:45) zoom out 1 
+\i (00:02:45) setwindow pcb
+\i (00:02:45) zoom out 2219.808 1508.093
+\i (00:02:45) trapsize 6986
+\i (00:02:45) zoom out 1 
+\i (00:02:45) setwindow pcb
+\i (00:02:45) zoom out 2219.807 1508.093
+\i (00:02:45) trapsize 13972
+\i (00:02:46) zoom out 1 
+\i (00:02:46) setwindow pcb
+\i (00:02:46) zoom out 2219.807 1508.093
+\i (00:02:46) trapsize 27943
+\i (00:02:48) zoom out 1 
+\i (00:02:48) setwindow pcb
+\i (00:02:48) zoom out 2219.808 1508.092
+\i (00:02:48) trapsize 55886
+\i (00:02:49) settoggle no_etch_shape_display 
+\i (00:02:49) redraw 
+\i (00:02:49) trapsize 55886
+\i (00:03:01) exit 
+\t (00:03:01)     Journal end - Mon May 09 01:12:42 2016

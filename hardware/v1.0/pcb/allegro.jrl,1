@@ -1,20 +1,10 @@
-\t (00:00:03) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:03)     Journal start - Fri May 06 22:52:21 2016
-\t (00:00:03)         Host=PSAI-PC User=psai Pid=3808 CPUs=4
-\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:03) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
-\i (00:00:05) trapsize 89658
-\i (00:00:05) trapsize 87044
-\i (00:00:05) trapsize 90109
-\i (00:00:05) trapsize 74023
-\i (00:00:05) trapsize 74023
-\i (00:00:07) settoggle no_etch_shape_display 
-\i (00:00:07) redraw 
-\i (00:00:07) trapsize 74023
-\i (00:00:08) settoggle no_etch_shape_display 
-\i (00:00:08) redraw 
-\i (00:00:08) trapsize 74023
-\i (00:00:09) exit 
-\t (00:00:09)     Journal end - Fri May 06 22:52:27 2016
+\t (00:00:57) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:57)     Journal start - Mon May 09 00:43:02 2016
+\t (00:00:57)         Host=PSAI-PC User=psai Pid=4624 CPUs=4
+\t (00:00:57) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:57) 
+\d (00:00:57) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
+\i (00:00:57) generaledit 
+\i (00:00:58) prepopup 2040.972 3430.574
+\i (00:01:03) exit 
+\t (00:01:03)     Journal end - Mon May 09 00:43:08 2016
