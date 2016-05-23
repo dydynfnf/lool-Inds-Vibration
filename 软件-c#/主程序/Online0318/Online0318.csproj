@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C19119C1-CE87-465D-8D03-13271023D686}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Online0318</RootNamespace>
+    <AssemblyName>Online0318</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>mian_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="KPaintPanel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\KPaintPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Method, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\技术、知识\C#\自学\FFT\Method\Method\bin\Debug\Method.dll</HintPath>
+    </Reference>
+    <Reference Include="MyDllLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\hhkhkjhkj\修改后的库2014-3-19\MyDllLibrary\MyDllLibrary\bin\Debug\MyDllLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SplitContainerEx">
+      <HintPath>D:\Program Files (x86)\CS程序员之窗\SplitContainerEx\SplitContainerExDemo\SplitContainerEx\bin\Debug\SplitContainerEx.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="3D\ChartFunctions.cs" />
+    <Compile Include="3D\ChartStyle.cs" />
+    <Compile Include="3D\ChartStyle2D.cs" />
+    <Compile Include="3D\ColorMap.cs" />
+    <Compile Include="3D\DataSeries.cs" />
+    <Compile Include="3D\DrawChart.cs" />
+    <Compile Include="3D\LineStyle.cs" />
+    <Compile Include="SearchHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchHistory.designer.cs">
+      <DependentUpon>SearchHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadHistory.Designer.cs">
+      <DependentUpon>LoadHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dll\Maths.cs" />
+    <Compile Include="3D\Matrix3.cs" />
+    <Compile Include="dll\NetworkAdapter.cs" />
+    <Compile Include="dll\NetworkMonitor.cs" />
+    <Compile Include="OnlineMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineMonitor.designer.cs">
+      <DependentUpon>OnlineMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.Designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3D\Point3.cs" />
+    <Compile Include="3D\Point4.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticData.cs" />
+    <Compile Include="SystemSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemSetting.Designer.cs">
+      <DependentUpon>SystemSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dll\TcpClientConnector.cs" />
+    <Compile Include="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="动态加载.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="动态加载.Designer.cs">
+      <DependentUpon>动态加载.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SearchHistory.resx">
+      <DependentUpon>SearchHistory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadHistory.resx">
+      <DependentUpon>LoadHistory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineMonitor.resx">
+      <DependentUpon>OnlineMonitor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SystemSetting.resx">
+      <DependentUpon>SystemSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="动态加载.resx">
+      <DependentUpon>动态加载.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\用户.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\设置.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\望远镜_副本.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\历史数据.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\风力发电机12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\接收数据.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\停止接收.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\清除曲线.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保存.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打印.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打印设置.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打印预览.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\数据显示.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\滚动条.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\错误.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\正确.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\下载速度.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\上传速度.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DSC_0411_副本.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psai_don_副本.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WindowsFormsApplication2\WindowsFormsApplication2.csproj">
+      <Project>{5130E013-FAA9-4888-A5D8-6234BD4FBDD7}</Project>
+      <Name>WindowsFormsApplication2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PICIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20131007102558_yYSNe.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tianxie3232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Setting3232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mono3232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search3232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mian_icon3232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mian_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

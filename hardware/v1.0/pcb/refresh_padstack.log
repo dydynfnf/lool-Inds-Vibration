@@ -1,0 +1,298 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : vibration.brd                                 )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Sun May 15 17:42:06 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sun May 15 17:42:06 2016				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/cadence lib/PSM/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           d:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/cadence lib/PAD/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'TESTPOINT'  pad stack refresh starting.
+
+     'TESTPOINT'  pad stack refreshed successfully.
+     
+WARNING(SPMHNI-253): Unable to find pad stack, 'POWER-BOTTOM', in directory search path.
+
+WARNING(SPMHNI-253): Unable to find pad stack, 'GND-BOTTOM', in directory search path.
+
+WARNING(SPMHNI-253): Unable to find pad stack, 'GND-POWER', in directory search path.
+
+WARNING(SPMHNI-253): Unable to find pad stack, 'TOP-BOTTOM', in directory search path.
+
+WARNING(SPMHNI-253): Unable to find pad stack, 'TOP-POWER', in directory search path.
+
+WARNING(SPMHNI-253): Unable to find pad stack, 'TOP-GND', in directory search path.
+
+'VIA-12-16'  pad stack refresh starting.
+
+     'VIA-12-16'  pad stack refreshed successfully.
+     
+'R165_110'  pad stack refresh starting.
+
+     'R165_110'  pad stack refreshed successfully.
+     
+'SMD20_17'  pad stack refresh starting.
+
+     'SMD20_17'  pad stack refreshed successfully.
+     
+'C640H320'  pad stack refresh starting.
+
+     'C640H320'  pad stack refreshed successfully.
+     
+'H85'  pad stack refresh starting.
+
+     'H85'  pad stack refreshed successfully.
+     
+'S85'  pad stack refresh starting.
+
+     'S85'  pad stack refreshed successfully.
+     
+'R110_80'  pad stack refresh starting.
+
+     'R110_80'  pad stack refreshed successfully.
+     
+'VIA'  pad stack refresh starting.
+
+     'VIA'  pad stack refreshed successfully.
+     
+'C160H105T155_190_40'  pad stack refresh starting.
+
+     'C160H105T155_190_40'  pad stack refreshed successfully.
+     
+'S160H105T155_190_40'  pad stack refresh starting.
+
+     'S160H105T155_190_40'  pad stack refreshed successfully.
+     
+'S150H90'  pad stack refresh starting.
+
+     'S150H90'  pad stack refreshed successfully.
+     
+'C150H90'  pad stack refresh starting.
+
+     'C150H90'  pad stack refreshed successfully.
+     
+'S250H170'  pad stack refresh starting.
+
+     'S250H170'  pad stack refreshed successfully.
+     
+'H100'  pad stack refresh starting.
+
+     'H100'  pad stack refreshed successfully.
+     
+'S150H100'  pad stack refresh starting.
+
+     'S150H100'  pad stack refreshed successfully.
+     
+'H350'  pad stack refresh starting.
+
+     'H350'  pad stack refreshed successfully.
+     
+'C150H100'  pad stack refresh starting.
+
+     'C150H100'  pad stack refreshed successfully.
+     
+'OC150H100'  pad stack refresh starting.
+
+     'OC150H100'  pad stack refreshed successfully.
+     
+'C180H150'  pad stack refresh starting.
+
+     'C180H150'  pad stack refreshed successfully.
+     
+'C180H100'  pad stack refresh starting.
+
+     'C180H100'  pad stack refreshed successfully.
+     
+'S180H100'  pad stack refresh starting.
+
+     'S180H100'  pad stack refreshed successfully.
+     Sun May 15 17:42:06 2016				Page     2
+
+
+     
+'C240H140'  pad stack refresh starting.
+
+     'C240H140'  pad stack refreshed successfully.
+     
+'C250H170'  pad stack refresh starting.
+
+     'C250H170'  pad stack refreshed successfully.
+     
+'R185_165P121_101'  pad stack refresh starting.
+
+     'R185_165P121_101'  pad stack refreshed successfully.
+     
+'B135_45'  pad stack refresh starting.
+
+     'B135_45'  pad stack refreshed successfully.
+     
+'R345_255P238_148'  pad stack refresh starting.
+
+     'R345_255P238_148'  pad stack refreshed successfully.
+     
+'R195_60'  pad stack refresh starting.
+
+     'R195_60'  pad stack refreshed successfully.
+     
+'R325_200'  pad stack refresh starting.
+
+     'R325_200'  pad stack refreshed successfully.
+     
+'R115_75'  pad stack refresh starting.
+
+     'R115_75'  pad stack refreshed successfully.
+     
+'R160_160'  pad stack refresh starting.
+
+     'R160_160'  pad stack refreshed successfully.
+     
+'R230_180'  pad stack refresh starting.
+
+     'R230_180'  pad stack refreshed successfully.
+     
+'R175_100'  pad stack refresh starting.
+
+     'R175_100'  pad stack refreshed successfully.
+     
+'R185_155P123_93'  pad stack refresh starting.
+
+     'R185_155P123_93'  pad stack refreshed successfully.
+     
+'R145_45'  pad stack refresh starting.
+
+     'R145_45'  pad stack refreshed successfully.
+     
+'R105_60'  pad stack refresh starting.
+
+     'R105_60'  pad stack refreshed successfully.
+     
+'B125_55'  pad stack refresh starting.
+
+     'B125_55'  pad stack refreshed successfully.
+     
+'R345_240P242_137'  pad stack refresh starting.
+
+     'R345_240P242_137'  pad stack refreshed successfully.
+     
+'R155_60'  pad stack refresh starting.
+
+     'R155_60'  pad stack refreshed successfully.
+     
+'R1060_955P16R172_146'  pad stack refresh starting.
+
+     'R1060_955P16R172_146'  pad stack refreshed successfully.
+     
+'R430_105'  pad stack refresh starting.
+
+     'R430_105'  pad stack refreshed successfully.
+     
+'R1050_750P12R182_144'  pad stack refresh starting.
+
+     'R1050_750P12R182_144'  pad stack refreshed successfully.
+     
+'R280_105'  pad stack refresh starting.
+
+     'R280_105'  pad stack refreshed successfully.
+     
+'R130_55'  pad stack refresh starting.
+
+     'R130_55'  pad stack refreshed successfully.
+     
+'R150_45'  pad stack refresh starting.
+
+     'R150_45'  pad stack refreshed successfully.
+     
+'R150_30'  pad stack refresh starting.
+
+     'R150_30'  pad stack refreshed successfully.
+     
+'R100_60'  pad stack refresh starting.
+
+     'R100_60'  pad stack refreshed successfully.
+     
+'R165_65'  pad stack refresh starting.
+
+     'R165_65'  pad stack refreshed successfully.
+     
+'R140_110'  pad stack refresh starting.
+
+     'R140_110'  pad stack refreshed successfully.
+     
+'R300_400'  pad stack refresh starting.
+Sun May 15 17:42:06 2016				Page     3
+
+
+
+     'R300_400'  pad stack refreshed successfully.
+     
+'R220_95'  pad stack refresh starting.
+
+     'R220_95'  pad stack refreshed successfully.
+     
+'R150_80'  pad stack refresh starting.
+
+     'R150_80'  pad stack refreshed successfully.
+     
+'R220_220'  pad stack refresh starting.
+
+     'R220_220'  pad stack refreshed successfully.
+     
+'R250_230'  pad stack refresh starting.
+
+     'R250_230'  pad stack refreshed successfully.
+     
+'S230'  pad stack refresh starting.
+
+     'S230'  pad stack refreshed successfully.
+     
+'R430_415'  pad stack refresh starting.
+
+     'R430_415'  pad stack refreshed successfully.
+     
+'R420_415'  pad stack refresh starting.
+
+     'R420_415'  pad stack refreshed successfully.
+     
+'R140_75'  pad stack refresh starting.
+
+     'R140_75'  pad stack refreshed successfully.
+     
+'R90_54'  pad stack refresh starting.
+
+     'R90_54'  pad stack refreshed successfully.
+     
+WARNING(SPMHNI-286): Completed refreshing all pad stacks successfully. Warnings detected.

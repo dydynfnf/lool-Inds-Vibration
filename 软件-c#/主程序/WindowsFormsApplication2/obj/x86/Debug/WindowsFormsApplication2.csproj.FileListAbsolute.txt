@@ -1,0 +1,104 @@
+e:\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+e:\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+e:\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+e:\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+e:\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+e:\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+e:\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+e:\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Documents and Settings\psai_don\桌面\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+C:\Documents and Settings\psai_don\桌面\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Documents and Settings\psai_don\桌面\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Documents and Settings\psai_don\桌面\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Documents and Settings\psai_don\桌面\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\psai_don\桌面\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+C:\Documents and Settings\psai_don\桌面\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Documents and Settings\psai_don\桌面\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\psai_don\桌面\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\project2010\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+E:\project2010\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+E:\project2010\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+E:\project2010\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\project2010\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\project2010\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+E:\project2010\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\project2010\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\project2010\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\vbration-fpga\c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+E:\vbration-fpga\c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+E:\vbration-fpga\c#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+E:\vbration-fpga\c#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\vbration-fpga\c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\vbration-fpga\c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+E:\vbration-fpga\c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\vbration-fpga\c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\vbration-fpga\c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\vbration-fpga\c#\seg7\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+E:\vbration-fpga\c#\seg7\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+E:\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+E:\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+E:\vbration-fpga\c#\revdata\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+E:\vbration-fpga\c#\revdata\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+E:\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form2.resources
+F:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+F:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+F:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+F:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+F:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+F:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form2.resources
+F:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+F:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\psai_don\桌面\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+C:\Documents and Settings\psai_don\桌面\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Documents and Settings\psai_don\桌面\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Documents and Settings\psai_don\桌面\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Documents and Settings\psai_don\桌面\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\psai_don\桌面\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+C:\Documents and Settings\psai_don\桌面\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form2.resources
+C:\Documents and Settings\psai_don\桌面\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Documents and Settings\psai_don\桌面\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\psai_don\桌面\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+E:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+E:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+E:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+E:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form2.resources
+E:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\pc\vbration-fpga\c#\revdata\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Eden\Desktop\Doc\龙源风场运行(注释)\龙源风场运行\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.dll
+C:\Users\Eden\Desktop\Doc\龙源风场运行(注释)\龙源风场运行\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Eden\Desktop\Doc\龙源风场运行(注释)\龙源风场运行\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\Eden\Desktop\Doc\龙源风场运行(注释)\龙源风场运行\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\Eden\Desktop\Doc\龙源风场运行(注释)\龙源风场运行\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Eden\Desktop\Doc\龙源风场运行(注释)\龙源风场运行\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\Eden\Desktop\Doc\龙源风场运行(注释)\龙源风场运行\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.dll
+C:\Users\Eden\Desktop\Doc\龙源风场运行(注释)\龙源风场运行\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Users\Eden\Desktop\Doc\龙源风场运行（修改版）\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.dll
+C:\Users\Eden\Desktop\Doc\龙源风场运行（修改版）\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Eden\Desktop\Doc\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\Eden\Desktop\Doc\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\Eden\Desktop\Doc\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Eden\Desktop\Doc\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\Eden\Desktop\Doc\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.dll
+C:\Users\Eden\Desktop\Doc\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.dll
+C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form2.resources
+C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.dll
+C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb

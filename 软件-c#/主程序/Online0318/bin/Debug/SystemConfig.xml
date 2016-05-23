@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GBK"?>
+<SystemConfig>
+  <key name="UserID" value="1" />
+  <key name="Password" value="1" />
+  <key name="SaveTime" value="∞|5" />
+  <key name="1#装置" value="192.168.1.15" />
+  <key name="2#装置" value="192.168.1.16" />
+  <key name="3#装置" value="192.168.1.17" />
+  <key name="4#装置" value="192.168.1.18" />
+  <key name="5#装置" value="192.168.1.18" />
+  <key name="期望装置" value="1#装置|2#装置|3#装置|4#装置" />
+  <key name="选用装置" value="1#装置|2#装置|3#装置|4#装置" />
+  <key name="1#装置通道分频数" value="0|0|0|0|0" />
+  <key name="2#装置通道分频数" value="0|0|0|0|0" />
+  <key name="3#装置通道分频数" value="0|0|0|0|0" />
+  <key name="4#装置通道分频数" value="0|0|0|0|0" />
+  <key name="5#装置通道分频数" value="0|0|0|0|0" />
+  <key name="风场及装置名称" value="振动测试|1#设备|通道1|通道2|通道3|通道4|2#设备|通道1|通道2|通道3|通道4|3#设备|通道1|通道2|通道3|通道4|4#设备|通道1|通道2|通道3|通道4|5#装置|通道1|通道2|通道3|通道4" />
+  <key name="INTPATH" value="E:\技术、知识\C#\OnlineMonitor\OnlineMonitor\Online0318\bin\Debug" />
+</SystemConfig>

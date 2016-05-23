@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Fri May 06 18:02:58 2016                      )
+(    Date/Time        : Fri May 06 18:24:12 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -196,7 +196,15 @@ Results from parameter file ...
   Draw holes only                     NO
 
     WARNING: Segment with same start and end points at
-	(887.710 1191.377) will be ignored. Increasing output
+	(964.092 1520.984) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(937.308 1528.034) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(828.627 2502.100) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
 

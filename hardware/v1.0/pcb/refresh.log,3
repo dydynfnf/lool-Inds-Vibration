@@ -1,0 +1,167 @@
+Sun May 15 17:04:59 2016				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Sun May 15 17:04:59 2016
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : vibration.brd                                 )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Sun May 15 17:05:00 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sun May 15 17:05:00 2016				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'YES'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/cadence lib/PSM/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           d:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/cadence lib/PAD/ 
+
+
+------ Symbol Refresh Messages ------
+
+'CAP-6032'  symbol refreshed successfully.
+'0603'  symbol refreshed successfully.
+'1206'  symbol refreshed successfully.
+'SMA'  symbol refreshed successfully.
+'L-7-7-3'  symbol refreshed successfully.
+'MP1584-SOIC8'  symbol refreshed successfully.
+'LT3580-SOP8'  symbol refreshed successfully.
+'0805'  symbol refreshed successfully.
+'SOD123'  symbol refreshed successfully.
+'LT1763-SOP8'  symbol refreshed successfully.
+'LT1963-SOP8'  symbol refreshed successfully.
+'LT1964-5-SOT23'  symbol refreshed successfully.
+'LED-3'  symbol refreshed successfully.
+'CAP-3528'  symbol refreshed successfully.
+'LT3080-SOP8'  symbol refreshed successfully.
+'LM334SM-SOP8'  symbol refreshed successfully.
+'REF3125-SOT23'  symbol refreshed successfully.
+'OPA350UA-SOP8'  symbol refreshed successfully.
+'ADA4898-2-SOIC8'  symbol refreshed successfully.
+'THS4131-SOP8'  symbol refreshed successfully.
+'ADS1271-SOP16'  symbol refreshed successfully.
+'CAP-7343'  symbol refreshed successfully.
+'FOD060L-SOIC8'  symbol refreshed successfully.
+'GX12-3P'  symbol refreshed successfully.
+'W5300-QFP100'  symbol refreshed successfully.
+'OSC-3225'  symbol refreshed successfully.
+'BAW56-SOT23'  symbol refreshed successfully.
+'1008'  symbol refreshed successfully.
+'STM32F407ZGT6-LQFP144'  symbol refreshed successfully.
+'IS61WV51216BLL-TSOP44'  symbol refreshed successfully.
+'H-10-2'  symbol refreshed successfully.
+'BNC'  symbol refreshed successfully.
+'MOLEX-2'  symbol refreshed successfully.
+'MOLEX-2-2'  symbol refreshed successfully.
+'KEY-HD11'  symbol refreshed successfully.
+'RJ45'  symbol refreshed successfully.
+'MTG'  symbol refreshed successfully.
+'AO3407-SOT23'  symbol refreshed successfully.
+'S9014-SOT23'  symbol refreshed successfully.
+'LL34'  symbol refreshed successfully.
+
+
+------ Pad Stack Refresh Messages ------
+
+'S150H90'  pad stack refreshed successfully.
+Sun May 15 17:05:00 2016				Page     2
+
+
+'OC150H100'  pad stack refreshed successfully.
+'H100'  pad stack refreshed successfully.
+'B125_55'  pad stack refreshed successfully.
+'B135_45'  pad stack refreshed successfully.
+'H350'  pad stack refreshed successfully.
+'R100_60'  pad stack refreshed successfully.
+'R150_30'  pad stack refreshed successfully.
+'R110_80'  pad stack refreshed successfully.
+'R185_155P123_93'  pad stack refreshed successfully.
+'R105_60'  pad stack refreshed successfully.
+'C160H105T155_190_40'  pad stack refreshed successfully.
+'S230'  pad stack refreshed successfully.
+'R130_55'  pad stack refreshed successfully.
+'R150_45'  pad stack refreshed successfully.
+'C150H100'  pad stack refreshed successfully.
+'R155_60'  pad stack refreshed successfully.
+'R140_75'  pad stack refreshed successfully.
+'R220_95'  pad stack refreshed successfully.
+'R145_45'  pad stack refreshed successfully.
+'R115_75'  pad stack refreshed successfully.
+'C180H100'  pad stack refreshed successfully.
+'C240H140'  pad stack refreshed successfully.
+'R195_60'  pad stack refreshed successfully.
+'R165_65'  pad stack refreshed successfully.
+'C640H320'  pad stack refreshed successfully.
+'C180H150'  pad stack refreshed successfully.
+'C250H170'  pad stack refreshed successfully.
+'S160H105T155_190_40'  pad stack refreshed successfully.
+'S150H100'  pad stack refreshed successfully.
+'S180H100'  pad stack refreshed successfully.
+'R185_165P121_101'  pad stack refreshed successfully.
+'R345_240P242_137'  pad stack refreshed successfully.
+'R140_110'  pad stack refreshed successfully.
+'R250_230'  pad stack refreshed successfully.
+'R325_200'  pad stack refreshed successfully.
+'H85'  pad stack refreshed successfully.
+'R165_110'  pad stack refreshed successfully.
+'R230_180'  pad stack refreshed successfully.
+'R160_160'  pad stack refreshed successfully.
+'R175_100'  pad stack refreshed successfully.
+'R345_255P238_148'  pad stack refreshed successfully.
+'R90_54'  pad stack refreshed successfully.
+'S85'  pad stack refreshed successfully.
+'C150H90'  pad stack refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 40 out 40
+    Design updated.
+

@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Fri May 06 18:25:17 2016                      )
+(    Date/Time        : Sun May 15 17:45:51 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -49,7 +49,7 @@ Results from parameter file ...
   Draw holes only                     NO
 
     WARNING: Segment with same start and end points at
-	(893.284 734.000) will be ignored. Increasing output
+	(893.283 734.000) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -73,7 +73,7 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(609.002 2402.002) will be ignored. Increasing output
+	(609.000 2402.000) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -86,19 +86,17 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.01200                                  DARK 
   CIRCLE     0.01500                                  DARK 
   CIRCLE     0.01600                                  DARK 
-  CIRCLE     0.03386                                  DARK 
   CIRCLE     0.03543                                  DARK 
-  CIRCLE     0.03976                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.06299                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09449                                  DARK 
   CIRCLE     0.09842                                  DARK 
-  CIRCLE     0.13819                                  DARK 
   CIRCLE     0.25197                                  DARK 
   SQUARE     0.03347                     0.000 NO     DARK 
   SQUARE     0.05906                     0.000 NO     DARK 
@@ -162,16 +160,14 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
   CIRCLE     0.01500                                  DARK 
   CIRCLE     0.01600                                  DARK 
-  CIRCLE     0.03386                                  DARK 
-  CIRCLE     0.03976                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.06299                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09449                                  DARK 
   CIRCLE     0.09842                                  DARK 
-  CIRCLE     0.13819                                  DARK 
   CIRCLE     0.25197                                  DARK 
   SQUARE     0.05906                     0.000 NO     DARK 
   SQUARE     0.07087                     0.000 NO     DARK 
@@ -196,14 +192,6 @@ Results from parameter file ...
   Draw holes only                     NO
 
     WARNING: Segment with same start and end points at
-	(964.092 1520.984) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(937.308 1528.034) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(828.627 2502.100) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
@@ -213,16 +201,14 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
   CIRCLE     0.01500                                  DARK 
   CIRCLE     0.01600                                  DARK 
-  CIRCLE     0.03386                                  DARK 
-  CIRCLE     0.03976                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.06299                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09449                                  DARK 
   CIRCLE     0.09842                                  DARK 
-  CIRCLE     0.13819                                  DARK 
   CIRCLE     0.25197                                  DARK 
   SQUARE     0.05906                     0.000 NO     DARK 
   SQUARE     0.07087                     0.000 NO     DARK 
@@ -260,17 +246,15 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.01500                                  DARK 
   CIRCLE     0.01600                                  DARK 
-  CIRCLE     0.03386                                  DARK 
-  CIRCLE     0.03976                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.06299                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09449                                  DARK 
   CIRCLE     0.09842                                  DARK 
-  CIRCLE     0.13819                                  DARK 
   CIRCLE     0.25197                                  DARK 
   SQUARE     0.05906                     0.000 NO     DARK 
   SQUARE     0.06299                     0.000 NO     DARK 
@@ -303,15 +287,12 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.03386                                  DARK 
   CIRCLE     0.03543                                  DARK 
-  CIRCLE     0.03976                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.06299                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09449                                  DARK 
   CIRCLE     0.09842                                  DARK 
-  CIRCLE     0.13819                                  DARK 
   CIRCLE     0.25197                                  DARK 
   SQUARE     0.03347                     0.000 NO     DARK 
   SQUARE     0.05906                     0.000 NO     DARK 
@@ -375,14 +356,11 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.03386                                  DARK 
-  CIRCLE     0.03976                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.06299                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09449                                  DARK 
   CIRCLE     0.09842                                  DARK 
-  CIRCLE     0.13819                                  DARK 
   CIRCLE     0.25197                                  DARK 
   SQUARE     0.05906                     0.000 NO     DARK 
   SQUARE     0.06299                     0.000 NO     DARK 
@@ -415,21 +393,8 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.01600                                  DARK 
-  CIRCLE     0.03386                                  DARK 
   CIRCLE     0.03543                                  DARK 
-  CIRCLE     0.03976                                  DARK 
-  CIRCLE     0.05906                                  DARK 
-  CIRCLE     0.06299                                  DARK 
-  CIRCLE     0.07087                                  DARK 
-  CIRCLE     0.09449                                  DARK 
-  CIRCLE     0.09842                                  DARK 
-  CIRCLE     0.13819                                  DARK 
-  CIRCLE     0.25197                                  DARK 
   SQUARE     0.03347                     0.000 NO     DARK 
-  SQUARE     0.05906                     0.000 NO     DARK 
-  SQUARE     0.06299                     0.000 NO     DARK 
-  SQUARE     0.07087                     0.000 NO     DARK 
   SQUARE     0.09055                     0.000 NO     DARK 
   RECTANGLE  0.03543     x 0.02126       0.000 NO     DARK 
   RECTANGLE  0.03543     x 0.02126      90.000 NO     DARK 
@@ -488,19 +453,6 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.01600                                  DARK 
-  CIRCLE     0.03386                                  DARK 
-  CIRCLE     0.03976                                  DARK 
-  CIRCLE     0.05906                                  DARK 
-  CIRCLE     0.06299                                  DARK 
-  CIRCLE     0.07087                                  DARK 
-  CIRCLE     0.09449                                  DARK 
-  CIRCLE     0.09842                                  DARK 
-  CIRCLE     0.13819                                  DARK 
-  CIRCLE     0.25197                                  DARK 
-  SQUARE     0.05906                     0.000 NO     DARK 
-  SQUARE     0.06299                     0.000 NO     DARK 
-  SQUARE     0.07087                     0.000 NO     DARK 
   RECTANGLE  0.03543     x 0.02126       0.000 NO     DARK 
   RECTANGLE  0.03543     x 0.02126      90.000 NO     DARK 
 

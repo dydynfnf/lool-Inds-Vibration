@@ -216,14 +216,8 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\vibration.dsn")
-      (Path "Design Resources" ".\vibration.dsn" "TOP")
-      (Path "Design Resources" ".\vibration.dsn" "ADC")
-      (Path "Design Resources" ".\vibration.dsn" "ETHERNET")
-      (Path "Design Resources" ".\vibration.dsn" "MCU")
-      (Path "Design Resources" ".\vibration.dsn" "POWER")
-      (Path "Design Resources" ".\vibration.dsn" "SPEED")
       (Path "Outputs")
-      (Select "Design Resources" ".\vibration.dsn" "ADC" "ADC"))
+      (Select "Design Resources" ".\vibration.dsn" "MCU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -233,54 +227,10 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 769 25 479")
-        (Scroll "0 0")
+        (Placement "44 2 3 -1 -1 -8 -30 25 719 25 586")
+        (Scroll "-2 -100")
         (Zoom "60")
-        (Occurrence "/P1"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "POWER")
-      (Page "POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 923 125 473")
-        (Scroll "0 84")
-        (Zoom "100")
-        (Occurrence "/A1"))
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 150 948 150 498")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/A3"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "ADC")
-      (Page "ADC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 898 150 608")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "TOP")
-      (Page "TOP"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 923 175 633")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/E1"))
-      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "ETHERNET")
-      (Page "ETHERNET"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 948 200 658")
-        (Scroll "0 334")
-        (Zoom "100"))
+        (Occurrence "/M1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "MCU")
       (Page "MCU")))
