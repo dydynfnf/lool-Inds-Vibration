@@ -216,8 +216,14 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\vibration.dsn")
+      (Path "Design Resources" ".\vibration.dsn" "TOP")
+      (Path "Design Resources" ".\vibration.dsn" "ADC")
+      (Path "Design Resources" ".\vibration.dsn" "ETHERNET")
+      (Path "Design Resources" ".\vibration.dsn" "MCU")
+      (Path "Design Resources" ".\vibration.dsn" "POWER")
+      (Path "Design Resources" ".\vibration.dsn" "SPEED")
       (Path "Outputs")
-      (Select "Design Resources" ".\vibration.dsn" "MCU"))
+      (Select "Design Resources" ".\vibration.dsn" "POWER" "POWER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -227,13 +233,71 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 25 719 25 586")
-        (Scroll "-2 -100")
-        (Zoom "60")
-        (Occurrence "/M1"))
+        (Placement "44 0 1 -1 -1 -8 -30 25 719 25 586")
+        (Scroll "0 0")
+        (Zoom "60"))
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 225 923 225 790")
+        (Scroll "425 0")
+        (Zoom "256"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "MCU")
-      (Page "MCU")))
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 748 50 615")
+        (Scroll "0 0")
+        (Zoom "60")
+        (Occurrence "/P1"))
+      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
+      (Schematic "POWER")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 773 75 640")
+        (Scroll "35 182")
+        (Zoom "100")
+        (Occurrence "/A2"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 823 125 690")
+        (Scroll "394 612")
+        (Zoom "200")
+        (Occurrence "/A1"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 848 150 715")
+        (Scroll "35 182")
+        (Zoom "100")
+        (Occurrence "/A3"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 873 175 740")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/A4"))
+      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
+      (Schematic "ADC")
+      (Page "ADC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 798 100 665")
+        (Scroll "310 77")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
+      (Schematic "TOP")
+      (Page "TOP"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 200 898 200 765")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/E1"))
+      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
+      (Schematic "ETHERNET")
+      (Page "ETHERNET")))
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.6\tools\capture\library")
   (MPSSessionName "psai")
   (ISPCBBASICLICENSE "false"))

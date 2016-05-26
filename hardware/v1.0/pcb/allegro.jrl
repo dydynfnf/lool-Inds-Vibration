@@ -1,24 +1,20 @@
-\t (00:00:05) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:05)     Journal start - Sun May 22 16:33:45 2016
-\t (00:00:05)         Host=PSAI-PC User=psai Pid=8420 CPUs=4
-\t (00:00:05) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:05) 
-\t (00:00:07) Opening existing design...
+\t (00:00:04) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:04)     Journal start - Thu May 26 14:36:03 2016
+\t (00:00:04)         Host=PSAI-PC User=psai Pid=11956 CPUs=4
+\t (00:00:04) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:04) 
+\t (00:00:06) Opening existing design...
 \d (00:00:07) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
-\i (00:00:08) trapsize 39948
-\i (00:00:08) trapsize 38783
-\i (00:00:08) trapsize 40149
-\i (00:00:08) trapsize 32982
-\i (00:00:08) trapsize 32982
-\i (00:00:09) generaledit 
-\i (00:00:11) xsection 
-   (00:00:12) Loading floor.cxt 
-   (00:00:12) Loading skillExt.cxt 
-   (00:00:12) Loading axlcore.cxt 
-   (00:00:12) Loading signal.cxt 
-\i (00:00:16) setwindow form.fplyrstack
-\i (00:00:16) FORM fplyrstack cancel  
-\i (00:00:16) setwindow pcb
-\i (00:00:16) generaledit 
-\i (00:00:17) exit 
-\t (00:00:17)     Journal end - Sun May 22 16:33:57 2016
+\i (00:00:07) trapsize 39948
+\i (00:00:07) trapsize 38783
+\i (00:00:07) trapsize 40149
+\i (00:00:07) trapsize 40722
+\i (00:00:07) trapsize 33368
+\i (00:00:07) trapsize 33368
+\i (00:00:08) ifp 
+\i (00:00:09) open 
+\i (00:00:22) fillin "E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb\core.brd"
+\i (00:00:22) cd "E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb"
+\t (00:00:22) Opening existing design...
+\i (00:00:22) trapsize 12549
+\t (00:00:22)     Journal end - Thu May 26 14:36:21 2016

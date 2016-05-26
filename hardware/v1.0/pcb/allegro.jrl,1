@@ -1,34 +1,29 @@
-\t (00:00:45) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:45)     Journal start - Sun May 22 14:54:00 2016
-\t (00:00:45)         Host=PSAI-PC User=psai Pid=9976 CPUs=4
-\t (00:00:45) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:45) 
-\d (00:00:45) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
-\i (00:00:46) generaledit 
-\i (00:00:48) xsection 
-   (00:00:49) Loading floor.cxt 
-   (00:00:49) Loading skillExt.cxt 
-   (00:00:49) Loading axlcore.cxt 
-   (00:00:49) Loading signal.cxt 
-\i (00:02:50) setwindow form.fplyrstack
-\i (00:02:50) FORM fplyrstack showsingleimpedance NO 
-\i (00:02:52) FORM fplyrstack showdiffimpedance NO 
-\i (00:02:53) FORM fplyrstack showsingleimpedance YES 
-\i (00:02:54) FORM fplyrstack showdiffimpedance YES 
-\i (00:02:59) FORM fplyrstack cancel  
-\i (00:03:00) setwindow pcb
-\i (00:03:00) generaledit 
-\i (00:03:01) cmgr 
-\i (00:03:02) generaledit 
-\i (00:03:05) setwindow cmgr
-\i (00:03:05) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" "2:Signal Integrity" "3:Reflection/Edge Distortions" )
-\i (00:03:06) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" 5:Timing "6:Switch/Settle Delays" )
-\i (00:03:06) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing 8:Wiring )
-\i (00:03:13) cm select ( worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing 8:Wiring )
-\i (00:03:15) cm select ( frame ( workbook 53:Electrical "1:Electrical Constraint Set" 7:Routing ) )
-\i (00:04:15) cm exit
-\i (00:17:36) setwindow pcb
-\i (00:17:36) exit 
-\e (00:17:36) Do you want to save the changes you made to vibration.brd?
-\i (00:17:37) fillin no 
-\t (00:17:38)     Journal end - Sun May 22 15:10:53 2016
+\t (00:00:05) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:05)     Journal start - Thu May 26 14:35:36 2016
+\t (00:00:05)         Host=PSAI-PC User=psai Pid=2304 CPUs=4
+\t (00:00:05) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:05) 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
+\i (00:00:08) trapsize 39948
+\i (00:00:08) trapsize 38783
+\i (00:00:08) trapsize 40149
+\i (00:00:08) trapsize 40722
+\i (00:00:08) trapsize 32982
+\i (00:00:08) trapsize 32982
+\i (00:00:09) ifp 
+\i (00:00:10) settoggle no_etch_shape_display 
+\i (00:00:10) redraw 
+\i (00:00:10) trapsize 32982
+\i (00:00:11) prepopup 996.059 1332.473
+\i (00:00:16) pop dyn_option_select 'Visibility@:@Interface Visibility All@:@Bundle' 
+\i (00:00:16) interface_vis 
+\i (00:00:16) ifp 
+\i (00:00:19) setwindow form.find
+\i (00:00:19) FORM find all_on  
+\i (00:00:20) setwindow pcb
+\i (00:00:20) prepopup 527.721 1339.069
+\i (00:00:23) exit 
+\e (00:00:23) Do you want to save the changes you made to vibration.brd?
+\i (00:00:25) fillin no 
+\t (00:00:25)     Journal end - Thu May 26 14:35:55 2016

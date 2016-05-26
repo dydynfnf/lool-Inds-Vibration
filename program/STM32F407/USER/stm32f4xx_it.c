@@ -29,7 +29,8 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_it.h"
- 
+#include "ads1271.h"
+#include "spi.h"
 
 /** @addtogroup Template_Project
   * @{
@@ -164,5 +165,65 @@ void SysTick_Handler(void)
   * @}
   */ 
 
+/******************************************************************************/
+/*                             外部中断4                                      */
+/*                             ADC1中断                                       */
+/******************************************************************************/
+extern unsigned char spi1_rx[6];
+extern short ad1,ad2;
+int exti4_count=0;
+void EXTI4_IRQHandler(void)
+{
+//	spi1_rx[0] = SPI1_ReadWriteByte(0xff);
+//	spi1_rx[1] = SPI1_ReadWriteByte(0xff);
+//	spi1_rx[2] = SPI1_ReadWriteByte(0xff);
+//	spi1_rx[3] = SPI1_ReadWriteByte(0xff);
+//	spi1_rx[4] = SPI1_ReadWriteByte(0xff);
+//	spi1_rx[5] = SPI1_ReadWriteByte(0xff);
+	
+	spi1_rx_dma_transfer_once();
+	spi1_tx_dma_transfer_once();
+	
+	ad1 = (spi1_rx[0]<<8) | (spi1_rx[1]);
+	ad2 = (spi1_rx[3]<<8) | (spi1_rx[4]);
+	
+	exti4_count++;
+	
+	EXTI_ClearITPendingBit(EXTI_Line4); //清除LINE4上的中断标志位 
+}
+
+/******************************************************************************/
+/*                             外部中断12                                     */
+/*                             ADC2中断                                       */
+/******************************************************************************/
+extern unsigned char spi2_rx[6];
+extern short ad3,ad4;
+void EXTI15_10_IRQHandler(void)
+{
+//	spi2_rx[0] = SPI2_ReadWriteByte(0xff);
+//	spi2_rx[1] = SPI2_ReadWriteByte(0xff);
+//	spi2_rx[2] = SPI2_ReadWriteByte(0xff);
+//	spi2_rx[3] = SPI2_ReadWriteByte(0xff);
+//	spi2_rx[4] = SPI2_ReadWriteByte(0xff);
+//	spi2_rx[5] = SPI2_ReadWriteByte(0xff);
+	
+	ad3 = (spi2_rx[0]<<8) | (spi2_rx[1]);
+	ad4 = (spi2_rx[3]<<8) | (spi2_rx[4]);
+	
+	EXTI_ClearITPendingBit(EXTI_Line12); //清除LINE12上的中断标志位 
+}
+
+/******************************************************************************/
+/*                             DMA2中断                                       */
+/******************************************************************************/
+
+int dma2_stream2_count=0;
+int d_exti4_dma2_stream2=0;
+void DMA2_Stream2_IRQHandler(void)
+{
+	dma2_stream2_count++;
+	d_exti4_dma2_stream2 = exti4_count - dma2_stream2_count;
+	DMA_ClearFlag(DMA2_Stream2,DMA_FLAG_TCIF2);
+}
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
