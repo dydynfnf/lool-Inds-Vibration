@@ -1,16 +1,19 @@
 #include "sys.h"
 #include "stm32f4xx_gpio.h"
-#include "delay.h"
-
-#include "led.h"
-#include "exti.h"
 #include "stm32f4xx_it.h"
+
+#include "delay.h"
+#include "led.h"
 #include "ads1271.h"
+#include "sram.h"
+#include "ethernet.h"
 
 unsigned char spi1_rx[6], spi1_tx[6];
 unsigned char spi2_rx[6], spi2_tx[6];
 short ad1,ad2;
 short ad3,ad4;
+
+extern u16 sram_buffer[500000];
 
 int main(void)
 {
@@ -18,10 +21,8 @@ int main(void)
 	delay_init(168);
 	led_init();
 	ads1271_init();
-	exti_init();
-	
-	//spi1_rx_dma_transfer_once();//spi1 rx dma 传输一次
-	//spi1_tx_dma_transfer_once();//spi1 tx dma 传输一次
+	sram_init();	
+	ethernet_init();
 	
 	while(1)
 	{
@@ -34,6 +35,7 @@ int main(void)
 		led_g(0);
 		led_y(1);
 		delay_ms(100);
+		
 	}
 }
 

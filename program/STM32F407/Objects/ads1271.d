@@ -40,3 +40,4 @@
 .\objects\ads1271.o: .\SYSTEM\delay\delay.h
 .\objects\ads1271.o: USER\spi.h
 .\objects\ads1271.o: USER\dma.h
+.\objects\ads1271.o: USER\exti.h

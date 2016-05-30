@@ -35,6 +35,5 @@
 .\objects\stm32f4xx_it.o: .\FWLIB\inc\stm32f4xx_dac.h
 .\objects\stm32f4xx_it.o: .\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\stm32f4xx_it.o: .\FWLIB\inc\stm32f4xx_fsmc.h
-.\objects\stm32f4xx_it.o: USER\ads1271.h
+.\objects\stm32f4xx_it.o: USER\dma.h
 .\objects\stm32f4xx_it.o: .\SYSTEM\sys\sys.h
-.\objects\stm32f4xx_it.o: USER\spi.h

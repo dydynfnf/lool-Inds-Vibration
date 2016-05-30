@@ -35,8 +35,9 @@
 .\objects\main.o: .\FWLIB\inc\stm32f4xx_dac.h
 .\objects\main.o: .\FWLIB\inc\stm32f4xx_dcmi.h
 .\objects\main.o: .\FWLIB\inc\stm32f4xx_fsmc.h
+.\objects\main.o: USER\stm32f4xx_it.h
 .\objects\main.o: .\SYSTEM\delay\delay.h
 .\objects\main.o: USER\led.h
-.\objects\main.o: USER\exti.h
-.\objects\main.o: USER\stm32f4xx_it.h
 .\objects\main.o: USER\ads1271.h
+.\objects\main.o: USER\sram.h
+.\objects\main.o: USER\ethernet.h

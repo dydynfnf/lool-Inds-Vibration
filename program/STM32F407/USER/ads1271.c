@@ -3,6 +3,7 @@
 #include "delay.h"
 #include "spi.h"
 #include "dma.h"
+#include "exti.h"
 
 /******************************************************************************/
 /*                             ADS1271初始化                                  */
@@ -10,13 +11,15 @@
 
 void ads1271_init(void)
 {
-	pwm_init(1,4);//时钟频率 84/1/4 = 21MHz
+  pwm_init(1,4);//时钟频率 84/1/4 = 21MHz
 	sync_config();//sync
 	pdwn_calibration();//自校准
   sync();//同步
 	spi1_init();//spi1初始化
 	spi2_init();//spi2初始化
-	dma_init();//dma初始化
+	dma2_init();//dma2初始化
+	dma1_init();//dma1初始化
+	exti_init();//中断初始化
 }
 
 /******************************************************************************/
@@ -61,24 +64,4 @@ void sync(void)
 	GPIO_ResetBits(GPIOB,GPIO_Pin_15);
 	delay_us(1);
 	GPIO_SetBits(GPIOB,GPIO_Pin_15);
-}
-
-/******************************************************************************/
-/*                        SPI1 TX DMA传输一次                                 */
-/******************************************************************************/
-
-void spi1_tx_dma_transfer_once(void)
-{
-	DMA2->LIFCR=(1<<27);//清除TCIF3标志
-	DMA2_Stream3->CR|=1<<0; //开启DMA传输
-}
-
-/******************************************************************************/
-/*                       SPI1 RX DMA传输一次                                  */
-/******************************************************************************/
-
-void spi1_rx_dma_transfer_once(void)
-{
-	DMA2->LIFCR=(1<<21);//清除TCIF2标志
-	DMA2_Stream2->CR|=1<<0; //开启DMA传输
 }

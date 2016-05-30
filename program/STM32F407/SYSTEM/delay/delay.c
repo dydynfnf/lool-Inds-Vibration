@@ -1,11 +1,8 @@
 #include "delay.h"
 #include "sys.h"
 
-
-
 static u8  fac_us=0;							//us延时倍乘数			   
 static u16 fac_ms=0;							//ms延时倍乘数,在os下,代表每个节拍的ms数
-	
 
 //初始化延迟函数
 //SYSTICK的时钟固定为AHB时钟的1/8
