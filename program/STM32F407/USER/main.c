@@ -23,6 +23,7 @@ int main(void)
 	ads1271_init();
 	sram_init();	
 	ethernet_init();
+	tcp_sever();
 	
 	while(1)
 	{

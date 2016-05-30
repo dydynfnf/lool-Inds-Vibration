@@ -435,16 +435,4 @@
 #define Pn_BRDYR_HIGH      (1<<5)
 #define Pn_BRDYR_CH(n)     (n & 0x07)
 
-void w5300_write(unsigned char *pbuffer,unsigned int add,unsigned char n);
-void w5300_read(unsigned char *pbuffer,unsigned int add,unsigned char n);
-void delay(unsigned int j);
-void gpio_set(void);
-void w5300_init(void);
-void w5300_tcp_sever(void);
-unsigned char is_con(void);
-unsigned long recv_len(void);
-unsigned char is_send(void);
-void recv_data(unsigned char *pbuffer,unsigned long pack_size);
-void send_data(unsigned char *pbuffer,unsigned long send_size);
-
 #endif

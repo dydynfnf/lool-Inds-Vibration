@@ -3,9 +3,10 @@
 #include "delay.h"
 
 #define Bank1_SRAM2_ADDR    ((u32)(0x64000000))
+#define device 16 //设备号 取值2~255 决定物理地址 ip地址 端口号 
 
 /******************************************************************************/
-/*                            ETHERNET初始化                                  */
+/*                             ETHERNET配置                                   */
 /******************************************************************************/
 
 void ethernet_config(void)
@@ -140,12 +141,24 @@ void ethernet_config(void)
   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;//100MHz
   GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
   GPIO_Init(GPIOD, &GPIO_InitStructure);//初始化GPIO
-											
+
+	///////////////////////////////////////////////////////////////////////
+	////                           W_RST复位                           ////
+	///////////////////////////////////////////////////////////////////////
+	
+	GPIO_SetBits(GPIOD,GPIO_Pin_3);
+	delay_ms(10);
+  GPIO_ResetBits(GPIOD,GPIO_Pin_3);
+	delay_ms(1);
+  GPIO_SetBits(GPIOD,GPIO_Pin_3);
+	delay_ms(10);	
+	
 }
 
-#define device 16 //设备号 取值2~255 决定物理地址 ip地址 端口号 
+/******************************************************************************/
+/*                             W5300写数据                                    */
+/******************************************************************************/
 
-/********************xintf?********************/
 void w5300_write(unsigned char *pbuffer,unsigned int add,unsigned char n)
 {
 	for(;n>0;n--)
@@ -156,7 +169,10 @@ void w5300_write(unsigned char *pbuffer,unsigned int add,unsigned char n)
 	}
 }
 
-/********************xintf?********************/
+/******************************************************************************/
+/*                             W5300读数据                                    */
+/******************************************************************************/
+
 void w5300_read(unsigned char *pbuffer,unsigned int add,unsigned char n)
 {
 	for(;n>0;n--)
@@ -167,7 +183,10 @@ void w5300_read(unsigned char *pbuffer,unsigned int add,unsigned char n)
 	}
 }
 
-/********************w5300???********************/
+/******************************************************************************/
+/*                            ETHERNET初始化                                  */
+/******************************************************************************/
+
 unsigned char r_gar[4]={192,168,1,1};
 unsigned char r_subr[4]={255,255,255,0};
 unsigned char r_shar[6]={0x3c,0x97,0x0e,0xbd,0xb5,device};
@@ -182,126 +201,124 @@ void ethernet_init(void)
 	unsigned char data[2];
 
 	ethernet_config();
-	//??w5300
-    GPIO_SetBits(GPIOD,GPIO_Pin_3);
-	delay_ms(10);
-    GPIO_ResetBits(GPIOD,GPIO_Pin_3);
-	delay_ms(1);
-    GPIO_SetBits(GPIOD,GPIO_Pin_3);
-	delay_ms(10);	
 
 	data[0]=0x38,data[1]=0x00;
-	w5300_write(data,MR,2);//w5300??????
+	w5300_write(data,MR,2);//w5300工作模式定义
 	data[0]=0xff,data[1]=0xff;
-	w5300_write(data,IR,2);//??????
+	w5300_write(data,IR,2);//清除中断标签
 	data[0]=0x00,data[1]=0x00;
-	w5300_write(data,IMR,2);//??????
-	w5300_write(shar,SHAR,6);//??????
-	w5300_write(gar,GAR,4);//??ip??
-	w5300_write(subr,SUBR,4);//????
-	w5300_write(sipr,SIPR,4);//??ip
+	w5300_write(data,IMR,2);//屏蔽所有中断
+	w5300_write(shar,SHAR,6);//本地硬件地址
+	w5300_write(gar,GAR,4);//网关ip地址
+	w5300_write(subr,SUBR,4);//子网掩码
+	w5300_write(sipr,SIPR,4);//本地ip
 	data[0]=0x07,data[1]=0xd0;
-	w5300_write(data,RTR,2);//????200ms
+	w5300_write(data,RTR,2);//重发时间200ms
 	data[0]=0x00,data[1]=0x08;
-	w5300_write(data,RCR,2);//????8
+	w5300_write(data,RCR,2);//重发次数8
 	data[0]=0x20;
-	w5300_write(data,TMS01R,1);//tx0????32k
-	w5300_write(data,RMS01R,1);//rx0????32k
+	w5300_write(data,TMS01R,1);//tx0存储空间32k
+	w5300_write(data,RMS01R,1);//rx0存储空间32k
 	data[0]=0x00,data[1]=0xff;
-	w5300_write(data,MTYPER,2);//?????? 0~7tx 8~15rx
+	w5300_write(data,MTYPER,2);//储存单元类型 0~7tx 8~15rx
 	data[0]=0x53,data[1]=0x00;
-	w5300_write(data,IDR,2);//??id 5300
+	w5300_write(data,IDR,2);//标识id 5300
 	
-	w5300_read(r_shar,SHAR,6);//??????
-	w5300_read(r_gar,GAR,4);//??ip??
-	w5300_read(r_subr,SUBR,4);//????
-	w5300_read(r_sipr,SIPR,4);//??ip
 }
 
-/********************w5300 tcp sever??********************/
+/******************************************************************************/
+/*                              建立服务器                                    */
+/******************************************************************************/
+
 void tcp_sever(void)
 {
 	unsigned char data[2];
 	A1:
 	data[0]=0x01,data[1]=0x21;
-	w5300_write(data,Sn_MR(0),2);//???? ?????ack tcp??
+	w5300_write(data,Sn_MR(0),2);//队列对齐 无延迟返回ack tcp模式
 	data[0]=0x00,data[0]=0x00;
-	w5300_write(data,Sn_IMR(0),2);//??????
+	w5300_write(data,Sn_IMR(0),2);//屏蔽所有中断
 	data[0]=0xff,data[0]=0xff;
-	w5300_write(data,Sn_IR(0),2);//??????
+	w5300_write(data,Sn_IR(0),2);//清除中断标志
 	data[0]=0x04,data[1]=0xb0+device;
-	w5300_write(data,Sn_PORTR(0),2);//??? 1200+device
+	w5300_write(data,Sn_PORTR(0),2);//端口号 1200+device
 	data[0]=0x05,data[1]=0xb4;
-	w5300_write(data,Sn_MSSR(0),2);//????1460
+	w5300_write(data,Sn_MSSR(0),2);//最大分片1460
 	data[0]=0x0a;
-	w5300_write(data,Sn_KPALVTR(0),1);//?????? 0x0a*5=20s
+	w5300_write(data,Sn_KPALVTR(0),1);//保持激活时间 0x0a*5=20s
 	data[0]=0x00,data[1]=0x80;
-	w5300_write(data,Sn_TTLR(0),2);//ttl???128
+	w5300_write(data,Sn_TTLR(0),2);//ttl生存期128
 	
 	data[0]=Sn_CR_OPEN;
-	w5300_write(data,Sn_CR1(0),1);//??socket
-	w5300_read(data,Sn_SSR1(0),1);//?socket??
-	if(data[0]!=SOCK_INIT)//?????
+	w5300_write(data,Sn_CR1(0),1);//打开socket
+	w5300_read(data,Sn_SSR1(0),1);//读socket状态
+	if(data[0]!=SOCK_INIT)//初始化失败
 	{
 		data[0]=Sn_CR_CLOSE;
-		w5300_write(data,Sn_CR1(0),1);//??socket
+		w5300_write(data,Sn_CR1(0),1);//关闭socket
 		goto A1;
 	}
 
 	data[0]=Sn_CR_LISTEN;
-	w5300_write(data,Sn_CR1(0),1);//socket??
-	w5300_read(data,Sn_SSR1(0),1);//?socket??
-	if(data[0]!=SOCK_LISTEN)//????
+	w5300_write(data,Sn_CR1(0),1);//socket监听
+	w5300_read(data,Sn_SSR1(0),1);//读socket状态
+	if(data[0]!=SOCK_LISTEN)//监听失败
 	{
 		data[0]=Sn_CR_CLOSE;
-		w5300_write(data,Sn_CR1(0),1);//??socket
+		w5300_write(data,Sn_CR1(0),1);//关闭socket
 		goto A1;
 	}
 }
 
-/********************w5300 tcp client??********************/
+/******************************************************************************/
+/*                              建立客户端                                    */
+/******************************************************************************/
+
 void tcp_client(void)
 {
-	unsigned char sn_dipr[4]={192,168,1,103};//??ip
+	unsigned char sn_dipr[4]={192,168,1,103};//对端ip
 	unsigned char data[2];
 	A1:
 	data[0]=0x01,data[1]=0x21;
-	w5300_write(data,Sn_MR(0),2);//???? ?????ack tcp??
+	w5300_write(data,Sn_MR(0),2);//队列对齐 无延迟返回ack tcp模式
 	data[0]=0x00,data[0]=0x00;
-	w5300_write(data,Sn_IMR(0),2);//??????
+	w5300_write(data,Sn_IMR(0),2);//屏蔽所有中断
 	data[0]=0xff,data[0]=0xff;
-	w5300_write(data,Sn_IR(0),2);//??????
-	w5300_write(sn_dipr,Sn_DIPR(0),4);//??ip
+	w5300_write(data,Sn_IR(0),2);//清除所有中断标志
+	w5300_write(sn_dipr,Sn_DIPR(0),4);//对端ip
 	data[0]=0x04,data[1]=0xb0+device;
-	w5300_write(data,Sn_PORTR(0),2);//??? 1200+device
-	w5300_write(data,Sn_DPORTR0(0),2);//????? 1200+device
+	w5300_write(data,Sn_PORTR(0),2);//端口号 1200+device
+	w5300_write(data,Sn_DPORTR0(0),2);//对端端口号 1200+device
 	data[0]=0x05,data[1]=0xb4;
-	w5300_write(data,Sn_MSSR(0),2);//????1460
+	w5300_write(data,Sn_MSSR(0),2);//最大分片1460
 	data[0]=0x0a;
-	w5300_write(data,Sn_KPALVTR(0),1);//?????? 50s
+	w5300_write(data,Sn_KPALVTR(0),1);//保持激活时间 20s
 	data[0]=0x00,data[1]=0x80;
-	w5300_write(data,Sn_TTLR(0),2);//ttl???128
+	w5300_write(data,Sn_TTLR(0),2);//ttl生存期128
 	
 	data[0]=Sn_CR_OPEN;
-	w5300_write(data,Sn_CR1(0),1);//??socket
-	w5300_read(data,Sn_SSR1(0),1);//?socket??
-	if(data[0]!=SOCK_INIT)//?????
+	w5300_write(data,Sn_CR1(0),1);//打开socket
+	w5300_read(data,Sn_SSR1(0),1);//读socket状态
+	if(data[0]!=SOCK_INIT)//初始化失败
 	{
 		data[0]=Sn_CR_CLOSE;
-		w5300_write(data,Sn_CR1(0),1);//??socket
+		w5300_write(data,Sn_CR1(0),1);//关闭socket
 		goto A1;
 	}
 
 	data[0]=Sn_CR_CONNECT;
-	w5300_write(data,Sn_CR1(0),1);//socket??
+	w5300_write(data,Sn_CR1(0),1);//socket连接
 }
 
-/********************w5300 ????********************/
+/******************************************************************************/
+/*                             检测是否连接                                   */
+/******************************************************************************/
+
 unsigned char is_con(void)
 {
 	unsigned char data;
-	w5300_read(&data,Sn_SSR1(0),1);//??????
-	if(data==SOCK_ESTABLISHED)//????????
+	w5300_read(&data,Sn_SSR1(0),1);//读状态寄存器
+	if(data==SOCK_ESTABLISHED)//判断是否建立连接
 	{
 		return(1);
 	}
@@ -311,25 +328,31 @@ unsigned char is_con(void)
 	}
 }
 
-/********************w5300 ??????********************/
+/******************************************************************************/
+/*                             接收数据长度                                   */
+/******************************************************************************/
+
 unsigned long recv_len(void)
 {
 	unsigned char data[4];
 	unsigned long len;
-	w5300_read(data,Sn_RX_RSR(0),4);//???????
-	len=((data[1]&0x01)<<16)|(data[2]<<8)|(data[3]);//??????
+	w5300_read(data,Sn_RX_RSR(0),4);//读取数据字节长度
+	len=((data[1]&0x01)<<16)|(data[2]<<8)|(data[3]);//计算字节长度
 	return(len);
 }
 
-/********************w5300 ??????********************/
+/******************************************************************************/
+/*                             发送是否完成                                   */
+/******************************************************************************/
+
 unsigned char is_send(void)
 {
 	unsigned char data;
-	w5300_read(&data,Sn_IR1(0),1);//?????
-	if(data&0x10)//Sn_IR sendok?
+	w5300_read(&data,Sn_IR1(0),1);//读中断标志
+	if(data&0x10)//Sn_IR sendok位
 	{
 		data=0x10;
-		w5300_write(&data,Sn_IR1(0),1);//?????
+		w5300_write(&data,Sn_IR1(0),1);//清除中断标志
 		return(1);
 	}
 	else
@@ -338,7 +361,10 @@ unsigned char is_send(void)
 	}
 }
 
-/********************w5300 ????********************/
+/******************************************************************************/
+/*                               接收数据                                     */
+/******************************************************************************/
+
 void recv_data(unsigned char *pbuffer,unsigned long pack_size)
 {
 	unsigned long read_cnt,i;
@@ -363,11 +389,14 @@ void recv_data(unsigned char *pbuffer,unsigned long pack_size)
 	}
 	data=Sn_CR_RECV;
 	w5300_read(&data,Sn_CR1(0),1);
-	w5300_read(&data,Sn_MR(0),1);//rx_fifo?????????????
-								 //???tx_fifo
+	w5300_read(&data,Sn_MR(0),1);//rx_fifo读取后要访问一个其他寄存器
+								               //才能写tx_fifo
 }
 
-/********************w5300 ????********************/
+/******************************************************************************/
+/*                                发送数据                                    */
+/******************************************************************************/
+
 void send_data(unsigned char *pbuffer,unsigned long send_size)
 {
 	unsigned char data[4];
@@ -375,8 +404,8 @@ void send_data(unsigned char *pbuffer,unsigned long send_size)
 		
 A1:
 
-	w5300_read(data,Sn_SSR1(0),1);//???????????????,????
-	if(data[0]!=SOCK_ESTABLISHED) //??,??fifo???,?????????
+	w5300_read(data,Sn_SSR1(0),1);//检测连接是否断开. 当连接断开后, 数据发送不
+	if(data[0]!=SOCK_ESTABLISHED) //出去, 发送fifo一直满, 无法进行下一次发送.
 	{
 		return;
 	}
