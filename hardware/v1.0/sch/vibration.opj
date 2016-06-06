@@ -223,7 +223,7 @@
       (Path "Design Resources" ".\vibration.dsn" "POWER")
       (Path "Design Resources" ".\vibration.dsn" "SPEED")
       (Path "Outputs")
-      (Select "Design Resources" ".\vibration.dsn" "MCU" "MCU"))
+      (Select "Design Resources" ".\vibration.dsn" "SPEED" "SPEED"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -233,9 +233,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 748 50 615")
-        (Scroll "0 0")
-        (Zoom "60")
+        (Placement "44 2 3 -1 -1 -8 -30 50 748 50 615")
+        (Scroll "761 148")
+        (Zoom "120")
         (Occurrence "/P1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "POWER")
@@ -243,33 +243,18 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 773 75 640")
+        (Placement "44 0 1 -1 -1 -8 -30 200 898 200 765")
         (Scroll "0 0")
-        (Zoom "85")
-        (Occurrence "/A2"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 823 125 690")
-        (Scroll "0 0")
-        (Zoom "85")
-        (Occurrence "/A1"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 848 150 715")
-        (Scroll "0 0")
-        (Zoom "85")
-        (Occurrence "/A3"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 873 175 740")
-        (Scroll "54 0")
-        (Zoom "100")
-        (Occurrence "/A4"))
+        (Zoom "93")
+        (Occurrence "/E1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "ADC")
-      (Page "ADC"))
+      (Schematic "ETHERNET")
+      (Page "ETHERNET"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 798 100 665")
-        (Scroll "44 0")
+        (Placement "44 0 1 -1 -1 -8 -30 75 773 75 640")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
@@ -278,19 +263,19 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 898 200 765")
+        (Placement "44 0 1 -1 -1 -8 -30 100 798 100 665")
         (Scroll "0 0")
-        (Zoom "85")
-        (Occurrence "/E1"))
+        (Zoom "93")
+        (Occurrence "/A1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
-      (Schematic "ETHERNET")
-      (Page "ETHERNET"))
+      (Schematic "ADC")
+      (Page "ADC"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 25 773 25 483")
-        (Scroll "-2 0")
-        (Zoom "60")
+        (Placement "44 0 1 -1 -1 -8 -30 125 823 125 690")
+        (Scroll "0 0")
+        (Zoom "100")
         (Occurrence "/M1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V1.0\SCH\VIBRATION.DSN")
       (Schematic "MCU")
@@ -298,7 +283,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 798 50 508")
+        (Placement "44 0 1 -1 -1 -8 -30 150 848 150 715")
         (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/S1"))

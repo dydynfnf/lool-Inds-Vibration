@@ -385,8 +385,8 @@ namespace Online0318
             //{
             //    File.Delete(APPpath + "\\LoadHistory.bin");
             //}
-            //string destPath = Path.Combine(APPpath, Path.GetFileName(@"c:\Program Files\OnlineMonitor\LoadHistory.bin"));
-            //System.IO.File.Copy(@"c:\Program Files\OnlineMonitor\LoadHistory.bin", destPath);
+            //string destPath = Path.Combine(APPpath, Path.GetFileName(@"e:\Program Files\OnlineMonitor\LoadHistory.bin"));
+            //System.IO.File.Copy(@"e:\Program Files\OnlineMonitor\LoadHistory.bin", destPath);
             //#endregion
             //Application.Exit();
         }
@@ -481,10 +481,10 @@ namespace Online0318
             {
                 File.Delete(APPpath + "\\LoadHistory.bin");
             }
-            string destPath = Path.Combine(APPpath, Path.GetFileName(@"c:\Program Files\OnlineMonitor\LoadHistory.bin"));
-            if (File.Exists(@"c:\Program Files\OnlineMonitor\LoadHistory.bin"))
+            string destPath = Path.Combine(APPpath, Path.GetFileName(@"e:\Program Files\OnlineMonitor\LoadHistory.bin"));
+            if (File.Exists(@"e:\Program Files\OnlineMonitor\LoadHistory.bin"))
             {
-                System.IO.File.Copy(@"c:\Program Files\OnlineMonitor\LoadHistory.bin", destPath); 
+                System.IO.File.Copy(@"e:\Program Files\OnlineMonitor\LoadHistory.bin", destPath); 
             }
             #endregion
 
@@ -493,22 +493,22 @@ namespace Online0318
             {
                 File.Delete(APPpath + "\\LimitAlarm.bin");
             }
-            string destPath1 = Path.Combine(APPpath, Path.GetFileName(@"c:\Program Files\OnlineMonitor\LimitAlarm.bin"));
-            if (File.Exists(@"c:\Program Files\OnlineMonitor\LimitAlarm.bin"))
+            string destPath1 = Path.Combine(APPpath, Path.GetFileName(@"e:\Program Files\OnlineMonitor\LimitAlarm.bin"));
+            if (File.Exists(@"e:\Program Files\OnlineMonitor\LimitAlarm.bin"))
             {
-                System.IO.File.Copy(@"c:\Program Files\OnlineMonitor\LimitAlarm.bin", destPath1);
+                System.IO.File.Copy(@"e:\Program Files\OnlineMonitor\LimitAlarm.bin", destPath1);
             }
             #endregion
 
             #region 保存配置
-            if (Directory.Exists(@"c:\Program Files\OnlineMonitor") == false) //判断目录是否存在
+            if (Directory.Exists(@"e:\Program Files\OnlineMonitor") == false) //判断目录是否存在
                 //创建目录
-                Directory.CreateDirectory(@"c:\Program Files\OnlineMonitor");
-            if (File.Exists(@"c:\Program Files\OnlineMonitor\SystemConfig.xml"))
+                Directory.CreateDirectory(@"e:\Program Files\OnlineMonitor");
+            if (File.Exists(@"e:\Program Files\OnlineMonitor\SystemConfig.xml"))
             {
-                File.Delete(@"c:\Program Files\OnlineMonitor\SystemConfig.xml");
+                File.Delete(@"e:\Program Files\OnlineMonitor\SystemConfig.xml");
             }
-            System.IO.File.Copy(APPpath + "\\SystemConfig.xml", @"c:\Program Files\OnlineMonitor\SystemConfig.xml"); 
+            System.IO.File.Copy(APPpath + "\\SystemConfig.xml", @"e:\Program Files\OnlineMonitor\SystemConfig.xml"); 
             #endregion
 
             this.Dispose();
@@ -539,62 +539,69 @@ namespace Online0318
         /// </summary>
         private void Connect()
         {
+            try
+            {
 
-            #region 依次开启4个连接线程
-            if (SystemConfig.GetConfigData("选用装置", string.Empty).Split('|').Contains("1#装置"))
-            {
-                threadReceive1 = new Thread(new ThreadStart(Order1));
-                threadReceive1.IsBackground = true;
-                threadReceive1.Start();
+                #region 依次开启4个连接线程
+                if (SystemConfig.GetConfigData("选用装置", string.Empty).Split('|').Contains("1#装置"))
+                {
+                    threadReceive1 = new Thread(new ThreadStart(Order1));
+                    threadReceive1.IsBackground = true;
+                    threadReceive1.Start();
+                }
+                else
+                {
+                    loading.dkd();
+                    detectIP1 = 2;
+                }
+                while (detectIP1 == 1) { };//等待线程1开启
+                detectIP1 = 1;
+                if (SystemConfig.GetConfigData("选用装置", string.Empty).Split('|').Contains("2#装置"))
+                {
+                    threadReceive2 = new Thread(new ThreadStart(Order2));
+                    threadReceive2.IsBackground = true;
+                    threadReceive2.Start();
+                }
+                else
+                {
+                    loading.dkd();
+                    detectIP1 = 2;
+                }
+                while (detectIP1 == 1) { };//等待线程2开启
+                detectIP1 = 1;
+                if (SystemConfig.GetConfigData("选用装置", string.Empty).Split('|').Contains("3#装置"))
+                {
+                    threadReceive3 = new Thread(new ThreadStart(Order3));
+                    threadReceive3.IsBackground = true;
+                    threadReceive3.Start();
+                }
+                else
+                {
+                    loading.dkd();
+                    detectIP1 = 2;
+                }
+                while (detectIP1 == 1) { };//等待线程3开启
+                detectIP1 = 1;
+                if (SystemConfig.GetConfigData("选用装置", string.Empty).Split('|').Contains("4#装置"))
+                {
+                    threadReceive4 = new Thread(new ThreadStart(Order4));
+                    threadReceive4.IsBackground = true;
+                    threadReceive4.Start();
+                }
+                else
+                {
+                    loading.dkd();
+                    detectIP1 = 2;
+                }
+                while (detectIP1 == 1) { };//等待线程4开启
+                detectIP1 = 1;
+                #endregion
+                // System.Thr
             }
-            else
+            catch (Exception ex)
             {
-                loading.dkd();
-                detectIP1 = 2;
-            }
-            while (detectIP1 == 1) { };//等待线程1开启
-            detectIP1 = 1;
-            if (SystemConfig.GetConfigData("选用装置", string.Empty).Split('|').Contains("2#装置"))
-            {
-                threadReceive2 = new Thread(new ThreadStart(Order2));
-                threadReceive2.IsBackground = true;
-                threadReceive2.Start();
-            }
-            else
-            {
-                loading.dkd();
-                detectIP1 = 2;
-            }
-            while (detectIP1 == 1) { };//等待线程2开启
-            detectIP1 = 1;
-            if (SystemConfig.GetConfigData("选用装置", string.Empty).Split('|').Contains("3#装置"))
-            {
-                threadReceive3 = new Thread(new ThreadStart(Order3));
-                threadReceive3.IsBackground = true;
-                threadReceive3.Start();
-            }
-            else
-            {
-                loading.dkd();
-                detectIP1 = 2;
-            }
-            while (detectIP1 == 1) { };//等待线程3开启
-            detectIP1 = 1;
-            if (SystemConfig.GetConfigData("选用装置", string.Empty).Split('|').Contains("4#装置"))
-            {
-                threadReceive4 = new Thread(new ThreadStart(Order4));
-                threadReceive4.IsBackground = true;
-                threadReceive4.Start();
-            }
-            else
-            {
-                loading.dkd();
-                detectIP1 = 2;
-            }
-            while (detectIP1 == 1) { };//等待线程4开启
-            detectIP1 = 1;
-            #endregion
-            // System.Threading.Thread.Sleep(1000);
+                MessageBox.Show(ex.ToString());
+            }// eading.Thread.Sleep(1000);
         }
         /// <summary>
         /// 线程方法
@@ -2411,30 +2418,30 @@ namespace Online0318
         /// </summary>
         private void LoadHistorys()
         {
-            string APPpath = @"c:\Program Files\OnlineMonitor\";
+            string APPpath = @"e:\Program Files\OnlineMonitor\";
             if (Directory.Exists(APPpath) == false) //判断目录是否存在
                 //创建目录
                 Directory.CreateDirectory(APPpath);
             FileStream ke;
-            if (!File.Exists(@"c:\Program Files\OnlineMonitor\LoadHistory.bin"))
+            if (!File.Exists(@"e:\Program Files\OnlineMonitor\LoadHistory.bin"))
             {
-                ke = File.Create(@"c:\Program Files\OnlineMonitor\LoadHistory.bin");
+                ke = File.Create(@"e:\Program Files\OnlineMonitor\LoadHistory.bin");
                 ke.Close();
             }
             else //判断登录天数，超过60天，清除记录
             {
-                FileInfo f = new FileInfo(@"c:\Program Files\OnlineMonitor\LoadHistory.bin");
+                FileInfo f = new FileInfo(@"e:\Program Files\OnlineMonitor\LoadHistory.bin");
                 DateTime creatTime = f.CreationTime;
                 DateTime nowTime = DateTime.Now;
                 int days = nowTime.Subtract(creatTime).Days;
                 if (days >= 60)
                 {
-                    File.Delete(@"c:\Program Files\OnlineMonitor\LoadHistory.bin");
-                    ke = File.Create(@"c:\Program Files\OnlineMonitor\LoadHistory.bin");//创建新的
+                    File.Delete(@"e:\Program Files\OnlineMonitor\LoadHistory.bin");
+                    ke = File.Create(@"e:\Program Files\OnlineMonitor\LoadHistory.bin");//创建新的
                     ke.Close();
                 }
             }
-            ke = new FileStream(@"c:\Program Files\OnlineMonitor\LoadHistory.bin", FileMode.Append, FileAccess.Write);
+            ke = new FileStream(@"e:\Program Files\OnlineMonitor\LoadHistory.bin", FileMode.Append, FileAccess.Write);
 
             StreamWriter bw = new StreamWriter(ke);
             string info = "";

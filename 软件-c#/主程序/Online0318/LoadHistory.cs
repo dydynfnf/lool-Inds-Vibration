@@ -25,12 +25,12 @@ namespace Online0318
             FileStream ke=null;
             if (loadOralarm)
             {
-                ke = new FileStream(@"c:\Program Files\OnlineMonitor\LoadHistory.bin",
+                ke = new FileStream(@"e:\Program Files\OnlineMonitor\LoadHistory.bin",
                       FileMode.Open, FileAccess.Read);
             }
             else 
             {
-                ke = new FileStream(@"c:\Program Files\OnlineMonitor\LimitAlarm.bin",
+                ke = new FileStream(@"e:\Program Files\OnlineMonitor\LimitAlarm.bin",
                          FileMode.Open, FileAccess.Read);
             }
             StreamReader br = new StreamReader(ke);

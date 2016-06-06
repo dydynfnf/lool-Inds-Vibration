@@ -6,7 +6,7 @@
 /*                   SPI1_RX--DMA2--CHANNEL3--STREAM2                         */
 /******************************************************************************/
 
-extern unsigned char spi1_rx[6], spi1_tx[6];
+unsigned char spi1_rx[6], spi1_tx[6];
 void dma2_init(void)
 {
 	DMA_InitTypeDef  DMA_InitStructure;
@@ -90,7 +90,7 @@ void dma2_init(void)
 /*                   SPI1_RX--DMA2--CHANNEL0--STREAM3                         */
 /******************************************************************************/
 
-extern unsigned char spi2_rx[6], spi2_tx[6];
+unsigned char spi2_rx[6], spi2_tx[6];
 void dma1_init(void)
 {
 	DMA_InitTypeDef  DMA_InitStructure;

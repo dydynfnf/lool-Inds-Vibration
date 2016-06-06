@@ -165,7 +165,7 @@ namespace Online0318
                 #endregion
 
             }
-            catch (Exception ex)
+            catch (OverflowException ex)
             {
                 MessageBox.Show(ex.ToString());
                 //throw;
@@ -842,75 +842,83 @@ namespace Online0318
             #region 4
             if (bool3 && second1 >= 1)
             {
-                if (singleList3.Count == 0)
+                try
                 {
-                    return;
+                    if (singleList3.Count == 0)
+                    {
+                        //MessageBox.Show("hhh");
+                        return;
+                    }
+                    List<short> kj = new List<short>(singleList3);
+                    double[] bList = Array.ConvertAll<short, double>(kj.ToArray(), x => x);//short[]转换成double[]
+                    double avg = Maths.Avg(bList);//均值
+                    double max = Maths.Max(bList);//峰值
+                    double pro = Maths.PRO(bList);//平均幅值
+                    double rms = Maths.RMS(bList);//均方根
+                    double var = Maths.Var(bList, avg);//方差
+                    double kurtosis = Maths.Kurtosis(bList, avg);//峭度 Maths.Kurtosis(bList, avg)
+                    double fzzb = max / rms;//峰值指标
+                    double mczb = max / pro;//脉冲指标
+                    textBox7.Text = String.Format("{0:F}", var);
+                    textBox8.Text = String.Format("{0:F}", rms);
+                    textBox9.Text = String.Format("{0:F}", kurtosis);
+                    textBox10.Text = String.Format("{0:F}", fzzb);
+                    textBox11.Text = String.Format("{0:F}", mczb);
+                    DateTime dt = DateTime.Now;
+                    double x0 = (double)new XDate(dt);
+                    if (!checkBox1.Checked)
+                    {
+                        for (int i = 0; i < 5; ++i)
+                        {
+                            pairLists[i].Clear();
+                            KUtil.ListAddRange(pairLists[i], showingLineState[i]);
+                        }
+                        // 下面是旧的显示数据
+                        /*
+                        pairLists[0].AddLast(new KTuple(1, var));
+                        KUtil.ListMap(pairLists[0], t => new KTuple(t.X - 1, t.Y));
+                        pairLists[1].AddLast(new KTuple(1, rms));
+                        KUtil.ListMap(pairLists[1], t => new KTuple(t.X - 1, t.Y));
+                        pairLists[2].AddLast(new KTuple(1, kurtosis));
+                        KUtil.ListMap(pairLists[2], t => new KTuple(t.X - 1, t.Y));
+                        pairLists[3].AddLast(new KTuple(1, fzzb));
+                        KUtil.ListMap(pairLists[3], t => new KTuple(t.X - 1, t.Y));
+                        pairLists[4].AddLast(new KTuple(1, mczb));
+                        KUtil.ListMap(pairLists[4], t => new KTuple(t.X - 1, t.Y));
+                        if (pairLists[1].Count > 1800)
+                        {
+                            pairLists[0].RemoveFirst();
+                            pairLists[1].RemoveFirst();
+                            pairLists[2].RemoveFirst();
+                            pairLists[3].RemoveFirst();
+                            pairLists[4].RemoveFirst();
+                        }
+                        */
+                    }
+                    if (checkBox1.Checked)
+                    {
+                        ditcSanDian = new Dictionary<string, double>();
+                        ditcSanDian.Add("方差", var);
+                        ditcSanDian.Add("均方根", rms);
+                        ditcSanDian.Add("峭度", kurtosis);
+                        ditcSanDian.Add("峰值指标", fzzb);
+                        ditcSanDian.Add("脉冲指标", mczb);
+                        double dsd = rd.Next(0, 25);
+                        list40.Add(dsd, ditcSanDian[comboBox1.Text]);
+                        if (list40.Count > 10)
+                        {
+                            list40.RemoveAt(0);
+                        }
+
+                    }
+                    kChartPanel4.Refresh();
+                    singleList3.Clear();
+                    second1 = 0;
                 }
-                List<short> kj = new List<short>(singleList3);
-                double[] bList = Array.ConvertAll<short, double>(kj.ToArray(), x => x);//short[]转换成double[]
-                double avg = Maths.Avg(bList);//均值
-                double max = Maths.Max(bList);//峰值
-                double pro = Maths.PRO(bList);//平均幅值
-                double rms = Maths.RMS(bList);//均方根
-                double var = Maths.Var(bList, avg);//方差
-                double kurtosis = Maths.Kurtosis(bList, avg);//峭度
-                double fzzb = max / rms;//峰值指标
-                double mczb = max / pro;//脉冲指标
-                textBox7.Text = String.Format("{0:F}", var);
-                textBox8.Text = String.Format("{0:F}", rms);
-                textBox9.Text = String.Format("{0:F}", kurtosis);
-                textBox10.Text = String.Format("{0:F}", fzzb);
-                textBox11.Text = String.Format("{0:F}", mczb);
-                DateTime dt = DateTime.Now;
-                double x0 = (double)new XDate(dt);
-                if (!checkBox1.Checked)
+                catch (Exception eee)
                 {
-                    for (int i = 0; i < 5; ++i)
-                    {
-                        pairLists[i].Clear();
-                        KUtil.ListAddRange(pairLists[i], showingLineState[i]);
-                    }
-                    // 下面是旧的显示数据
-                    /*
-                    pairLists[0].AddLast(new KTuple(1, var));
-                    KUtil.ListMap(pairLists[0], t => new KTuple(t.X - 1, t.Y));
-                    pairLists[1].AddLast(new KTuple(1, rms));
-                    KUtil.ListMap(pairLists[1], t => new KTuple(t.X - 1, t.Y));
-                    pairLists[2].AddLast(new KTuple(1, kurtosis));
-                    KUtil.ListMap(pairLists[2], t => new KTuple(t.X - 1, t.Y));
-                    pairLists[3].AddLast(new KTuple(1, fzzb));
-                    KUtil.ListMap(pairLists[3], t => new KTuple(t.X - 1, t.Y));
-                    pairLists[4].AddLast(new KTuple(1, mczb));
-                    KUtil.ListMap(pairLists[4], t => new KTuple(t.X - 1, t.Y));
-                    if (pairLists[1].Count > 1800)
-                    {
-                        pairLists[0].RemoveFirst();
-                        pairLists[1].RemoveFirst();
-                        pairLists[2].RemoveFirst();
-                        pairLists[3].RemoveFirst();
-                        pairLists[4].RemoveFirst();
-                    }
-                    */
+                    MessageBox.Show(eee.ToString());
                 }
-                if (checkBox1.Checked)
-                {
-                    ditcSanDian = new Dictionary<string, double>();
-                    ditcSanDian.Add("方差", var);
-                    ditcSanDian.Add("均方根", rms);
-                    ditcSanDian.Add("峭度", kurtosis);
-                    ditcSanDian.Add("峰值指标", fzzb);
-                    ditcSanDian.Add("脉冲指标", mczb);
-                    double dsd = rd.Next(0,25);
-                    list40.Add(dsd, ditcSanDian[comboBox1.Text]);
-                    if (list40.Count>10)
-                    {
-                        list40.RemoveAt(0);
-                    }
-                   
-                }
-                kChartPanel4.Refresh();
-                singleList3.Clear();
-                second1 = 0;
             }
             #endregion
            
@@ -1185,11 +1193,12 @@ namespace Online0318
 
                 }
             }
-            catch (Exception ex)
+            catch (OverflowException ex)
             {
                 MessageBox.Show(ex.ToString());
                 //throw;
             }
+           
 
         }
         /// <summary>
@@ -1256,7 +1265,7 @@ namespace Online0318
                 }
                 #endregion
             }
-            catch (Exception ex)
+            catch (OverflowException ex)
             {
                 MessageBox.Show(ex.ToString());
                 //throw;
@@ -1345,7 +1354,8 @@ namespace Online0318
                         }
                         showingLineState = showLineState[asas];
                         // 原先的显示数据
-                        if (bool3) singleList3.AddRange(data0[asas]);
+                        if (bool3) 
+                            singleList3.AddRange(data0[asas]);
                         if (bool4)
                         {
                             singleList.AddRange(data0[asas]);
@@ -1450,89 +1460,96 @@ namespace Online0318
                             }
                             else if (dataEnumerator.Current.Key.Substring(2, 2) == "通道")
                             {
-                                string lineKey = dataEnumerator.Current.Key;
-                                if (!showLineState.ContainsKey(lineKey))
-                                {
-                                    List<LinkedList<KTuple>> lineState = new List<LinkedList<KTuple>>();
-                                    lineState.Add(new LinkedList<KTuple>());
-                                    lineState.Add(new LinkedList<KTuple>());
-                                    lineState.Add(new LinkedList<KTuple>());
-                                    lineState.Add(new LinkedList<KTuple>());
-                                    lineState.Add(new LinkedList<KTuple>());
-                                    showLineState.Add(lineKey, lineState);
-                                }
-                                double[] bList = Array.ConvertAll<short, double>(dataEnumerator.Current.Value.ToArray(), x => x);//short[]转换成double[]
-
-                                double avg = Maths.Avg(bList);//均值
-                                double max = Maths.Max(bList);//峰值
-                                double pro = Maths.PRO(bList);//平均幅值
-                                double rms = Maths.RMS(bList);//均方根
-                                double var = Maths.Var(bList, avg);//方差
-                                double kurtosis = Maths.Kurtosis(bList, avg);//峭度
-                                double fzzb = max / rms;//峰值指标
-                                double mczb = max / pro;//脉冲指标
-
-                                showLineState[lineKey][0].AddLast(new KTuple(1, var));
-                                KUtil.ListMap(showLineState[lineKey][0], t => new KTuple(t.X - 1, t.Y));
-                                showLineState[lineKey][1].AddLast(new KTuple(1, rms));
-                                KUtil.ListMap(showLineState[lineKey][1], t => new KTuple(t.X - 1, t.Y));
-                                showLineState[lineKey][2].AddLast(new KTuple(1, kurtosis));
-                                KUtil.ListMap(showLineState[lineKey][2], t => new KTuple(t.X - 1, t.Y));
-                                showLineState[lineKey][3].AddLast(new KTuple(1, fzzb));
-                                KUtil.ListMap(showLineState[lineKey][3], t => new KTuple(t.X - 1, t.Y));
-                                showLineState[lineKey][4].AddLast(new KTuple(1, mczb));
-                                KUtil.ListMap(showLineState[lineKey][4], t => new KTuple(t.X - 1, t.Y));
-
-                                if (showLineState[lineKey][1].Count > 1800)
-                                {
-                                    showLineState[lineKey][0].RemoveFirst();
-                                    showLineState[lineKey][1].RemoveFirst();
-                                    showLineState[lineKey][2].RemoveFirst();
-                                    showLineState[lineKey][3].RemoveFirst();
-                                    showLineState[lineKey][4].RemoveFirst();
-                                }
-                                // xianmian shi baojing de caozuo 
-                                int varLimit = -400;
-                                int rmsLimit = -400;
-                                int kurtosisLimit = -400;
-                                int fzzbLimit = -400;
-                                int mczbLimit = -400;
                                 try
                                 {
-                                    varLimit = int.Parse(textBox12.Text);
-                                    rmsLimit = int.Parse(textBox13.Text);
-                                    kurtosisLimit = int.Parse(textBox14.Text);
-                                    fzzbLimit = int.Parse(textBox15.Text);
-                                    mczbLimit = int.Parse(textBox16.Text);
-                                }
-                                catch
-                                {
+                                    string lineKey = dataEnumerator.Current.Key;
+                                    if (!showLineState.ContainsKey(lineKey))
+                                    {
+                                        List<LinkedList<KTuple>> lineState = new List<LinkedList<KTuple>>();
+                                        lineState.Add(new LinkedList<KTuple>());
+                                        lineState.Add(new LinkedList<KTuple>());
+                                        lineState.Add(new LinkedList<KTuple>());
+                                        lineState.Add(new LinkedList<KTuple>());
+                                        lineState.Add(new LinkedList<KTuple>());
+                                        showLineState.Add(lineKey, lineState);
+                                    }
+                                    double[] bList = Array.ConvertAll<short, double>(dataEnumerator.Current.Value.ToArray(), x => x);//short[]转换成double[]
 
+                                    double avg = Maths.Avg(bList);//均值
+                                    double max = Maths.Max(bList);//峰值
+                                    double pro = Maths.PRO(bList);//平均幅值
+                                    double rms = Maths.RMS(bList);//均方根
+                                    double var = Maths.Var(bList, avg);//方差
+                                    double kurtosis = Maths.Kurtosis(bList, avg);//峭度Maths.Kurtosis(bList, avg)
+                                    double fzzb = max / rms;//峰值指标
+                                    double mczb = max / pro;//脉冲指标
+
+                                    showLineState[lineKey][0].AddLast(new KTuple(1, var));
+                                    KUtil.ListMap(showLineState[lineKey][0], t => new KTuple(t.X - 1, t.Y));
+                                    showLineState[lineKey][1].AddLast(new KTuple(1, rms));
+                                    KUtil.ListMap(showLineState[lineKey][1], t => new KTuple(t.X - 1, t.Y));
+                                    showLineState[lineKey][2].AddLast(new KTuple(1, kurtosis));
+                                    KUtil.ListMap(showLineState[lineKey][2], t => new KTuple(t.X - 1, t.Y));
+                                    showLineState[lineKey][3].AddLast(new KTuple(1, fzzb));
+                                    KUtil.ListMap(showLineState[lineKey][3], t => new KTuple(t.X - 1, t.Y));
+                                    showLineState[lineKey][4].AddLast(new KTuple(1, mczb));
+                                    KUtil.ListMap(showLineState[lineKey][4], t => new KTuple(t.X - 1, t.Y));
+
+                                    if (showLineState[lineKey][1].Count > 1800)
+                                    {
+                                        showLineState[lineKey][0].RemoveFirst();
+                                        showLineState[lineKey][1].RemoveFirst();
+                                        showLineState[lineKey][2].RemoveFirst();
+                                        showLineState[lineKey][3].RemoveFirst();
+                                        showLineState[lineKey][4].RemoveFirst();
+                                    }
+                                    // xianmian shi baojing de caozuo 
+                                    int varLimit = -400;
+                                    int rmsLimit = -400;
+                                    int kurtosisLimit = -400;
+                                    int fzzbLimit = -400;
+                                    int mczbLimit = -400;
+                                    try
+                                    {
+                                        varLimit = int.Parse(textBox12.Text);
+                                        rmsLimit = int.Parse(textBox13.Text);
+                                        kurtosisLimit = int.Parse(textBox14.Text);
+                                        fzzbLimit = int.Parse(textBox15.Text);
+                                        mczbLimit = int.Parse(textBox16.Text);
+                                    }
+                                    catch
+                                    {
+
+                                    }
+                                    if (varLimit <= 0) varLimit = 400;
+                                    if (rmsLimit <= 0) rmsLimit = 400;
+                                    if (kurtosisLimit <= 0) kurtosisLimit = 400;
+                                    if (fzzbLimit <= 0) fzzbLimit = 400;
+                                    if (mczbLimit <= 0) mczbLimit = 400;
+                                    //if (var > varLimit)
+                                    //{
+                                    //    LimitAlarm(lineKey + "的方差大于" + varLimit + "了");
+                                    //}
+                                    //if (rms > rmsLimit)
+                                    //{
+                                    //    LimitAlarm(lineKey + "的均方根大于" + rmsLimit + "了");
+                                    //}
+                                    if (kurtosis > kurtosisLimit)
+                                    {
+                                        LimitAlarm(lineKey + "的峭度大于" + kurtosisLimit + "了");
+                                    }
+                                    if (fzzb > fzzbLimit)
+                                    {
+                                        LimitAlarm(lineKey + "的峰值指标大于" + fzzbLimit + "了");
+                                    }
+                                    if (mczb > mczbLimit)
+                                    {
+                                        LimitAlarm(lineKey + "的脉冲指标大于" + mczbLimit + "了");
+                                    }
                                 }
-                                if (varLimit <= 0) varLimit = 400;
-                                if (rmsLimit <= 0) rmsLimit = 400;
-                                if (kurtosisLimit <= 0) kurtosisLimit = 400;
-                                if (fzzbLimit <= 0) fzzbLimit = 400;
-                                if (mczbLimit <= 0) mczbLimit = 400;
-                                //if (var > varLimit)
-                                //{
-                                //    LimitAlarm(lineKey + "的方差大于" + varLimit + "了");
-                                //}
-                                //if (rms > rmsLimit)
-                                //{
-                                //    LimitAlarm(lineKey + "的均方根大于" + rmsLimit + "了");
-                                //}
-                                if (kurtosis > kurtosisLimit)
+                                catch (Exception eee)
                                 {
-                                    LimitAlarm(lineKey + "的峭度大于" + kurtosisLimit + "了");
-                                }
-                                if (fzzb > fzzbLimit)
-                                {
-                                    LimitAlarm(lineKey + "的峰值指标大于" + fzzbLimit + "了");
-                                }
-                                if (mczb> mczbLimit)
-                                {
-                                    LimitAlarm(lineKey + "的脉冲指标大于" + mczbLimit + "了");
+                                    MessageBox.Show(eee.ToString());
                                 }
                                 // yishang, buxiang yao nage zhushi nage !
                             }
@@ -1544,7 +1561,7 @@ namespace Online0318
                 }
                 #endregion
             }
-            catch (Exception ex)
+            catch (OverflowException ex)
             {
                 //MessageBox.Show(ex.ToString());
                 LimitAlarm(ex.ToString());
@@ -1683,7 +1700,7 @@ namespace Online0318
                 }
 
             }
-            catch (Exception ex)
+            catch (OverflowException ex)
             {
                 //MessageBox.Show(ex.ToString());
                 LimitAlarm(ex.ToString());
@@ -1805,7 +1822,7 @@ namespace Online0318
                 #endregion
                 #endregion
             }
-            catch (Exception ex)
+            catch (OverflowException ex)
             {
                 MessageBox.Show(ex.ToString());
                // throw;
@@ -1821,17 +1838,17 @@ namespace Online0318
             try
             {
                 #region 保存报警数据
-                string APPpath = @"c:\Program Files\OnlineMonitor\";
+                string APPpath = @"e:\Program Files\OnlineMonitor\";
                 if (Directory.Exists(APPpath) == false) //判断目录是否存在
                     //创建目录
                     Directory.CreateDirectory(APPpath);
                 FileStream ke;
-                if (!File.Exists(@"c:\Program Files\OnlineMonitor\LimitAlarm.bin"))
+                if (!File.Exists(@"e:\Program Files\OnlineMonitor\LimitAlarm.bin"))
                 {
-                    ke = File.Create(@"c:\Program Files\OnlineMonitor\LimitAlarm.bin");
+                    ke = File.Create(@"e:\Program Files\OnlineMonitor\LimitAlarm.bin");
                     ke.Close();
                 }
-                ke = new FileStream(@"c:\Program Files\OnlineMonitor\LimitAlarm.bin", FileMode.Append, FileAccess.Write);
+                ke = new FileStream(@"e:\Program Files\OnlineMonitor\LimitAlarm.bin", FileMode.Append, FileAccess.Write);
                 StreamWriter bw = new StreamWriter(ke);
                 for (int i = 0; i < listBox1.Items.Count; i++)
                 {
@@ -1894,7 +1911,7 @@ namespace Online0318
                     MyMasterPane4();
                 }
             }
-            catch (Exception ex)
+            catch (OverflowException ex)
             {
                 MessageBox.Show(ex.ToString());
                // throw;
@@ -2152,7 +2169,7 @@ namespace Online0318
                     MyMasterPane4();
                 }
             }
-            catch (Exception ex)
+            catch (OverflowException ex)
             {
                 MessageBox.Show(ex.ToString());
                 //throw;

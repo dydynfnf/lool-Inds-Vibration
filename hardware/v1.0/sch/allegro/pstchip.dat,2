@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001May-02-2016 at 15:44:05}
+{ Using PSTWRITER 16.6.0 d001May-03-2016 at 16:13:05}
 primitive 'RES_0805_10R';
   pin
     '1':
@@ -822,7 +822,7 @@ primitive 'S9014_S9014-SOT23_S9014';
     VALUE='S9014';
   end_body;
 end_primitive;
-primitive 'RES_0603_51';
+primitive 'RES_0603_75';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -834,7 +834,7 @@ primitive 'RES_0603_51';
   body
     PART_NAME='Res';
     JEDEC_TYPE='0603';
-    VALUE='51';
+    VALUE='75';
   end_body;
 end_primitive;
 primitive 'RES_0603_240';
@@ -1092,6 +1092,21 @@ primitive 'RES_0603_510';
     VALUE='510';
   end_body;
 end_primitive;
+primitive 'RES_0603_51';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='51';
+  end_body;
+end_primitive;
 primitive 'RES_0603_1M';
   pin
     '1':
@@ -1167,7 +1182,7 @@ primitive 'RES_0603_200';
     VALUE='200';
   end_body;
 end_primitive;
-primitive 'RES_0603_24';
+primitive 'RES_0603_36';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1179,10 +1194,10 @@ primitive 'RES_0603_24';
   body
     PART_NAME='Res';
     JEDEC_TYPE='0603';
-    VALUE='24';
+    VALUE='36';
   end_body;
 end_primitive;
-primitive 'RES_0603_12';
+primitive 'RES_0603_18';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1194,7 +1209,7 @@ primitive 'RES_0603_12';
   body
     PART_NAME='Res';
     JEDEC_TYPE='0603';
-    VALUE='12';
+    VALUE='18';
   end_body;
 end_primitive;
 primitive 'RES_0603_360';

@@ -1,5 +1,4 @@
 #include "ethernet.h"	       
-#include "w5300.h"
 #include "delay.h"
 
 #define Bank1_SRAM2_ADDR    ((u32)(0x64000000))
@@ -240,8 +239,8 @@ void tcp_sever(void)
 	w5300_write(data,Sn_IMR(0),2);//屏蔽所有中断
 	data[0]=0xff,data[0]=0xff;
 	w5300_write(data,Sn_IR(0),2);//清除中断标志
-	data[0]=0x04,data[1]=0xb0+device;
-	w5300_write(data,Sn_PORTR(0),2);//端口号 1200+device
+	data[0]=0x0f,data[1]=0x00+device;
+	w5300_write(data,Sn_PORTR(0),2);//端口号 3840+device
 	data[0]=0x05,data[1]=0xb4;
 	w5300_write(data,Sn_MSSR(0),2);//最大分片1460
 	data[0]=0x0a;
@@ -286,9 +285,9 @@ void tcp_client(void)
 	data[0]=0xff,data[0]=0xff;
 	w5300_write(data,Sn_IR(0),2);//清除所有中断标志
 	w5300_write(sn_dipr,Sn_DIPR(0),4);//对端ip
-	data[0]=0x04,data[1]=0xb0+device;
-	w5300_write(data,Sn_PORTR(0),2);//端口号 1200+device
-	w5300_write(data,Sn_DPORTR0(0),2);//对端端口号 1200+device
+	data[0]=0x0f,data[1]=0x00+device;
+	w5300_write(data,Sn_PORTR(0),2);//端口号 3840+device
+	w5300_write(data,Sn_DPORTR0(0),2);//对端端口号 3840+device
 	data[0]=0x05,data[1]=0xb4;
 	w5300_write(data,Sn_MSSR(0),2);//最大分片1460
 	data[0]=0x0a;

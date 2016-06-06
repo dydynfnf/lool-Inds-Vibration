@@ -30,6 +30,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_it.h"
 #include "dma.h"
+#include "sram.h"	 
 
 /** @addtogroup Template_Project
   * @{
@@ -164,44 +165,73 @@ void SysTick_Handler(void)
   * @}
   */ 
 
+
+extern unsigned int dw;
 /******************************************************************************/
 /*                             外部中断4                                      */
 /*                             ADC1中断                                       */
 /******************************************************************************/
+
+extern unsigned char ad1_buffer[Max_Buffer],ad2_buffer[Max_Buffer];
+unsigned int ad_i=0;
 extern unsigned char spi1_rx[6];
-extern short ad1,ad2;
 //int exti4_count=0;
 void EXTI4_IRQHandler(void)
 {
-	spi1_rx_dma_transfer_once();
-	spi1_tx_dma_transfer_once();
+	spi1_rx_dma_transfer_once();//开启一次dma接收
+	spi1_tx_dma_transfer_once();//开启一次dma发送
 	
-	ad1 = (spi1_rx[0]<<8) | (spi1_rx[1]);
-	ad2 = (spi1_rx[3]<<8) | (spi1_rx[4]);
+	ad1_buffer[ad_i] = spi1_rx[3];//偶数位为高字节
+	ad1_buffer[ad_i+1] = spi1_rx[4];//奇数位为低字节
+	ad2_buffer[ad_i] = spi1_rx[0];//偶数位为高字节
+	ad2_buffer[ad_i+1] = spi1_rx[1];//奇数位为低字节
+	
+	ad_i+=2;
+	if(ad_i>=Max_Buffer)//判断写入数据是否超过最大缓存
+	{
+		ad_i=0;
+	}
+	
+	dw+=2;//缓存深度
+	
+	if(dw >=  Max_Buffer)//缓存深度最多等于缓存长度
+	{
+		dw = Max_Buffer;
+	}
 	
 //	exti4_count++;
 	
-	EXTI_ClearITPendingBit(EXTI_Line4);
+	EXTI_ClearITPendingBit(EXTI_Line4);//清除LINE4上的中断标志位
 }
 
 /******************************************************************************/
 /*                             外部中断12                                     */
 /*                             ADC2中断                                       */
 /******************************************************************************/
+
+extern unsigned char ad3_buffer[Max_Buffer],ad4_buffer[Max_Buffer];
+unsigned int ad_j=0;
 extern unsigned char spi2_rx[6];
-extern short ad3,ad4;
 //int exti5_count=0;
 void EXTI15_10_IRQHandler(void)
 {
-	spi2_rx_dma_transfer_once();
-	spi2_tx_dma_transfer_once();
+	spi2_rx_dma_transfer_once();//开启一次dma接收
+	spi2_tx_dma_transfer_once();//开启一次dma发送
 	
-	ad3 = (spi2_rx[0]<<8) | (spi2_rx[1]);
-	ad4 = (spi2_rx[3]<<8) | (spi2_rx[4]);
+	ad3_buffer[ad_j] = spi2_rx[3];//偶数位为高字节
+	ad3_buffer[ad_j+1] = spi2_rx[4];//奇数位为低字节
+	ad4_buffer[ad_j] = spi2_rx[0];//偶数位为高字节
+	ad4_buffer[ad_j+1] = spi2_rx[1];//奇数位为低字节
+	
+	ad_j+=2;
+	if(ad_j>=Max_Buffer)//判断写入数据是否超过最大缓存
+	{
+		ad_j=0;
+	}
 	
 //	exti5_count++;
 	
-	EXTI_ClearITPendingBit(EXTI_Line12); //清除LINE12上的中断标志位
+	EXTI_ClearITPendingBit(EXTI_Line12);//清除LINE12上的中断标志位
 	
 }
 

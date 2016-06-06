@@ -102,3 +102,11 @@ C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙�
 C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.dll
 C:\Documents and Settings\psai_don\桌面\龙源风场运行（修改版）\龙源风场运行（修改版）\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.dll
+E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form2.resources
+E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.dll
+E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb

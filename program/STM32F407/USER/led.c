@@ -17,7 +17,7 @@ void led_init(void)
   GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//ÉÏÀ­
   GPIO_Init(GPIOE, &GPIO_InitStructure);//³õÊ¼»¯GPIO
 	
-	GPIO_ResetBits(GPIOE,GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_5);//ÉèÖÃµÍ£¬µÆÁÁ
+	GPIO_SetBits(GPIOE,GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_5);//ÉèÖÃµÍ£¬µÆÃð
 }
 
 /******************************************************************************/
@@ -54,4 +54,31 @@ void led_y(unsigned char status)
 		GPIO_ResetBits(GPIOE,GPIO_Pin_5);
 	else
 		GPIO_SetBits(GPIOE,GPIO_Pin_5);
+}
+
+/******************************************************************************/
+/*                               ºìµÆ ·­×ª                                    */
+/******************************************************************************/
+
+void led_r_toggle(void)
+{
+	GPIO_ToggleBits(GPIOE,GPIO_Pin_3);
+}
+
+/******************************************************************************/
+/*                               ÂÌµÆ ·­×ª                                    */
+/******************************************************************************/
+
+void led_g_toggle(void)
+{
+	GPIO_ToggleBits(GPIOE,GPIO_Pin_4);
+}
+
+/******************************************************************************/
+/*                               »ÆµÆ ·­×ª                                    */
+/******************************************************************************/
+
+void led_y_toggle(void)
+{
+	GPIO_ToggleBits(GPIOE,GPIO_Pin_5);
 }

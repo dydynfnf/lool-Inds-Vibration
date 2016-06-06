@@ -3,40 +3,56 @@
 #include "stm32f4xx_it.h"
 
 #include "delay.h"
+#include "timer.h"
 #include "led.h"
 #include "ads1271.h"
 #include "sram.h"
 #include "ethernet.h"
-
-unsigned char spi1_rx[6], spi1_tx[6];
-unsigned char spi2_rx[6], spi2_tx[6];
-short ad1,ad2;
-short ad3,ad4;
-
-extern u16 sram_buffer[500000];
+#include "agreement.h"
 
 int main(void)
-{
+{		
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置系统中断优先级分组2
 	delay_init(168);
+	tim3_init(168);
 	led_init();
 	ads1271_init();
-	sram_init();	
+	sram_init();
+	
+	A0:
 	ethernet_init();
 	tcp_sever();
-	
+	while(!is_con());
 	while(1)
 	{
-		led_y(0);
-		delay_ms(800);
 		
-		led_g(1);
-		delay_ms(100);
-		
-		led_g(0);
-		led_y(1);
-		delay_ms(100);
-		
+		if(deal_int() == 0)//INT处理部分
+		{
+			goto A0;//重启
+		}
+	
+		if(deal_pre() == 0)//PRE处理部分
+		{
+			goto A0;//重启
+		}
+
+		if(deal_div() == 0)//DIV处理
+		{
+			goto A0;//重启
+		}
+	
+		if(deal_sta() == 0)//STA处理
+		{
+			goto A0;//重启
+		}
+	
+		while(1)
+		{
+			if(deal_data() == 0)//数据传输
+			{
+				goto A0;//重启
+			}
+		}
 	}
 }
 

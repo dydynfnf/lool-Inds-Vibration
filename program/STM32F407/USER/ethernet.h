@@ -1,6 +1,7 @@
 #ifndef __ETHERNET_H
 #define __ETHERNET_H															    
 #include "sys.h"
+#include "w5300.h"
 
 void ethernet_config(void);
 void w5300_write(unsigned char *pbuffer,unsigned int add,unsigned char n);

@@ -432,6 +432,16 @@
               <FileType>1</FileType>
               <FilePath>.\USER\ethernet.c</FilePath>
             </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>agreement.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\agreement.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

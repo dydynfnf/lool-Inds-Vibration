@@ -3,25 +3,58 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd             |
-|                                                    Wed May 04 13:13:15 2016  |
+|                                                    Fri Jun 03 18:57:38 2016  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins DELETED FROM this net (pin now not on any net)
-                                 K1.1            2181.00 195.000
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 K1.3            2181.00  33.583
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  KEY          pins DELETED FROM this net (pin now not on any net)
-                                 K1.2            1992.02 195.000
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 K1.4            1992.02  33.583
+ OSC-N_OSC-3225_25M
+ THS4131DGN_THS4131DGN-SOP8_THS4
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       4                                        |
+|  E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd             |
+|                                                    Fri Jun 03 18:57:38 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ O1                  OSC-N_OSC-3225_25M    139.213 1069.37 OSC-N_OSC-3225_OSC-N
+ R38                 RES_0603_75           650.000 839.921 RES_0603_51
+ R39                 RES_0603_75           600.000 839.921 RES_0603_51
+ R42                 RES_0603_75           900.000 839.921 RES_0603_51
+ R43                 RES_0603_75           850.000 839.921 RES_0603_51
+ U4                  THS4131DGN_THS4131DGN-SOP8_THS4 1526.61 3011.61 THS4131_THS4131-SOP8_THS4131
+ U7                  THS4131DGN_THS4131DGN-SOP8_THS4 826.614 3011.61 THS4131_THS4131-SOP8_THS4131
+ U14                 THS4131DGN_THS4131DGN-SOP8_THS4 2926.61 3011.61 THS4131_THS4131-SOP8_THS4131
+ U17                 THS4131DGN_THS4131DGN-SOP8_THS4 2226.61 3011.61 THS4131_THS4131-SOP8_THS4131
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd             |
+|                                                    Fri Jun 03 18:57:38 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ O1.3           139.213 1069.37 PRIM_FILE      .\pstchip.dat
+ R38.2          650.000 839.921 PRIM_FILE      .\pstchip.dat
+ R39.2          600.000 839.921 PRIM_FILE      .\pstchip.dat
+ R42.2          900.000 839.921 PRIM_FILE      .\pstchip.dat
+ R43.2          850.000 839.921 PRIM_FILE      .\pstchip.dat
+ U4.5           1526.61 3011.61 PRIM_FILE      .\pstchip.dat
+ U7.5           826.614 3011.61 PRIM_FILE      .\pstchip.dat
+ U14.5          2926.61 3011.61 PRIM_FILE      .\pstchip.dat
+ U17.5          2226.61 3011.61 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       2                                        |
+|       Components changed    :       9                                        |
+|       Slot property added   :       9                                        |
 |                                                                              |
-|   Total ECO changes reported:       4                                        |
+|   Total ECO changes reported:      20                                        |
 |------------------------------------------------------------------------------|

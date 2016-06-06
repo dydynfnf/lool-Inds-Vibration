@@ -1,20 +1,15 @@
 \t (00:00:04) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:04)     Journal start - Thu May 26 14:36:03 2016
-\t (00:00:04)         Host=PSAI-PC User=psai Pid=11956 CPUs=4
+\t (00:00:04)     Journal start - Sat Jun 04 12:14:41 2016
+\t (00:00:04)         Host=PSAI-PC User=psai Pid=8100 CPUs=4
 \t (00:00:04) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
 \t (00:00:04) 
 \t (00:00:06) Opening existing design...
 \d (00:00:07) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
-\i (00:00:07) trapsize 39948
-\i (00:00:07) trapsize 38783
-\i (00:00:07) trapsize 40149
-\i (00:00:07) trapsize 40722
-\i (00:00:07) trapsize 33368
-\i (00:00:07) trapsize 33368
-\i (00:00:08) ifp 
-\i (00:00:09) open 
-\i (00:00:22) fillin "E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb\core.brd"
-\i (00:00:22) cd "E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb"
-\t (00:00:22) Opening existing design...
-\i (00:00:22) trapsize 12549
-\t (00:00:22)     Journal end - Thu May 26 14:36:21 2016
+\i (00:00:08) trapsize 45119
+\i (00:00:08) trapsize 43803
+\i (00:00:08) trapsize 45346
+\i (00:00:09) trapsize 37251
+\i (00:00:09) trapsize 37251
+\i (00:00:10) generaledit 
+\i (00:00:22) exit 
+\t (00:00:23)     Journal end - Sat Jun 04 12:15:00 2016

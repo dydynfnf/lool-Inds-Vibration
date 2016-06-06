@@ -1,8 +1,11 @@
 #include "sram.h"	       
 
-#define Bank1_SRAM3_ADDR    ((u32)(0x68000000))
-u16 sram_buffer[500000]       __attribute__(( at(0x68000000) ));
-  						   
+
+u8 ad1_buffer[Max_Buffer]       __attribute__(( at(Bank1_SRAM3_ADDR) ));
+u8 ad2_buffer[Max_Buffer]       __attribute__(( at(Bank1_SRAM3_ADDR+Max_Buffer) ));
+u8 ad3_buffer[Max_Buffer]       __attribute__(( at(Bank1_SRAM3_ADDR+Max_Buffer*2) ));
+u8 ad4_buffer[Max_Buffer]       __attribute__(( at(Bank1_SRAM3_ADDR+Max_Buffer*3) ));
+
 /******************************************************************************/
 /*                              SRAM≥ı ºªØ                                    */
 /******************************************************************************/
