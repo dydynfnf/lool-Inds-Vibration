@@ -1,19 +1,197 @@
-\t (00:00:03) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:03)     Journal start - Sat Jun 04 23:09:19 2016
-\t (00:00:03)         Host=PSAI-PC User=psai Pid=11760 CPUs=4
-\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:03) 
+\t (00:00:02) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:02)     Journal start - Wed Jun 08 12:56:02 2016
+\t (00:00:02)         Host=PSAI-PC User=psai Pid=8728 CPUs=4
+\t (00:00:02) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:02) 
 \t (00:00:04) Opening existing design...
-\d (00:00:05) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
-\i (00:00:05) trapsize 45119
-\i (00:00:05) trapsize 43803
-\i (00:00:05) trapsize 45346
-\i (00:00:05) trapsize 37251
-\i (00:00:05) trapsize 37251
+\d (00:00:04) Design opened: E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
+\i (00:00:04) trapsize 35249
+\i (00:00:04) trapsize 34221
+\i (00:00:05) trapsize 35426
+\i (00:00:05) trapsize 29102
+\i (00:00:05) trapsize 29102
 \i (00:00:06) generaledit 
-\i (00:00:07) open 
-\i (00:00:29) fillin "E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb\core.brd"
-\i (00:00:29) cd "E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb"
-\t (00:00:29) Opening existing design...
-\i (00:00:30) trapsize 21336
-\t (00:00:30)     Journal end - Sat Jun 04 23:09:45 2016
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 2635.756 138.780
+\i (00:00:10) trapsize 14551
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 2635.756 138.780
+\i (00:00:10) trapsize 7276
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 2635.757 138.780
+\i (00:00:10) trapsize 3638
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 2635.757 138.780
+\i (00:00:10) trapsize 1819
+\i (00:00:11) roam start
+\i (00:00:11) roam x -32
+\i (00:00:11) roam y 64
+\i (00:00:11) roam x -16
+\i (00:00:11) roam y 48
+\i (00:00:11) roam x -64
+\i (00:00:11) roam y 96
+\i (00:00:11) roam x -16
+\i (00:00:11) roam y 80
+\i (00:00:11) roam x -16
+\i (00:00:11) roam y 16
+\i (00:00:11) roam y 32
+\i (00:00:11) roam y 16
+\i (00:00:11) roam x -16
+\i (00:00:11) roam y 48
+\i (00:00:12) roam y 16
+\i (00:00:12) roam x -16
+\i (00:00:12) roam y 16
+\i (00:00:12) roam end
+\i (00:00:15) text edit 
+\i (00:00:16) pick grid 2536.078 118.407
+\t (00:00:16) last pick:  2536.000 118.000
+\i (00:00:19) setwindow pcb
+\i (00:00:19) roam start
+\i (00:00:19) roam x -64
+\i (00:00:19) roam x -48
+\i (00:00:19) roam x -80
+\i (00:00:19) roam x -16
+\i (00:00:19) roam x -48
+\i (00:00:19) roam x -48
+\i (00:00:19) roam x -48
+\i (00:00:19) roam y -16
+\i (00:00:19) roam x -32
+\i (00:00:19) roam end
+\i (00:00:25) setwindow pcb
+\i (00:00:25) pick 2536.078 118.407
+\t (00:00:25) Pick text to edit.
+\i (00:00:27) setwindow pcb
+\i (00:00:27) pick grid 2481.876 74.390
+\t (00:00:27) last pick:  2482.000 74.000
+\i (00:00:40) setwindow pcb
+\i (00:00:40) roam start
+\i (00:00:40) roam x 48
+\i (00:00:40) roam x 64
+\i (00:00:40) roam x 64
+\i (00:00:40) roam x 80
+\i (00:00:40) roam y -16
+\i (00:00:40) roam x 64
+\i (00:00:41) roam x 32
+\i (00:00:41) roam y -16
+\i (00:00:41) roam end
+\i (00:00:44) setwindow pcb
+\i (00:00:44) pick 2481.876 74.390
+\t (00:00:44) Pick text to edit.
+\i (00:00:45) setwindow pcb
+\i (00:00:45) pick grid 2664.129 112.222
+\t (00:00:45) last pick:  2664.000 112.000
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 2625.205 108.584
+\i (00:00:47) trapsize 3638
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 2625.205 108.585
+\i (00:00:47) trapsize 7276
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 2625.205 108.584
+\i (00:00:47) trapsize 14551
+\i (00:00:48) prepopup 2532.078 224.994
+\i (00:00:49) done 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) pick 2664.129 112.222
+\i (00:00:49) setwindow pcb
+\i (00:00:49) generaledit 
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 2505.886 146.418
+\i (00:00:49) trapsize 7276
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 2505.886 146.418
+\i (00:00:49) trapsize 3638
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 2485.515 188.616
+\i (00:00:56) trapsize 7276
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 2505.886 163.880
+\i (00:00:56) trapsize 14551
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in 2497.155 114.405
+\i (00:00:57) trapsize 7276
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in 2497.156 114.406
+\i (00:00:57) trapsize 3638
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in 2497.156 114.406
+\i (00:00:57) trapsize 1819
+\i (00:00:58) zoom out 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom out 2497.156 114.406
+\i (00:00:58) trapsize 3638
+\i (00:00:58) zoom out 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom out 2497.156 114.406
+\i (00:00:58) trapsize 7276
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 2497.156 114.407
+\i (00:00:58) trapsize 3638
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 2497.156 114.407
+\i (00:00:58) trapsize 1819
+\i (00:00:59) zoom out 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom out 2497.156 114.407
+\i (00:00:59) trapsize 3638
+\i (00:01:00) zoom out 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 2497.156 114.407
+\i (00:01:00) trapsize 7276
+\i (00:01:00) zoom out 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 2500.066 114.408
+\i (00:01:00) trapsize 14551
+\i (00:01:01) roam start
+\i (00:01:01) roam y -48
+\i (00:01:01) roam y -64
+\i (00:01:01) roam y -32
+\i (00:01:02) roam end
+\i (00:01:02) prepopup 1967.494 773.208
+\i (00:01:04) save 
+\i (00:01:05) fillin yes 
+\i (00:01:05) generaledit 
+\i (00:01:09) artwork 
+\i (00:01:12) setwindow form.film_control
+\i (00:01:12) FORM film_control select_all  
+\i (00:01:13) FORM film_control create  
+\t (00:01:13) Checking db records
+\t (00:01:13)     checking for orphans...
+\t (00:01:13)     Checked  18 percent
+\t (00:01:13)     Checked  37 percent
+\t (00:01:13)     Checked  56 percent
+\t (00:01:13)     Checked  74 percent
+\t (00:01:13)     Checked  93 percent
+   (00:01:13) Loading signal.cxt 
+\t (00:01:13)     Checked 100 percent
+\t (00:01:13) Done dbdoctor.
+\t (00:01:13) Starting Create artwork films...
+\w (00:01:14) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:01:15) Artwork generated with warnings.
+\i (00:01:17) setwindow text
+\i (00:01:17) close 
+\i (00:01:20) setwindow form.film_control
+\i (00:01:20) FORM film_control cancel  
+\i (00:01:20) setwindow pcb
+\i (00:01:20) generaledit 
+\i (00:01:22) exit 
+\e (00:01:22) Do you want to save the changes you made to E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd?
+\i (00:01:23) fillin yes 
+\t (00:01:24)     Journal end - Wed Jun 08 12:57:23 2016

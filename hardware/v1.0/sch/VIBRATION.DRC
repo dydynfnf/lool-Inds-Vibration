@@ -1,11 +1,11 @@
-Date and Time : 06/03/16 18:53:48
+Date and Time : 06/08/16 12:39:59
 
 --------------------------------------------------
 Checking Schematic:  TOP
 --------------------------------------------------
 Checking Electrical Rules 
 WARNING(ORCAP-1829): Possible pin type conflict GND  Power Connected to Bidirectional
-                    TOP, TOP  (2.00, 2.10) 
+                    TOP, TOP  (5.20, 2.10) 
 WARNING(ORCAP-1829): Possible pin type conflict A1,DIN  Bidirectional Connected to Power
                     TOP, TOP  (2.20, 2.00) 
 WARNING(ORCAP-1829): Possible pin type conflict A2,DIN  Bidirectional Connected to Power
@@ -29,65 +29,65 @@ Reporting Globals
     GND
 
 Reporting Net Names
-    ADDR8
-    N191873
-    N190697
-    N191928
-    DATA9
-    ADDR5
-    CLK
-    SYNC
-    ADDR[0..9]
-    DATA2
-    N203113
-    N182770
-    N178000
+    ADDR4
     DATA13
+    N203113
+    N176012
     DATA6
+    N190697
+    ADDR[0..9]
+    N178020
+    N190705
+    ADDR8
+    ADDR1
+    DATA3
+    N191963
+    N191873
+    DATA10
+    N191928
+    N175935
+    ADDR5
+    DATA14
+    DATA0
+    N175989
+    DATA7
+    N175947
+    N175923
+    N178004
+    ADDR9
     ADDR2
+    DATA4
+    N189201
+    N191883
+    DATA11
+    N191890
+    MODE
+    ADDR6
+    DATA15
+    DATA1
+    CLK
+    N191869
+    DATA8
+    N191748
+    N190693
+    DATA12
+    GND
+    N178000
+    ADDR3
+    DATA5
     N175907
     DATA[0..15]
-    ADDR9
-    N191883
-    DATA10
-    N190693
     N178024
-    ADDR6
-    N189451
-    MODE
-    DATA3
-    N189205
-    N191963
-    N176012
-    DATA14
-    DATA7
-    ADDR3
-    N175935
-    DATA0
-    N189201
-    DATA11
-    ADDR0
-    N178020
-    N178004
+    SYNC
     ADDR7
-    GND
-    N191869
-    DATA4
-    N175947
-    N191748
-    DATA15
-    DATA8
-    ADDR4
-    N175923
-    N175989
-    DATA1
-    N175911
+    ADDR0
+    DATA2
     N191932
-    N190705
-    DATA12
-    DATA5
-    ADDR1
-    N191890
+    N189205
+    N175911
+    DATA9
+    N182770
+    N189451
 
 Checking Misleading Tap connection
 
@@ -130,34 +130,34 @@ Reporting Globals
     VCC20
 
 Reporting Net Names
-    VREF
-    AOUTN
+    DIN
+    N99973
     N105162
-    MISO
-    AOUT
-    DRDY
-    N100071
     VDD3.3-ADC
-    N105338
+    AOUTN
     MODE
+    CLK
+    DRDY
+    N101702
+    N105338
+    VCC5-ADC
+    N100071
+    N100067
+    N99831
+    AOUTP
+    VCC-5
+    AOUT
+    GND
+    VCC5
+    MISO
+    VCC20
+    N99836
+    N105142
+    VREF
+    N105386
     AIN
     SYNC
     SCLK
-    CLK
-    VCC-5
-    GND
-    N99973
-    VCC20
-    N99831
-    N101702
-    N105142
-    VCC5-ADC
-    VCC5
-    AOUTP
-    DIN
-    N99836
-    N105386
-    N100067
 
 Checking Misleading Tap connection
 
@@ -200,34 +200,34 @@ Reporting Globals
     VCC20
 
 Reporting Net Names
-    VREF
-    AOUTN
+    DIN
+    N99973
     N105162
-    MISO
-    AOUT
-    DRDY
-    N100071
     VDD3.3-ADC
-    N105338
+    AOUTN
     MODE
+    CLK
+    DRDY
+    N101702
+    N105338
+    VCC5-ADC
+    N100071
+    N100067
+    N99831
+    AOUTP
+    VCC-5
+    AOUT
+    GND
+    VCC5
+    MISO
+    VCC20
+    N99836
+    N105142
+    VREF
+    N105386
     AIN
     SYNC
     SCLK
-    CLK
-    VCC-5
-    GND
-    N99973
-    VCC20
-    N99831
-    N101702
-    N105142
-    VCC5-ADC
-    VCC5
-    AOUTP
-    DIN
-    N99836
-    N105386
-    N100067
 
 Checking Misleading Tap connection
 
@@ -269,91 +269,91 @@ Reporting Globals
     VCC5-ADC
     VREF
     VDD3.3-ETH
-    VCC20
     VBAT
+    VCC20
 
 Reporting Net Names
-    N192348
-    N267070
-    N190188
-    N192408
-    N192436
-    N183155
-    N266479
-    N84190
-    N22091
-    N02346
-    VCC5-ADC
-    N192288
-    N183271
-    N183159
+    N02355
+    N128205
     N86146
+    N194775
+    VDD3.3-ETH
+    AIN4
+    N266185
+    N223793
+    N185302
     N185244
     N02335
-    VDD3.3-ETH
-    N190298
-    N211423
-    AIN4
-    VDD3.3
-    N02355
+    VREF
+    N192348
+    N86153
+    N84190
+    N02351
+    N128197
+    N02329
+    N267070
     N269157
-    N266772
-    N128205
-    N185264
-    N02371
-    N86184
-    VCC-5
-    N190200
-    N25711
-    N183039
-    AIN1
-    N194775
+    N183271
+    N223576
+    N22091
+    N192288
+    N14732
+    AIN3
+    N128201
+    N211423
+    N11014
     N09919
     N229185
-    N02340
-    N190112
-    5.6V
-    LED_G
-    N229005
-    N185302
-    N11014
-    N02329
-    N185268
-    N86139
-    VREF
-    N232895
-    VCC5
-    N229021
-    I-CTL
-    N266185
-    LED_Y
-    N223793
-    AIN2
-    N02366
-    N183167
-    N128201
-    N190192
-    N21405
-    N262944
-    N223576
-    N185294
-    AIN3
-    N02351
-    N86153
-    N21501
-    VDD3.3-ADC
-    VBAT
-    GND
-    N14732
-    N128197
-    LED_R
-    N192504
+    N266772
     N190056
-    VCC20
-    N267369
-    N192428
+    N02346
+    N183155
+    N183167
     N185298
+    N190192
+    VCC5-ADC
+    N229005
+    N266479
+    N192428
+    N183039
+    VCC5
+    N25711
+    N183159
+    N190188
+    N02366
+    VDD3.3-ADC
+    AIN1
+    N192504
+    5.6V
+    VCC20
+    N21405
+    N229021
+    N86139
+    N185264
+    VBAT
+    N190200
+    AIN2
+    GND
+    N185294
+    N86184
+    N21501
+    N185268
+    N190112
+    N192408
+    N267369
+    LED_R
+    I-CTL
+    N192436
+    VCC-5
+    N02371
+    LED_Y
+    N232895
+    N190298
+    N02340
+    N262944
+    VDD3.3
     N183079
+    LED_G
 
 Checking Misleading Tap connection
 
@@ -429,85 +429,85 @@ Reporting Globals
     GND
 
 Reporting Net Names
-    ADDR16
-    ADDR7
-    ADDR9
-    ADDR12
-    DATA10
-    ADDR15
-    JTDI
-    JTCK
-    DRDY1
-    OSC_OUT
-    DATA4
-    VDD3.3
-    BOOT1
-    ADDR10
-    NE3
-    KEY
-    JTDO
-    OE
-    OSC_IN
-    ADDR4
-    I_CTL
-    ADDR11
-    DATA7
-    ADDR17
-    N178917
-    LED_R
-    SYNC
-    ADDR3
-    MISO2
-    DATA2
-    DRDY2
-    VCAP_1
-    DATA0
-    DATA13
-    LED_G
-    DATA9
-    GND
-    DATA6
-    CLK
-    LED_Y
-    DATA1
+    ADDR13
+    WE
     ADDR18
-    RESET
-    DATA14
-    BOOT0
-    JTRST
-    MISO1
+    DATA8
+    ADDR1
+    JTCK
+    MODE
+    ADDR9
+    DATA2
+    W-RST
+    N178917
+    JTMS
+    VCAP_2
+    NE3
+    ADDR12
+    ADDR6
+    I_CTL
+    DATA4
     SCLK2
-    DATA11
-    ADDR0
+    VDD3.3
+    LED_Y
+    JTRST
+    DATA1
+    DATA5
+    BOOT1
+    N175698
     SPEED
     ADDR14
-    SCLK1
-    N66345
-    LB
-    MODE
-    JTMS
-    ADDR5
-    DATA[0..15]
-    WE
-    DATA12
-    ADDR13
-    N175603
-    N175698
-    DATA3
-    VCAP_2
-    ADDR1
-    ADDR8
-    N175561
     NE2
-    W-RST
-    DATA15
-    ADDR[0..9]
-    N175745
-    ADDR6
+    ADDR0
+    ADDR5
+    KEY
+    RESET
+    MISO1
+    DATA12
+    JTDI
+    N175561
+    JTDO
+    SYNC
+    ADDR7
+    VCAP_1
+    DATA7
+    LED_G
+    DATA9
+    ADDR16
+    SCLK1
+    DATA[0..15]
+    ADDR17
+    DRDY1
+    CLK
+    DATA11
+    MISO2
     ADDR2
+    ADDR11
+    ADDR15
+    N175603
+    GND
+    DATA10
+    ADDR8
     UB
-    DATA5
-    DATA8
+    DRDY2
+    N175745
+    DATA13
+    DATA3
+    DATA6
+    LED_R
+    N66345
+    DATA0
+    OSC_IN
+    ADDR[0..9]
+    BOOT0
+    ADDR4
+    OE
+    DATA14
+    ADDR3
+    ADDR10
+    OSC_OUT
+    LB
+    DATA15
 
 Checking Misleading Tap connection
 
@@ -569,61 +569,61 @@ Reporting Globals
     VDD3.3-ETH
 
 Reporting Net Names
-    N141324
-    N145831
+    ACT_LED
     N158706
-    ADDR4
-    ADDR9
-    ADDR2
-    VCCA
-    DATA6
-    1V8A
-    ADDR[0..9]
-    DATA[0..15]
-    GND
-    X1
-    ADDR3
-    DATA14
-    NE2
-    DATA4
-    N140989
-    DATA8
-    DATA1
-    ADDR0
-    ADDR1
-    RXIN
-    N145835
-    DATA2
+    W_RST
     N141281
-    VDD3.3-ETH
+    DATA0
+    ADDR2
+    N141537
+    N140989
+    DATA[0..15]
+    DATA10
+    DATA2
+    DATA14
     L_LINK
     N141270
-    N155515
-    DATA13
-    N141537
-    DATA3
-    W_RST
-    RXIP
-    1V8
-    ACT_LED
-    ADDR8
-    DATA9
-    ADDR6
-    DATA0
-    N142046
-    WE
-    TXOP
-    DATA11
-    DATA12
-    DATA10
-    ADDR7
-    DATA7
-    DATA5
-    TXON
     ADDR5
-    DATA15
     OE
+    ADDR0
+    DATA12
+    DATA3
+    GND
+    X1
+    N142046
+    DATA7
+    ADDR4
+    N145835
     X2
+    1V8A
+    VCCA
+    RXIN
+    1V8
+    N141324
+    DATA15
+    N155515
+    ADDR3
+    ADDR8
+    RXIP
+    ADDR6
+    DATA5
+    ADDR1
+    TXOP
+    DATA6
+    NE2
+    DATA9
+    DATA13
+    N145831
+    DATA4
+    DATA8
+    ADDR[0..9]
+    DATA11
+    VDD3.3-ETH
+    ADDR7
+    TXON
+    DATA1
+    WE
+    ADDR9
 
 Checking Misleading Tap connection
 
@@ -655,12 +655,12 @@ Reporting Globals
     VBAT
 
 Reporting Net Names
-    SPEED
     N136019
-    GND
+    SPEED
     N135939
-    VBAT
+    GND
     VDD3.3
+    VBAT
 
 Checking Misleading Tap connection
 
@@ -703,34 +703,34 @@ Reporting Globals
     VCC20
 
 Reporting Net Names
-    VREF
-    AOUTN
+    DIN
+    N99973
     N105162
-    MISO
-    AOUT
-    DRDY
-    N100071
     VDD3.3-ADC
-    N105338
+    AOUTN
     MODE
+    CLK
+    DRDY
+    N101702
+    N105338
+    VCC5-ADC
+    N100071
+    N100067
+    N99831
+    AOUTP
+    VCC-5
+    AOUT
+    GND
+    VCC5
+    MISO
+    VCC20
+    N99836
+    N105142
+    VREF
+    N105386
     AIN
     SYNC
     SCLK
-    CLK
-    VCC-5
-    GND
-    N99973
-    VCC20
-    N99831
-    N101702
-    N105142
-    VCC5-ADC
-    VCC5
-    AOUTP
-    DIN
-    N99836
-    N105386
-    N100067
 
 Checking Misleading Tap connection
 
@@ -773,34 +773,34 @@ Reporting Globals
     VCC20
 
 Reporting Net Names
-    VREF
-    AOUTN
+    DIN
+    N99973
     N105162
-    MISO
-    AOUT
-    DRDY
-    N100071
     VDD3.3-ADC
-    N105338
+    AOUTN
     MODE
+    CLK
+    DRDY
+    N101702
+    N105338
+    VCC5-ADC
+    N100071
+    N100067
+    N99831
+    AOUTP
+    VCC-5
+    AOUT
+    GND
+    VCC5
+    MISO
+    VCC20
+    N99836
+    N105142
+    VREF
+    N105386
     AIN
     SYNC
     SCLK
-    CLK
-    VCC-5
-    GND
-    N99973
-    VCC20
-    N99831
-    N101702
-    N105142
-    VCC5-ADC
-    VCC5
-    AOUTP
-    DIN
-    N99836
-    N105386
-    N100067
 
 Checking Misleading Tap connection
 

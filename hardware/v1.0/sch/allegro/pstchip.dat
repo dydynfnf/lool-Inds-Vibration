@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jun-03-2016 at 18:57:18}
+{ Using PSTWRITER 16.6.0 d001Jun-08-2016 at 12:40:22}
 primitive 'RES_0805_10R';
   pin
     '1':
@@ -405,7 +405,7 @@ primitive '1N5819_SOD123_CMMSH1-40';
     VALUE='CMMSH1-40';
   end_body;
 end_primitive;
-primitive '1N5819_LL34_1N457';
+primitive '1N5819_1N457-DIP_1N457';
   pin
     '2':
       PIN_NUMBER='(2)';
@@ -416,7 +416,7 @@ primitive '1N5819_LL34_1N457';
   end_pin;
   body
     PART_NAME='1n5819';
-    JEDEC_TYPE='LL34';
+    JEDEC_TYPE='1N457-DIP';
     VALUE='1N457';
   end_body;
 end_primitive;
@@ -485,22 +485,22 @@ primitive 'RJ45_RJ45_RJ45';
     'TD-':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
-    'TCT':
+    'RD+':
       PIN_NUMBER='(3)';
       PINUSE='UNSPEC';
-    'NC1':
+    'TCT':
       PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
-    'NC2':
+    'RCT':
       PIN_NUMBER='(5)';
       PINUSE='UNSPEC';
-    'RCT':
+    'RD-':
       PIN_NUMBER='(6)';
       PINUSE='UNSPEC';
-    'RD+':
+    'NC':
       PIN_NUMBER='(7)';
       PINUSE='UNSPEC';
-    'RD-':
+    'GND':
       PIN_NUMBER='(8)';
       PINUSE='UNSPEC';
     'GRN+':
@@ -1996,7 +1996,7 @@ primitive 'ADA4898-2_ADA4898-2-SOIC8_ADA48';
     VALUE='ADA4898-2';
   end_body;
 end_primitive;
-primitive 'THS4131DGN_THS4131DGN-SOP8_THS4';
+primitive 'THS4131IDGN_THS4131IDGN-SOP8_TH';
   pin
     'VIN-':
       PIN_NUMBER='(1)';
@@ -2027,9 +2027,9 @@ primitive 'THS4131DGN_THS4131DGN-SOP8_THS4';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='THS4131DGN';
-    JEDEC_TYPE='THS4131DGN-SOP8';
-    VALUE='THS4131DGN';
+    PART_NAME='THS4131IDGN';
+    JEDEC_TYPE='THS4131IDGN-SOP8';
+    VALUE='THS4131IDGN';
   end_body;
 end_primitive;
 primitive 'MP1584_MP1584-SOIC8_MP1584';
