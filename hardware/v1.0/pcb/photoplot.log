@@ -4,10 +4,15 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Wed Jun 08 12:57:14 2016                      )
+(    Date/Time        : Wed Jun 08 16:07:23 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
@@ -164,7 +169,7 @@ Results from parameter file ...
   SQUARE     0.05906                     0.000 NO     DARK 
   SQUARE     0.07087                     0.000 NO     DARK 
 
-     GND created.
+     GND created with warnings
 
 
 ================================================================
@@ -324,7 +329,7 @@ Results from parameter file ...
   OBLONG     0.04921     x 0.02165      90.000 NO     DARK 
   OBLONG     0.05315     x 0.01772      90.000 NO     DARK 
 
-     SOLDERMASK_TOP created.
+     SOLDERMASK_TOP created with warnings
 
 
 ================================================================
@@ -362,7 +367,7 @@ Results from parameter file ...
   RECTANGLE  0.03543     x 0.02126       0.000 NO     DARK 
   RECTANGLE  0.03543     x 0.02126      90.000 NO     DARK 
 
-     SOLDERMASK_BOTTOM created.
+     SOLDERMASK_BOTTOM created with warnings
 
 
 ================================================================
@@ -421,7 +426,7 @@ Results from parameter file ...
   OBLONG     0.04921     x 0.02165      90.000 NO     DARK 
   OBLONG     0.05315     x 0.01772      90.000 NO     DARK 
 
-     PASTEMASK_TOP created.
+     PASTEMASK_TOP created with warnings
 
 
 ================================================================
@@ -449,7 +454,7 @@ Results from parameter file ...
   RECTANGLE  0.03543     x 0.02126       0.000 NO     DARK 
   RECTANGLE  0.03543     x 0.02126      90.000 NO     DARK 
 
-     PASTEMASK_BOTTOM created.
+     PASTEMASK_BOTTOM created with warnings
 
 
 ================================================================
@@ -482,7 +487,7 @@ Results from parameter file ...
   CIRCLE     0.01200                                  DARK 
   CIRCLE     0.01968                                  DARK 
 
-     SILKSCREEN_TOP created.
+     SILKSCREEN_TOP created with warnings
 
 
 ================================================================
@@ -509,7 +514,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.00394                                  DARK 
 
-     SILKSCREEN_BOTTOM created.
+     SILKSCREEN_BOTTOM created with warnings
 
 
 ================================================================
@@ -554,15 +559,15 @@ Results from parameter file ...
 ------------------------------------------------------
  SUMMARY:
         TOP created with warnings
-        GND created.
+        GND created with warnings
         POWER created with warnings
         BOTTOM created with warnings
-        SOLDERMASK_TOP created.
-        SOLDERMASK_BOTTOM created.
-        PASTEMASK_TOP created.
-        PASTEMASK_BOTTOM created.
-        SILKSCREEN_TOP created.
-        SILKSCREEN_BOTTOM created.
+        SOLDERMASK_TOP created with warnings
+        SOLDERMASK_BOTTOM created with warnings
+        PASTEMASK_TOP created with warnings
+        PASTEMASK_BOTTOM created with warnings
+        SILKSCREEN_TOP created with warnings
+        SILKSCREEN_BOTTOM created with warnings
         DRILL created with warnings
 
  ARTWORK had warnings

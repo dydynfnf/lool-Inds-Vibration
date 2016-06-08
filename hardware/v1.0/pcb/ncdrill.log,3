@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Tue Jun 07 22:51:18 2016                      )
+(    Date/Time        : Wed Jun 08 16:06:25 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -49,18 +49,19 @@ Drill files being output to directory 'E:/material/lool Inds Vibration/hardware/
            Num     Size      +/- Tolerance     Plating   Quantity
 
             1.  12.0000    0.0000/  0.0000      PLATED        820
-            2.  35.4330    0.0000/  0.0000      PLATED          6
-            3.  39.3700    0.0000/  0.0000      PLATED         18
-            4.  41.3390    0.0000/  0.0000      PLATED         20
-            5.  55.1180    0.0000/  0.0000      PLATED         20
-            6.  59.0550    0.0000/  0.0000      PLATED          2
-            7.  66.9290    0.0000/  0.0000      PLATED          3
-            8. 125.9840    0.0000/  0.0000      PLATED          4
-            9.  33.4650    0.0000/  0.0000  NON_PLATED          2
-           10.  39.3700    0.0000/  0.0000  NON_PLATED          4
-           11. 137.7950    0.0000/  0.0000  NON_PLATED          2
+            2.  23.6220    0.0000/  0.0000      PLATED          8
+            3.  35.4330    0.0000/  0.0000      PLATED          6
+            4.  39.3700    0.0000/  0.0000      PLATED         18
+            5.  41.3390    0.0000/  0.0000      PLATED         20
+            6.  55.1180    0.0000/  0.0000      PLATED         20
+            7.  59.0550    0.0000/  0.0000      PLATED          2
+            8.  66.9290    0.0000/  0.0000      PLATED          3
+            9. 125.9840    0.0000/  0.0000      PLATED          4
+           10.  33.4650    0.0000/  0.0000  NON_PLATED          2
+           11.  39.3700    0.0000/  0.0000  NON_PLATED          4
+           12. 137.7950    0.0000/  0.0000  NON_PLATED          2
 
-     ---- Total holes:                                        901
+     ---- Total holes:                                        909
 
-     ---- Total head travel:              13.22 feet (4.03 meters)
+     ---- Total head travel:              13.63 feet (4.16 meters)
 

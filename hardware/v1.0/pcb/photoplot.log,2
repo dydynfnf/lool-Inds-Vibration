@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Tue Jun 07 22:53:11 2016                      )
+(    Date/Time        : Wed Jun 08 12:57:14 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -112,7 +112,6 @@ Results from parameter file ...
   RECTANGLE  0.06102     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.06299     x 0.06299      90.000 NO     DARK 
   RECTANGLE  0.06496     x 0.02559       0.000 NO     DARK 
-  RECTANGLE  0.06496     x 0.04331      90.000 NO     DARK 
   RECTANGLE  0.06890     x 0.03937      90.000 NO     DARK 
   RECTANGLE  0.07283     x 0.06102      90.000 NO     DARK 
   RECTANGLE  0.07283     x 0.06496       0.000 NO     DARK 
@@ -155,6 +154,7 @@ Results from parameter file ...
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.01500                                  DARK 
   CIRCLE     0.01600                                  DARK 
+  CIRCLE     0.03543                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.06299                                  DARK 
   CIRCLE     0.07087                                  DARK 
@@ -196,6 +196,7 @@ Results from parameter file ...
   CIRCLE     0.00394                                  DARK 
   CIRCLE     0.01500                                  DARK 
   CIRCLE     0.01600                                  DARK 
+  CIRCLE     0.03543                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.06299                                  DARK 
   CIRCLE     0.07087                                  DARK 
@@ -242,6 +243,7 @@ Results from parameter file ...
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.01500                                  DARK 
   CIRCLE     0.01600                                  DARK 
+  CIRCLE     0.03543                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.06299                                  DARK 
   CIRCLE     0.07087                                  DARK 
@@ -309,7 +311,6 @@ Results from parameter file ...
   RECTANGLE  0.06102     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.06299     x 0.06299      90.000 NO     DARK 
   RECTANGLE  0.06496     x 0.02559       0.000 NO     DARK 
-  RECTANGLE  0.06496     x 0.04331      90.000 NO     DARK 
   RECTANGLE  0.06890     x 0.03937      90.000 NO     DARK 
   RECTANGLE  0.07283     x 0.06102      90.000 NO     DARK 
   RECTANGLE  0.07283     x 0.06496       0.000 NO     DARK 
@@ -348,6 +349,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.03543                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.06299                                  DARK 
   CIRCLE     0.07087                                  DARK 
@@ -408,7 +410,6 @@ Results from parameter file ...
   RECTANGLE  0.06102     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.06299     x 0.06299      90.000 NO     DARK 
   RECTANGLE  0.06496     x 0.02559       0.000 NO     DARK 
-  RECTANGLE  0.06496     x 0.04331      90.000 NO     DARK 
   RECTANGLE  0.06890     x 0.03937      90.000 NO     DARK 
   RECTANGLE  0.07677     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.08661     x 0.03740       0.000 NO     DARK 
@@ -527,7 +528,7 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: 0 width line found at (5500.000 180.000)
+    WARNING: 0 width line found at (5500.000 -70.000)
            ... using undefined line width of 1.000
 
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
