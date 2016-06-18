@@ -1,0 +1,18 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unused Constraint Objects Purged                                 )
+(                                                                     )
+(    Drawing          : vibration.brd                                 )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Mon May 02 17:13:03 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+ NET SPACING CONSTRAINTS CSET deleted: POWER
+ NET SPACING CONSTRAINTS CSET deleted: AN
+
+
+Total objects purged:   2

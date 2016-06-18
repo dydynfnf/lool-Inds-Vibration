@@ -1,0 +1,16 @@
+! Log file started at 13:46:27 5/26/2016 
+INFO (SPGRE-16): Strategy file Date: Oct-28-2015
+INFO (SPGRE-16): Strategy file Version: 16.6
+WARNING (SPGRE-15): Constraint Set AN: Min Neck Width on layer BOTTOM is 0. Changing to Min Line Width of 12.000
+WARNING (SPGRE-15): Constraint Set AN: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set AN: Min Neck Width on layer TOP is 0. Changing to Min Line Width of 12.000
+WARNING (SPGRE-15): Constraint Set AN: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Min Neck Width on layer BOTTOM is 0. Changing to Min Line Width of 8.000
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Min Neck Width on layer TOP is 0. Changing to Min Line Width of 8.000
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set POWER: Min Neck Width on layer BOTTOM is 0. Changing to Min Line Width of 15.000
+WARNING (SPGRE-15): Constraint Set POWER: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set POWER: Min Neck Width on layer TOP is 0. Changing to Min Line Width of 15.000
+WARNING (SPGRE-15): Constraint Set POWER: Neck Gap on layer TOP is 0. Primary Gap is 0.
+INFO (SPGRE-13): Autobundle completed successfully.

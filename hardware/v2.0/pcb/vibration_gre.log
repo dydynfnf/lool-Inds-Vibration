@@ -1,0 +1,25 @@
+! Log file started at 14:14:46 5/26/2016 
+INFO (SPGRE-16): Strategy file Date: Oct-28-2015
+INFO (SPGRE-16): Strategy file Version: 16.6
+WARNING (SPGRE-15): Constraint Set AN: Min Neck Width on layer BOTTOM is 0. Changing to Min Line Width of 12.000
+WARNING (SPGRE-15): Constraint Set AN: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set AN: Min Neck Width on layer TOP is 0. Changing to Min Line Width of 12.000
+WARNING (SPGRE-15): Constraint Set AN: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Min Neck Width on layer BOTTOM is 0. Changing to Min Line Width of 8.000
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Min Neck Width on layer TOP is 0. Changing to Min Line Width of 8.000
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set POWER: Min Neck Width on layer BOTTOM is 0. Changing to Min Line Width of 15.000
+WARNING (SPGRE-15): Constraint Set POWER: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set POWER: Min Neck Width on layer TOP is 0. Changing to Min Line Width of 15.000
+WARNING (SPGRE-15): Constraint Set POWER: Neck Gap on layer TOP is 0. Primary Gap is 0.
+INFO (SPGRE-16): Status: Routing initialization completed successfully
+
+INFO (SPGRE-16): Sequence was successful, bundles match at both ends
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status: Breakout completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 9
+INFO (SPGRE-16):   Routed length of scheduled rats = 19130.457 MIL
+INFO (SPGRE-16):   Execution time = 1 seconds
+INFO (SPGRE-16):   Memory currently in use = 66713 KB
+INFO (SPGRE-16):  

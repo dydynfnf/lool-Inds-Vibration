@@ -1,0 +1,35 @@
+\t (00:00:00) sigxp 16.6-2015 S065 (v16-6-112FG) Windows 32
+\t (00:00:00)     Journal start - Tue May 24 14:09:15 2016
+\t (00:00:00)         Host=PSAI-PC User=psai Pid=9220 CPUs=4
+\t (00:00:00) CmdLine= sigxp -spawn -p E:\material\lool Inds Vibration\hardware\v1.0\pcb C:/Users/psai/AppData/Local/Temp/#Taaaacq08424.tmp
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 1189
+\i (00:00:00) trapsize 1150
+\i (00:00:00) trapsize 1196
+\i (00:00:00) trapsize 1267
+\i (00:00:00) trapsize 1267
+\i (00:00:00) trapsize 6634
+\t (00:00:01) Starting new design...
+\i (00:00:01) trapsize 6634
+\i (00:00:01) trapsize 6634
+\i (00:00:01) trapsize 6634
+   (00:00:01) Loading signal.cxt 
+   (00:00:01) Loading sigxp.cxt 
+   (00:00:01) Loading sxutil.cxt 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:01) Loading fputil.cxt 
+   (00:00:01) Already Placed Circuit
+\i (00:00:01) trapsize 62
+   (00:00:01) Loading skillExt.cxt 
+\i (00:00:01) sigxp background 
+\i (00:00:04) sxconstraints 
+\i (00:00:05) setwindow form.sxconstraint
+\i (00:00:05) FORM sxconstraint impedance  
+\i (00:00:05) FORM sxconstraint rel_prop_delay  
+\i (00:00:12) FORM sxconstraint mdrules 'CLK_M1       U10.43     U3.12      LOCAL               10.000 mil' 
+\i (00:00:14) FORM sxconstraint cancel  
+\i (00:00:14) setwindow sigxp
+\i (00:00:14) sigxp background 
+\i (00:00:15) exit 
+\t (00:00:15)     Journal end - Tue May 24 14:09:31 2016

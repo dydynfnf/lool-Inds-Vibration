@@ -1,0 +1,408 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : vibration.brd                                 )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Mon May 02 00:04:54 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for the top of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.000
+Max Text displacement is 100.000
+Min Line Length is 0.000
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : None
+ Component Value      : None
+ Device Type          : None
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : None
+ User Part Number     : None
+
+Text string 'Q1' is not at a suitable location
+(location: 3585.276, 3492.126)
+Text string 'P2' is not at a suitable location
+(location: 2250.000, 650.472)
+Text string 'L2' is not at a suitable location
+(location: 1130.472, 819.213)
+Text string 'L1' is not at a suitable location
+(location: 210.472, 819.213)
+Text string 'O2' is not at a suitable location
+(location: 1666.315, 2268.630)
+Text string 'O1' is not at a suitable location
+(location: 109.685, 1069.370)
+Text string 'U14' is not at a suitable location
+(location: 2926.614, 3041.142)
+Text string 'U17' is not at a suitable location
+(location: 2226.614, 3041.142)
+Text string 'U4' is not at a suitable location
+(location: 1526.614, 3041.142)
+Text string 'U7' is not at a suitable location
+(location: 826.614, 3041.142)
+Text string 'U13' is not at a suitable location
+(location: 2936.299, 3334.528)
+Text string 'U16' is not at a suitable location
+(location: 2236.299, 3334.528)
+Text string 'U2' is not at a suitable location
+(location: 1536.299, 3334.528)
+Text string 'U6' is not at a suitable location
+(location: 836.299, 3334.528)
+Text string 'U19' is not at a suitable location
+(location: 3411.142, 3513.386)
+Text string 'C152' is not at a suitable location
+(location: 3352.913, 3310.472)
+Text string 'C151' is not at a suitable location
+(location: 3362.913, 3670.472)
+Text string 'U21' is not at a suitable location
+(location: 3680.472, 2090.000)
+Text string 'C192' is not at a suitable location
+(location: 2660.000, 2260.472)
+Text string 'C163' is not at a suitable location
+(location: 3128.661, 3420.472)
+Text string 'C94' is not at a suitable location
+(location: 2878.661, 3420.472)
+Text string 'BEAD1' is not at a suitable location
+(location: 1414.661, 2298.472)
+Text string 'C52' is not at a suitable location
+(location: 300.472, 821.339)
+Text string 'C51' is not at a suitable location
+(location: 179.528, 818.661)
+Text string 'C116' is not at a suitable location
+(location: 2978.661, 3130.472)
+Text string 'C115' is not at a suitable location
+(location: 3220.472, 2711.339)
+Text string 'C109' is not at a suitable location
+(location: 2848.661, 2820.472)
+Text string 'C103' is not at a suitable location
+(location: 3168.661, 2800.472)
+Text string 'C100' is not at a suitable location
+(location: 3001.339, 2879.528)
+Text string 'C139' is not at a suitable location
+(location: 2278.661, 3130.472)
+Text string 'C138' is not at a suitable location
+(location: 2520.472, 2711.339)
+Text string 'C132' is not at a suitable location
+(location: 2148.661, 2820.472)
+Text string 'C126' is not at a suitable location
+(location: 2468.661, 2800.472)
+Text string 'C123' is not at a suitable location
+(location: 2301.339, 2879.528)
+Text string 'C117' is not at a suitable location
+(location: 2178.661, 3420.472)
+Text string 'C24' is not at a suitable location
+(location: 1578.661, 3130.472)
+Text string 'C21' is not at a suitable location
+(location: 1448.661, 2820.472)
+Text string 'C20' is not at a suitable location
+(location: 1820.472, 2711.339)
+Text string 'C13' is not at a suitable location
+(location: 1768.661, 2800.472)
+Text string 'C9' is not at a suitable location
+(location: 1601.339, 2879.528)
+Text string 'C2' is not at a suitable location
+(location: 1478.661, 3420.472)
+Text string 'C46' is not at a suitable location
+(location: 1120.472, 2711.339)
+Text string 'C34' is not at a suitable location
+(location: 1068.661, 2800.472)
+Text string 'C47' is not at a suitable location
+(location: 901.339, 2879.528)
+Text string 'C40' is not at a suitable location
+(location: 748.661, 2820.472)
+Text string 'C31' is not at a suitable location
+(location: 878.661, 3130.472)
+Text string 'C25' is not at a suitable location
+(location: 778.661, 3420.472)
+Text string 'C193' is not at a suitable location
+(location: 1028.661, 3420.472)
+Text string 'C186' is not at a suitable location
+(location: 1728.661, 3420.472)
+Text string 'C166' is not at a suitable location
+(location: 2428.661, 3420.472)
+Text string 'C156' is not at a suitable location
+(location: 3708.661, 2250.472)
+Text string 'C202' is not at a suitable location
+(location: 2900.000, 2260.472)
+Text string 'C189' is not at a suitable location
+(location: 2640.000, 1890.472)
+Text string 'C184' is not at a suitable location
+(location: 3320.000, 2320.472)
+Text string 'C173' is not at a suitable location
+(location: 3100.000, 2320.472)
+Text string 'C143' is not at a suitable location
+(location: 3540.000, 2320.472)
+Text string 'U22' is not at a suitable location
+(location: 3721.142, 1033.386)
+Text string 'U33' is not at a suitable location
+(location: 2629.528, 1030.000)
+Text string 'U26' is not at a suitable location
+(location: 2989.528, 1030.000)
+Text string 'U18' is not at a suitable location
+(location: 3385.000, 1075.000)
+Text string 'R97' is not at a suitable location
+(location: 3140.472, 3589.921)
+Text string 'C164' is not at a suitable location
+(location: 2999.921, 3529.528)
+Text string 'C102' is not at a suitable location
+(location: 3000.079, 3410.472)
+Text string 'R115' is not at a suitable location
+(location: 3650.472, 3569.921)
+Text string 'C205' is not at a suitable location
+(location: 3260.472, 3569.921)
+Text string 'C204' is not at a suitable location
+(location: 3509.528, 3460.079)
+Text string 'R51' is not at a suitable location
+(location: 1625.921, 2197.528)
+Text string 'C82' is not at a suitable location
+(location: 1545.528, 2188.079)
+Text string 'C77' is not at a suitable location
+(location: 1545.528, 2288.079)
+Text string 'C73' is not at a suitable location
+(location: 1436.079, 2138.472)
+Text string 'R36' is not at a suitable location
+(location: 470.472, 839.921)
+Text string 'C71' is not at a suitable location
+(location: 920.472, 839.921)
+Text string 'C69' is not at a suitable location
+(location: 520.472, 839.921)
+Text string 'R35' is not at a suitable location
+(location: 230.472, 1099.921)
+Text string 'C70' is not at a suitable location
+(location: 770.472, 839.921)
+Text string 'C61' is not at a suitable location
+(location: 670.472, 839.921)
+Text string 'C59' is not at a suitable location
+(location: 720.472, 839.921)
+Text string 'C58' is not at a suitable location
+(location: 779.528, 1740.079)
+Text string 'C57' is not at a suitable location
+(location: 970.472, 840.000)
+Text string 'C50' is not at a suitable location
+(location: 109.528, 840.079)
+Text string 'C49' is not at a suitable location
+(location: 140.079, 1150.472)
+Text string 'C48' is not at a suitable location
+(location: 140.079, 930.472)
+Text string 'R69' is not at a suitable location
+(location: 3120.472, 2939.921)
+Text string 'R65' is not at a suitable location
+(location: 3070.472, 2939.921)
+Text string 'R64' is not at a suitable location
+(location: 3209.528, 3350.079)
+Text string 'C114' is not at a suitable location
+(location: 2860.079, 2890.472)
+Text string 'C113' is not at a suitable location
+(location: 2860.079, 3140.472)
+Text string 'C112' is not at a suitable location
+(location: 3070.472, 3039.921)
+Text string 'C110' is not at a suitable location
+(location: 3209.528, 3250.079)
+Text string 'C108' is not at a suitable location
+(location: 2989.921, 2949.528)
+Text string 'C107' is not at a suitable location
+(location: 2729.528, 3250.079)
+Text string 'C106' is not at a suitable location
+(location: 3149.921, 2729.528)
+Text string 'C101' is not at a suitable location
+(location: 2859.921, 3139.528)
+Text string 'C98' is not at a suitable location
+(location: 3150.079, 2720.472)
+Text string 'C97' is not at a suitable location
+(location: 3100.472, 3349.921)
+Text string 'C96' is not at a suitable location
+(location: 2730.472, 3349.921)
+Text string 'C95' is not at a suitable location
+(location: 2720.472, 3039.921)
+Text string 'R81' is not at a suitable location
+(location: 2420.472, 2939.921)
+Text string 'R77' is not at a suitable location
+(location: 2370.472, 2939.921)
+Text string 'R74' is not at a suitable location
+(location: 2020.079, 3420.472)
+Text string 'C137' is not at a suitable location
+(location: 2160.079, 2890.472)
+Text string 'C136' is not at a suitable location
+(location: 2160.079, 3140.472)
+Text string 'C135' is not at a suitable location
+(location: 2370.472, 3039.921)
+Text string 'C133' is not at a suitable location
+(location: 2509.528, 3250.079)
+Text string 'C131' is not at a suitable location
+(location: 2289.921, 2949.528)
+Text string 'C130' is not at a suitable location
+(location: 2029.528, 3250.079)
+Text string 'C129' is not at a suitable location
+(location: 2449.921, 2729.528)
+Text string 'C125' is not at a suitable location
+(location: 2300.079, 3410.472)
+Text string 'C124' is not at a suitable location
+(location: 2159.921, 3139.528)
+Text string 'C122' is not at a suitable location
+(location: 2040.472, 2739.921)
+Text string 'C121' is not at a suitable location
+(location: 2450.079, 2720.472)
+Text string 'C120' is not at a suitable location
+(location: 2400.472, 3349.921)
+Text string 'C119' is not at a suitable location
+(location: 2030.472, 3349.921)
+Text string 'C118' is not at a suitable location
+(location: 2020.472, 3039.921)
+Text string 'R22' is not at a suitable location
+(location: 1670.472, 2939.921)
+Text string 'R19' is not at a suitable location
+(location: 1720.472, 2939.921)
+Text string 'C23' is not at a suitable location
+(location: 1460.079, 3140.472)
+Text string 'C22' is not at a suitable location
+(location: 1460.079, 2890.472)
+Text string 'C19' is not at a suitable location
+(location: 1749.921, 2729.528)
+Text string 'C16' is not at a suitable location
+(location: 1459.921, 3139.528)
+Text string 'C15' is not at a suitable location
+(location: 1670.472, 3039.921)
+Text string 'C14' is not at a suitable location
+(location: 1320.472, 3039.921)
+Text string 'C12' is not at a suitable location
+(location: 1750.079, 2720.472)
+Text string 'C10' is not at a suitable location
+(location: 1589.921, 2949.528)
+Text string 'C6' is not at a suitable location
+(location: 1700.472, 3349.921)
+Text string 'C4' is not at a suitable location
+(location: 1330.472, 3349.921)
+Text string 'C3' is not at a suitable location
+(location: 1600.079, 3410.472)
+Text string 'C37' is not at a suitable location
+(location: 1049.921, 2729.528)
+Text string 'C29' is not at a suitable location
+(location: 1050.079, 2720.472)
+Text string 'R31' is not at a suitable location
+(location: 1020.472, 2939.921)
+Text string 'R27' is not at a suitable location
+(location: 970.472, 2939.921)
+Text string 'C45' is not at a suitable location
+(location: 760.079, 2890.472)
+Text string 'C43' is not at a suitable location
+(location: 970.472, 3039.921)
+Text string 'C39' is not at a suitable location
+(location: 889.921, 2949.528)
+Text string 'C32' is not at a suitable location
+(location: 759.921, 3139.528)
+Text string 'C26' is not at a suitable location
+(location: 620.472, 3039.921)
+Text string 'C44' is not at a suitable location
+(location: 760.079, 3140.472)
+Text string 'C41' is not at a suitable location
+(location: 1109.528, 3250.079)
+Text string 'C38' is not at a suitable location
+(location: 629.528, 3250.079)
+Text string 'C33' is not at a suitable location
+(location: 900.079, 3410.472)
+Text string 'C28' is not at a suitable location
+(location: 1000.472, 3349.921)
+Text string 'C27' is not at a suitable location
+(location: 630.472, 3349.921)
+Text string 'R107' is not at a suitable location
+(location: 3359.528, 2980.079)
+Text string 'R105' is not at a suitable location
+(location: 3650.472, 2879.921)
+Text string 'R104' is not at a suitable location
+(location: 3459.921, 3249.528)
+Text string 'C178' is not at a suitable location
+(location: 3560.079, 3190.472)
+Text string 'C165' is not at a suitable location
+(location: 3359.921, 3109.528)
+Text string 'R106' is not at a suitable location
+(location: 1740.472, 3589.921)
+Text string 'C194' is not at a suitable location
+(location: 899.921, 3529.528)
+Text string 'C187' is not at a suitable location
+(location: 1599.921, 3529.528)
+Text string 'C167' is not at a suitable location
+(location: 2299.921, 3529.528)
+Text string 'R108' is not at a suitable location
+(location: 1040.472, 3589.921)
+Text string 'R98' is not at a suitable location
+(location: 2440.472, 3589.921)
+Text string 'R90' is not at a suitable location
+(location: 3260.472, 3459.921)
+Text string 'C153' is not at a suitable location
+(location: 3700.079, 2180.472)
+Text string 'C150' is not at a suitable location
+(location: 3780.472, 2089.921)
+Text string 'C203' is not at a suitable location
+(location: 2760.000, 1890.472)
+Text string 'C201' is not at a suitable location
+(location: 2780.000, 2250.472)
+Text string 'C183' is not at a suitable location
+(location: 3340.000, 2250.472)
+Text string 'C182' is not at a suitable location
+(location: 3240.000, 2250.472)
+Text string 'C180' is not at a suitable location
+(location: 3339.921, 1949.528)
+Text string 'C172' is not at a suitable location
+(location: 3120.000, 2250.472)
+Text string 'C171' is not at a suitable location
+(location: 3020.000, 2250.472)
+Text string 'C170' is not at a suitable location
+(location: 3020.079, 1890.472)
+Text string 'C169' is not at a suitable location
+(location: 3119.921, 1949.528)
+Text string 'C142' is not at a suitable location
+(location: 3560.000, 2250.472)
+Text string 'C141' is not at a suitable location
+(location: 3460.000, 2250.472)
+Text string 'C140' is not at a suitable location
+(location: 3559.921, 1949.528)
+Text string 'R94' is not at a suitable location
+(location: 3659.921, 889.528)
+Text string 'C162' is not at a suitable location
+(location: 3820.000, 1070.472)
+Text string 'C160' is not at a suitable location
+(location: 3780.079, 830.472)
+Text string 'C159' is not at a suitable location
+(location: 3820.000, 949.528)
+Text string 'R112' is not at a suitable location
+(location: 2609.528, 1330.000)
+Text string 'R111' is not at a suitable location
+(location: 2550.000, 830.472)
+Text string 'C198' is not at a suitable location
+(location: 2519.921, 1859.528)
+Text string 'C195' is not at a suitable location
+(location: 2609.528, 1230.000)
+Text string 'R102' is not at a suitable location
+(location: 2969.528, 1330.000)
+Text string 'R101' is not at a suitable location
+(location: 2910.000, 830.472)
+Text string 'C176' is not at a suitable location
+(location: 2999.921, 1859.528)
+Text string 'C168' is not at a suitable location
+(location: 2969.528, 1230.000)
+Text string 'R88' is not at a suitable location
+(location: 3329.528, 1330.000)
+Text string 'R87' is not at a suitable location
+(location: 3270.000, 830.472)
+Text string 'C148' is not at a suitable location
+(location: 3410.000, 1730.472)
+Text string 'C147' is not at a suitable location
+(location: 3410.079, 830.472)
+Text string 'C144' is not at a suitable location
+(location: 3329.528, 1230.000)
+Text string 'C179' is not at a suitable location
+(location: 3566.457, 3149.528)
+Text string 'C161' is not at a suitable location
+(location: 3730.000, 789.528)
+
+Total Failures: 187
+
+Log End
+

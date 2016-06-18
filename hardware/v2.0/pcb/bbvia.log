@@ -1,0 +1,27 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Automatic B/B Via Creation                               )
+(                                                                     )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Mon May 02 15:02:39 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Via to be copied: Testpoint
+Start subclass: TOP
+End subclass: POWER
+Old drawing: E:/material/lool Inds Vibration/hardware/v1.0/pcb/#Taaaaan07480.tmp
+New drawing: E:/material/lool Inds Vibration/hardware/v1.0/pcb/#Taaaaan07480.tmp
+Vias added to physical constraint set: DEFAULT
+Only Create Vias From External to Internal Layers
+
+*ERROR: TESTPOINT is not defined on layer GND. B/B via TOP-GND cannot be created.
+*ERROR: TESTPOINT is not defined on layer GND. B/B via TOP-POWER cannot be created.
+
+Number of padstacks created 0
+Number of existing padstacks that did not need to be modified: 0
+Number of existing padstacks that were modified: 0
+Number of existing padstacks that could not be modified: 0
+
+bbvia is complete.

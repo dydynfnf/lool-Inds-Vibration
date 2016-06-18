@@ -1,0 +1,136 @@
+\t (00:00:17) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:17)     Journal start - Mon Jun 13 20:10:19 2016
+\t (00:00:17)         Host=PSAI-PC User=psai Pid=6732 CPUs=4
+\t (00:00:17) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:17) 
+\t (00:00:19) Opening existing design...
+\d (00:00:19) Design opened: E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd
+\i (00:00:19) trapsize 41753
+\i (00:00:19) trapsize 40536
+\i (00:00:19) trapsize 41963
+\i (00:00:20) trapsize 34472
+\i (00:00:20) trapsize 34472
+\i (00:00:21) generaledit 
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in -6.981 2195.795
+\i (00:00:21) trapsize 17236
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in -6.980 2195.795
+\i (00:00:21) trapsize 8618
+\i (00:00:23) prepopup -125.909 2780.099
+\i (00:00:25) shape select 
+\i (00:00:29) pick grid 29.215 2300.936
+\t (00:00:29) last pick:  30.000 2300.000
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out -74.201 2383.669
+\i (00:00:32) trapsize 17236
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out -74.202 2383.669
+\i (00:00:32) trapsize 34472
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 3903.890 2604.292
+\i (00:00:34) trapsize 17236
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 3903.890 2604.292
+\i (00:00:34) trapsize 8618
+\i (00:00:37) shape select 
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 3845.287 2578.438
+\i (00:00:43) trapsize 17236
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 3848.734 2578.439
+\i (00:00:43) trapsize 34472
+\i (00:00:45) subclass -- 
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 3028.295 2619.806
+\i (00:00:46) trapsize 17236
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 2997.270 2564.651
+\i (00:00:47) trapsize 8618
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 2966.245 2535.350
+\i (00:00:47) trapsize 4309
+\i (00:00:47) subclass -- 
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 2718.907 2512.082
+\i (00:00:48) trapsize 2155
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 2718.045 2510.790
+\i (00:00:48) trapsize 1077
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 2718.046 2510.790
+\i (00:00:48) trapsize 539
+\i (00:00:49) subclass -- 
+\i (00:00:49) subclass -- 
+\i (00:00:50) subclass -- 
+\i (00:00:50) zoom out 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom out 2714.706 2511.113
+\i (00:00:50) trapsize 1077
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out 2715.138 2510.898
+\i (00:00:51) trapsize 2155
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out 2715.137 2510.897
+\i (00:00:51) trapsize 4309
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out 2715.137 2510.898
+\i (00:00:51) trapsize 8618
+\i (00:00:53) zoom out 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom out 3166.723 2454.019
+\i (00:00:53) trapsize 17236
+\i (00:00:53) zoom out 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom out 3173.618 2443.677
+\i (00:00:53) trapsize 34472
+\i (00:00:54) zoom in 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom in -87.454 2567.777
+\i (00:00:54) trapsize 17236
+\i (00:00:54) zoom in 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom in -87.454 2567.777
+\i (00:00:54) trapsize 8618
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out -125.373 2616.038
+\i (00:00:56) trapsize 17236
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out -125.374 2616.038
+\i (00:00:56) trapsize 34472
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out -125.376 2616.039
+\i (00:00:56) trapsize 68944
+\i (00:00:58) exit 
+\e (00:00:58) Do you want to save the changes you made to vibration.brd?
+\i (00:01:00) fillin menu_cancel 
+\i (00:01:00) generaledit 
+\i (00:01:05) status 
+\i (00:01:05) generaledit 
+\i (00:01:07) setwindow form.status
+\i (00:01:07) FORM status done  
+\i (00:01:09) setwindow pcb
+\i (00:01:09) exit 
+\e (00:01:09) Do you want to save the changes you made to vibration.brd?
+\i (00:01:10) fillin no 
+\t (00:01:10)     Journal end - Mon Jun 13 20:11:13 2016

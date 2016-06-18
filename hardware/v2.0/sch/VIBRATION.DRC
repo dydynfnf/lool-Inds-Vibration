@@ -1,0 +1,935 @@
+Date and Time : 06/13/16 17:16:22
+
+--------------------------------------------------
+Checking Schematic:  TOP
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict GND  Power Connected to Bidirectional
+                    TOP, TOP  (2.00, 2.10) 
+WARNING(ORCAP-1829): Possible pin type conflict A1,DIN  Bidirectional Connected to Power
+                    TOP, TOP  (2.20, 2.00) 
+WARNING(ORCAP-1829): Possible pin type conflict A2,DIN  Bidirectional Connected to Power
+                    TOP, TOP  (5.40, 2.00) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+
+Reporting Net Names
+    DATA11
+    N178020
+    N190693
+    ADDR2
+    DATA4
+    N178000
+    DATA[0..15]
+    N191928
+    N175907
+    ADDR6
+    DATA15
+    DATA1
+    SYNC
+    N175911
+    DATA8
+    N189201
+    N189205
+    DATA12
+    N175923
+    N189451
+    ADDR3
+    DATA5
+    CLK
+    N176012
+    ADDR[0..9]
+    DATA9
+    N191890
+    N190697
+    ADDR9
+    ADDR7
+    ADDR0
+    DATA2
+    N190705
+    N191869
+    N191748
+    N191873
+    DATA13
+    N203113
+    N175935
+    ADDR4
+    DATA6
+    N191932
+    N175989
+    DATA10
+    N178024
+    N175947
+    GND
+    ADDR8
+    ADDR1
+    DATA3
+    N178004
+    N182770
+    N191883
+    ADDR5
+    DATA14
+    DATA0
+    MODE
+    DATA7
+    N191963
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: A1 ADC
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    SYNC
+    AIN
+    MODE
+    DRDY
+    CLK
+    SCLK
+    DIN
+    MISO
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC5
+    VDD3.3-ADC
+    VCC-5
+    GND
+    VCC5-ADC
+    VREF
+    VCC20
+
+Reporting Net Names
+    AOUT
+    MODE
+    AIN
+    MISO
+    VCC20
+    N105338
+    N105142
+    N105386
+    N99831
+    AOUTN
+    SCLK
+    VCC5
+    DIN
+    N101702
+    VCC-5
+    N105162
+    VDD3.3-ADC
+    N99836
+    N100067
+    CLK
+    SYNC
+    DRDY
+    GND
+    VREF
+    VCC5-ADC
+    N100071
+    N99973
+    AOUTP
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: A3 ADC
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    SYNC
+    AIN
+    MODE
+    DRDY
+    CLK
+    SCLK
+    DIN
+    MISO
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC5
+    VDD3.3-ADC
+    VCC-5
+    GND
+    VCC5-ADC
+    VREF
+    VCC20
+
+Reporting Net Names
+    AOUT
+    MODE
+    AIN
+    MISO
+    VCC20
+    N105338
+    N105142
+    N105386
+    N99831
+    AOUTN
+    SCLK
+    VCC5
+    DIN
+    N101702
+    VCC-5
+    N105162
+    VDD3.3-ADC
+    N99836
+    N100067
+    CLK
+    SYNC
+    DRDY
+    GND
+    VREF
+    VCC5-ADC
+    N100071
+    N99973
+    AOUTP
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: P1 POWER
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    LED_G
+    LED_R
+    LED_Y
+    I-CTL
+    AIN1
+    AIN2
+    AIN3
+    AIN4
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC5
+    VDD3.3-ADC
+    VDD3.3
+    VCC-5
+    GND
+    VCC5-ADC
+    VDD3.3-ETH
+    VREF
+    VCC20
+    VBAT
+
+Reporting Net Names
+    N14732
+    N02346
+    N128201
+    N02340
+    N86146
+    N185298
+    N86139
+    N192436
+    N223793
+    VCC-5
+    N190200
+    AIN4
+    N185302
+    AIN3
+    N86153
+    N190188
+    N190192
+    N190112
+    N185268
+    VDD3.3
+    AIN2
+    N229005
+    VBAT
+    N21501
+    N232895
+    N183167
+    5.6V
+    N185294
+    N194775
+    VREF
+    N21405
+    VCC5
+    N211423
+    N84190
+    N128205
+    N192348
+    N02366
+    N183079
+    N02371
+    AIN1
+    VDD3.3-ADC
+    N183155
+    N22091
+    LED_G
+    N09919
+    N128197
+    N190056
+    N02329
+    VCC20
+    N229185
+    N183039
+    N229021
+    GND
+    LED_R
+    N02335
+    N192504
+    N185264
+    N02355
+    I-CTL
+    N183271
+    N223576
+    N192408
+    VCC5-ADC
+    N185244
+    N192428
+    N86184
+    N192288
+    LED_Y
+    N11014
+    N25711
+    N190298
+    VDD3.3-ETH
+    N183159
+    N02351
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: M1 MCU
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    SYNC
+    ADDR[0..9]
+    W-RST
+    DATA[0..15]
+    LED_G
+    LED_R
+    LED_Y
+    OE
+    WE
+    SPEED
+    MODE
+    SCLK1
+    SCLK2
+    DATA0
+    DATA1
+    DATA2
+    DATA3
+    DATA4
+    DATA5
+    DATA6
+    DATA7
+    DATA8
+    DATA9
+    DATA10
+    DATA11
+    DATA12
+    DATA13
+    DATA14
+    DATA15
+    CLK
+    MISO1
+    MISO2
+    NE2
+    DRDY1
+    DRDY2
+    I_CTL
+    ADDR0
+    ADDR1
+    ADDR2
+    ADDR3
+    ADDR4
+    ADDR5
+    ADDR6
+    ADDR7
+    ADDR8
+    ADDR9
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VDD3.3
+    GND
+
+Reporting Net Names
+    DRDY2
+    N175745
+    DATA13
+    DATA3
+    DATA7
+    LED_R
+    N66345
+    DATA0
+    SCLK1
+    ADDR[0..9]
+    BOOT0
+    ADDR4
+    OE
+    DATA14
+    DATA8
+    ADDR3
+    ADDR10
+    MODE
+    OSC_OUT
+    N175603
+    ADDR13
+    CLK
+    WE
+    ADDR18
+    UB
+    NE3
+    ADDR1
+    JTCK
+    ADDR9
+    DATA6
+    W-RST
+    N178917
+    JTMS
+    OSC_IN
+    ADDR12
+    ADDR6
+    I_CTL
+    DATA4
+    VDD3.3
+    LED_Y
+    JTRST
+    DATA1
+    LB
+    DATA15
+    BOOT1
+    N175698
+    SPEED
+    ADDR14
+    NE2
+    ADDR0
+    ADDR5
+    KEY
+    DATA2
+    MISO1
+    DATA12
+    JTDI
+    VCAP_2
+    JTDO
+    SYNC
+    ADDR7
+    VCAP_1
+    SCLK2
+    LED_G
+    DATA9
+    ADDR16
+    DATA5
+    DATA[0..15]
+    ADDR17
+    DRDY1
+    DATA11
+    MISO2
+    ADDR2
+    ADDR11
+    ADDR15
+    RESET
+    GND
+    DATA10
+    ADDR8
+    N175561
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: E1 ETHERNET
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    ADDR[0..9]
+    DATA[0..15]
+    OE
+    WE
+    DATA0
+    DATA1
+    DATA2
+    DATA3
+    DATA4
+    DATA5
+    DATA6
+    DATA7
+    DATA8
+    DATA9
+    DATA10
+    DATA11
+    DATA12
+    DATA13
+    DATA14
+    DATA15
+    W_RST
+    NE2
+    ADDR0
+    ADDR1
+    ADDR2
+    ADDR3
+    ADDR4
+    ADDR5
+    ADDR6
+    ADDR7
+    ADDR8
+    ADDR9
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+    VDD3.3-ETH
+
+Reporting Net Names
+    DATA12
+    ADDR4
+    ADDR2
+    DATA8
+    N145835
+    X2
+    ADDR7
+    RXIN
+    DATA7
+    N141324
+    WE
+    N155515
+    ADDR3
+    ADDR0
+    VCCA
+    RXIP
+    1V8
+    DATA0
+    DATA[0..15]
+    NE2
+    N142046
+    DATA9
+    ADDR6
+    DATA14
+    TXOP
+    DATA6
+    DATA4
+    OE
+    DATA11
+    VDD3.3-ETH
+    DATA15
+    TXON
+    N145831
+    X1
+    ADDR[0..9]
+    W_RST
+    ADDR1
+    N141281
+    DATA1
+    1V8A
+    ACT_LED
+    N158706
+    N140989
+    DATA10
+    DATA2
+    ADDR8
+    N141270
+    N141537
+    DATA5
+    DATA3
+    ADDR9
+    L_LINK
+    GND
+    ADDR5
+    DATA13
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: S1 SPEED
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    SPEED
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VDD3.3
+    GND
+    VBAT
+
+Reporting Net Names
+    GND
+    VDD3.3
+    VBAT
+    N136019
+    SPEED
+    N135939
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: A2 ADC
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    SYNC
+    AIN
+    MODE
+    DRDY
+    CLK
+    SCLK
+    DIN
+    MISO
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC5
+    VDD3.3-ADC
+    VCC-5
+    GND
+    VCC5-ADC
+    VREF
+    VCC20
+
+Reporting Net Names
+    AOUT
+    MODE
+    AIN
+    MISO
+    VCC20
+    N105338
+    N105142
+    N105386
+    N99831
+    AOUTN
+    SCLK
+    VCC5
+    DIN
+    N101702
+    VCC-5
+    N105162
+    VDD3.3-ADC
+    N99836
+    N100067
+    CLK
+    SYNC
+    DRDY
+    GND
+    VREF
+    VCC5-ADC
+    N100071
+    N99973
+    AOUTP
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: A4 ADC
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    SYNC
+    AIN
+    MODE
+    DRDY
+    CLK
+    SCLK
+    DIN
+    MISO
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC5
+    VDD3.3-ADC
+    VCC-5
+    GND
+    VCC5-ADC
+    VREF
+    VCC20
+
+Reporting Net Names
+    AOUT
+    MODE
+    AIN
+    MISO
+    VCC20
+    N105338
+    N105142
+    N105386
+    N99831
+    AOUTN
+    SCLK
+    VCC5
+    DIN
+    N101702
+    VCC-5
+    N105162
+    VDD3.3-ADC
+    N99836
+    N100067
+    CLK
+    SYNC
+    DRDY
+    GND
+    VREF
+    VCC5-ADC
+    N100071
+    N99973
+    AOUTP
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic:  TOP
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: A1 ADC
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: A3 ADC
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: P1 POWER
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: M1 MCU
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: E1 ETHERNET
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: S1 SPEED
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: A2 ADC
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: A4 ADC
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: VIBRATION 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

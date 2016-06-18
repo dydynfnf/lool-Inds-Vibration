@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : HV.dra                                        )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Thu May 05 14:10:12 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FORMAT
+    Directory = E:/material/lool Inds Vibration/hardware/v1.0/pcb
+    Name      = hv.osm
+    User      = psai
+    Machine   = PSAI-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
