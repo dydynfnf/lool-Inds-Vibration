@@ -122,6 +122,10 @@ namespace Online0318
         {
             double avg = Avg(v);//平均值
             double std = Std(v);//标准差
+            if(std==0)
+            {
+                return 0;
+            }
             double kurtosis = v.Sum(x => (Math.Pow((x - avg) / std, 4))) / v.Length;
             return kurtosis;
         }
@@ -132,6 +136,10 @@ namespace Online0318
         {
             //double avg = Avg(v);//平均值
             double std = Std(v);//标准差
+            if (std == 0)
+            {
+                return 0;
+            }
             double kurtosis = v.Sum(x => (Math.Pow((x - avg) / std, 4))) / v.Length;
             return kurtosis;
         }
@@ -142,6 +150,10 @@ namespace Online0318
         {
             double avg = Avg(v);//平均值
             double std = Std(v);//标准差
+            if (std == 0)
+            {
+                return 0;
+            }
             double skewness = v.Sum(x => (Math.Pow((x - avg) / std, 3))) / v.Length;
             return skewness;
         }

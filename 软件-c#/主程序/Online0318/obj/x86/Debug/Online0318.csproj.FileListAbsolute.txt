@@ -333,3 +333,20 @@ E:\material\lool Inds Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Onl
 E:\material\lool Inds Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.UserForm.resources
 E:\material\lool Inds Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.Loading.resources
 E:\material\lool Inds Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.csproj.GenerateResource.Cache
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.exe
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.pdb
+F:\QQrecv\主程序\主程序\Online0318\bin\Debug\Online0318.exe
+F:\QQrecv\主程序\主程序\Online0318\bin\Debug\Online0318.pdb
+F:\QQrecv\主程序\主程序\Online0318\bin\Debug\WindowsFormsApplication2.dll
+F:\QQrecv\主程序\主程序\Online0318\bin\Debug\WindowsFormsApplication2.pdb
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.csprojResolveAssemblyReference.cache
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.SearchHistory.resources
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.LoadHistory.resources
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.MainForm.resources
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.OnlineMonitor.resources
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.Password.resources
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.Properties.Resources.resources
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.SystemSetting.resources
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.UserForm.resources
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.Loading.resources
+F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.csproj.GenerateResource.Cache

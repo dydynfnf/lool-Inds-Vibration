@@ -110,3 +110,12 @@ E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\obj
 E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
 E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.dll
 E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+F:\QQrecv\主程序\主程序\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.dll
+F:\QQrecv\主程序\主程序\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+F:\QQrecv\主程序\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+F:\QQrecv\主程序\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form2.resources
+F:\QQrecv\主程序\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+F:\QQrecv\主程序\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+F:\QQrecv\主程序\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.dll
+F:\QQrecv\主程序\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+F:\QQrecv\主程序\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache

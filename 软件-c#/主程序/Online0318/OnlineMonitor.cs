@@ -633,40 +633,49 @@ namespace Online0318
         /// </summary>
         private void FFt() 
         {
-            #region 1
-            double[] inin = new double[singleList.Count];
-            double[] outout = new double[singleList.Count];
-            //MasterPan1[1].XAxis.Scale.Min = 0;//最小值
-            //MasterPan1[1].XAxis.Scale.Max = 1000;//最da值
-            for (int j = 0; j < singleList.Count; j++)
-            {
-                inin[j] = (double)singleList[j];
-                outout[j] = (double)0;
-            }
-            int a = me.upFFT(inin, outout, 1);//FFT计算，1，输出幅角；0输出实部虚部
-            inin[0] = 0;
-            list11.Clear();
-            frequList = new double[a];
-            for (int i = 0; i < 500; i++)//只显示前500个点
+            try
             {
 
-                frequList[i] = (double)93750 / (StaticData.DSDS + 1) * (double)i / (double)a;//频率序列赋值
-                list11.AddLast(new KTuple(frequList[i], inin[i]));
+                #region 1
+                double[] inin = new double[singleList.Count];
+                double[] outout = new double[singleList.Count];
+                //MasterPan1[1].XAxis.Scale.Min = 0;//最小值
+                //MasterPan1[1].XAxis.Scale.Max = 1000;//最da值
+                for (int j = 0; j < singleList.Count; j++)
+                {
+                    inin[j] = (double)singleList[j];
+                    outout[j] = (double)0;
+                }
+                int a = me.upFFT(inin, outout, 1);//FFT计算，1，输出幅角；0输出实部虚部
+                inin[0] = 0;
+                list11.Clear();
+                frequList = new double[a];
+                for (int i = 0; i < 500; i++)//只显示前500个点
+                {
+
+                    frequList[i] = (double)93750 / (StaticData.DSDS + 1) * (double)i / (double)a;//频率序列赋值
+                    list11.AddLast(new KTuple(frequList[i], inin[i]));
+                }
+                //kChartPanel1.Refresh();
+                list111 = new LinkedList<KTuple>(list11);//排序,找出最大值、最小值
+
+                // 注意，这里有一个链表的排序
+                //list111.Sort(s);
+                // 按照Y值增序，X增序排列
+                KUtil.SortList(list111, (t1, t2) => t1.Y < t2.Y ? true : (t1.Y == t2.Y && t1.X < t2.X ? true : false));
+
+                textBox2.Text = String.Format("{0:F}", list111.Last.Value.X);
+                textBox4.Text = String.Format("{0:F}", list111.Last.Previous.Value.X);
+                textBox5.Text = String.Format("{0:F}", list111.Last.Previous.Previous.Value.X);
+                textBox6.Text = String.Format("{0:F}", list111.Last.Previous.Previous.Previous.Value.X);
+                singleList.Clear();
+                #endregion
+
             }
-            //kChartPanel1.Refresh();
-            list111 = new LinkedList<KTuple>(list11);//排序,找出最大值、最小值
-
-            // 注意，这里有一个链表的排序
-            //list111.Sort(s);
-            // 按照Y值增序，X增序排列
-            KUtil.SortList(list111, (t1, t2) => t1.Y < t2.Y ? true : (t1.Y == t2.Y && t1.X < t2.X ? true : false));
-
-            textBox2.Text = String.Format("{0:F}", list111.Last.Value.X);
-            textBox4.Text = String.Format("{0:F}", list111.Last.Previous.Value.X);
-            textBox5.Text = String.Format("{0:F}", list111.Last.Previous.Previous.Value.X);
-            textBox6.Text = String.Format("{0:F}", list111.Last.Previous.Previous.Previous.Value.X);
-            singleList.Clear(); 
-            #endregion
+            catch (Exception)
+            {
+                return;
+            }
         }
         /// <summary>
         /// 多项和多点显示
@@ -1564,7 +1573,7 @@ namespace Online0318
             catch (OverflowException ex)
             {
                 //MessageBox.Show(ex.ToString());
-                LimitAlarm(ex.ToString());
+                //LimitAlarm(ex.ToString());
                 //throw;
             }
         }
@@ -1703,7 +1712,7 @@ namespace Online0318
             catch (OverflowException ex)
             {
                 //MessageBox.Show(ex.ToString());
-                LimitAlarm(ex.ToString());
+                //LimitAlarm(ex.ToString());
                // throw;
             }
         }
