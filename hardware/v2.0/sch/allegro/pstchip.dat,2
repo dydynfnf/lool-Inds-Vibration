@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jun-13-2016 at 10:11:25}
+{ Using PSTWRITER 16.6.0 d001Jun-13-2016 at 12:41:40}
 primitive 'RES_0805_10R';
   pin
     '1':
@@ -646,18 +646,6 @@ primitive 'LED-3_LED-3_LED-3';
     PART_NAME='LED-3';
     JEDEC_TYPE='LED-3';
     VALUE='LED-3';
-  end_body;
-end_primitive;
-primitive 'MTG_MTG_MTG';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='MTG';
-    JEDEC_TYPE='MTG';
-    VALUE='MTG';
   end_body;
 end_primitive;
 primitive 'OSC-N_OSC-3225_25M';

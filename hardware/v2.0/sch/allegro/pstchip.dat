@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jun-13-2016 at 17:16:48}
+{ Using PSTWRITER 16.6.0 d001Jul-01-2016 at 21:07:47}
 primitive 'RES_0805_10R';
   pin
     '1':
@@ -549,6 +549,27 @@ primitive 'HEADER 2_MOLEX-2_HEADER 2';
     VALUE='HEADER 2';
   end_body;
 end_primitive;
+primitive '4 HEADER_H-4_4 HEADER';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='4 HEADER';
+    JEDEC_TYPE='H-4';
+    VALUE='4 HEADER';
+  end_body;
+end_primitive;
 primitive 'KEY-HD11_KEY-HD11_KEY-HD11';
   pin
     '1':
@@ -688,75 +709,6 @@ primitive 'OSC-N_OSC-3225_8M';
     PART_NAME='OSC-N';
     JEDEC_TYPE='OSC-3225';
     VALUE='8M';
-  end_body;
-end_primitive;
-primitive 'JTAG_H-10-2_JTAG';
-  pin
-    'VDD1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'TRST':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'TDI':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'TMS':
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'TCK':
-      PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
-    'NC1':
-      PIN_NUMBER='(11)';
-      PINUSE='UNSPEC';
-    'TD0':
-      PIN_NUMBER='(13)';
-      PINUSE='UNSPEC';
-    'R\E\S\E\T\':
-      PIN_NUMBER='(15)';
-      PINUSE='UNSPEC';
-    'NC2':
-      PIN_NUMBER='(17)';
-      PINUSE='UNSPEC';
-    'NC3':
-      PIN_NUMBER='(19)';
-      PINUSE='UNSPEC';
-    'VDD2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'GND1':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'GND2':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'GND3':
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-    'GND4':
-      PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
-    'GND5':
-      PIN_NUMBER='(12)';
-      PINUSE='UNSPEC';
-    'GND6':
-      PIN_NUMBER='(14)';
-      PINUSE='UNSPEC';
-    'GND7':
-      PIN_NUMBER='(16)';
-      PINUSE='UNSPEC';
-    'GND8':
-      PIN_NUMBER='(18)';
-      PINUSE='UNSPEC';
-    'GND9':
-      PIN_NUMBER='(20)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='JTAG';
-    JEDEC_TYPE='H-10-2';
-    VALUE='JTAG';
   end_body;
 end_primitive;
 primitive 'AO3407_AO3407-SOT23_AO3407';

@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Jun-13-2016 at 17:16:48 }
+{ Using PSTWRITER 16.6.0 d001Jul-01-2016 at 21:07:47 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='VIBRATION';
@@ -2298,6 +2298,16 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ J9 '4 HEADER_H-4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS233891@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins233891@connector.\4 header.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins233891@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  K1 'KEY-HD11_KEY-HD11_KEY-HD11':;
 
 SECTION_NUMBER 1
@@ -2404,16 +2414,6 @@ SECTION_NUMBER 1
  '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS121003@MYLIBRARY.OSC-N.NORMAL(CHIPS)':
  C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins121003@mylibrary.\osc-n.normal\(chips)',
  P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins121003@mylibrary.\osc-n.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- P2 'JTAG_H-10-2_JTAG':;
-
-SECTION_NUMBER 1
- '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS121051@MYLIBRARY.JTAG.NORMAL(CHIPS)':
- C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins121051@mylibrary.\jtag.normal\(chips)',
- P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins121051@mylibrary.\jtag.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -3098,16 +3098,6 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R53 'RES_0603_10K':;
-
-SECTION_NUMBER 1
- '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS119879@MYLIBRARY.RES.NORMAL(CHIPS)':
- C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins119879@mylibrary.\res.normal\(chips)',
- P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins119879@mylibrary.\res.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  R54 'RES_0603_10K':;
 
 SECTION_NUMBER 1
@@ -3124,26 +3114,6 @@ SECTION_NUMBER 1
  '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120639@MYLIBRARY.RES.NORMAL(CHIPS)':
  C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120639@mylibrary.\res.normal\(chips)',
  P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120639@mylibrary.\res.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R56 'RES_0603_10K':;
-
-SECTION_NUMBER 1
- '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120179@MYLIBRARY.RES.NORMAL(CHIPS)':
- C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120179@mylibrary.\res.normal\(chips)',
- P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120179@mylibrary.\res.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R57 'RES_0603_10K':;
-
-SECTION_NUMBER 1
- '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120335@MYLIBRARY.RES.NORMAL(CHIPS)':
- C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120335@mylibrary.\res.normal\(chips)',
- P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120335@mylibrary.\res.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

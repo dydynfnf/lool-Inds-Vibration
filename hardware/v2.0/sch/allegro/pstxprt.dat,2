@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Jun-13-2016 at 10:11:25 }
+{ Using PSTWRITER 16.6.0 d001Jun-13-2016 at 12:41:40 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='VIBRATION';
@@ -2384,46 +2384,6 @@ SECTION_NUMBER 1
  '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134048@MYLIBRARY.LED-3.NORMAL(CHIPS)':
  C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134048@mylibrary.\led-3.normal\(chips)',
  P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134048@mylibrary.\led-3.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- M1 'MTG_MTG_MTG':;
-
-SECTION_NUMBER 1
- '@VIBRATION.TOP(SCH_1):INS202459@MYLIBRARY.MTG.NORMAL(CHIPS)':
- C_PATH='@vibration.top(sch_1):ins202459@mylibrary.\mtg.normal\(chips)',
- P_PATH='@vibration.top(sch_1):page1_ins202459@mylibrary.\mtg.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- M2 'MTG_MTG_MTG':;
-
-SECTION_NUMBER 1
- '@VIBRATION.TOP(SCH_1):INS202479@MYLIBRARY.MTG.NORMAL(CHIPS)':
- C_PATH='@vibration.top(sch_1):ins202479@mylibrary.\mtg.normal\(chips)',
- P_PATH='@vibration.top(sch_1):page1_ins202479@mylibrary.\mtg.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- M3 'MTG_MTG_MTG':;
-
-SECTION_NUMBER 1
- '@VIBRATION.TOP(SCH_1):INS202522@MYLIBRARY.MTG.NORMAL(CHIPS)':
- C_PATH='@vibration.top(sch_1):ins202522@mylibrary.\mtg.normal\(chips)',
- P_PATH='@vibration.top(sch_1):page1_ins202522@mylibrary.\mtg.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- M4 'MTG_MTG_MTG':;
-
-SECTION_NUMBER 1
- '@VIBRATION.TOP(SCH_1):INS202500@MYLIBRARY.MTG.NORMAL(CHIPS)':
- C_PATH='@vibration.top(sch_1):ins202500@mylibrary.\mtg.normal\(chips)',
- P_PATH='@vibration.top(sch_1):page1_ins202500@mylibrary.\mtg.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
