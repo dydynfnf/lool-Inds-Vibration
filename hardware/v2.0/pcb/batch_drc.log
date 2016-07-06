@@ -3,8 +3,8 @@
 (    DRC Update                                                       )
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
-(    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Sat Jul 02 01:03:37 2016                      )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Wed Jul 06 15:24:50 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  724
 
  ..... DRC update completed, total CPU time   0:00:01
  *************************************************************************
