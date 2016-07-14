@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Sat Jul 02 00:38:13 2016                      )
+(    Date/Time        : Sat Jul 02 00:54:54 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -500,7 +500,6 @@ Results from parameter file ...
   CIRCLE     0.00787                                  DARK 
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.00984                                  DARK 
-  CIRCLE     0.01000                                  DARK 
   CIRCLE     0.01200                                  DARK 
   CIRCLE     0.01500                                  DARK 
   CIRCLE     0.01968                                  DARK 
