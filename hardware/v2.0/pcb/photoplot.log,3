@@ -4,10 +4,15 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Fri Jul 15 00:24:25 2016                      )
+(    Date/Time        : Sat Jul 16 01:15:55 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
@@ -121,6 +126,7 @@ Results from parameter file ...
   RECTANGLE  0.07283     x 0.06496       0.000 NO     DARK 
   RECTANGLE  0.07677     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.08661     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.09055     x 0.07087       0.000 NO     DARK 
   RECTANGLE  0.09055     x 0.07087      90.000 NO     DARK 
   RECTANGLE  0.09842     x 0.09055       0.000 NO     DARK 
   RECTANGLE  0.12795     x 0.07874      90.000 NO     DARK 
@@ -166,7 +172,7 @@ Results from parameter file ...
   SQUARE     0.05906                     0.000 NO     DARK 
   SQUARE     0.07087                     0.000 NO     DARK 
 
-     GND created.
+     GND created with warnings
 
 
 ================================================================
@@ -203,7 +209,7 @@ Results from parameter file ...
   SQUARE     0.05906                     0.000 NO     DARK 
   SQUARE     0.07087                     0.000 NO     DARK 
 
-     POWER created.
+     POWER created with warnings
 
 
 ================================================================
@@ -263,19 +269,19 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(949.304 2324.004) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(777.164 2267.772) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(896.280 2452.004) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
 	(889.652 2468.004) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(949.304 2324.004) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(777.164 2267.772) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -395,6 +401,7 @@ Results from parameter file ...
   RECTANGLE  0.07283     x 0.06496       0.000 NO     DARK 
   RECTANGLE  0.07677     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.08661     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.09055     x 0.07087       0.000 NO     DARK 
   RECTANGLE  0.09055     x 0.07087      90.000 NO     DARK 
   RECTANGLE  0.09842     x 0.09055       0.000 NO     DARK 
   RECTANGLE  0.12795     x 0.07874      90.000 NO     DARK 
@@ -403,7 +410,7 @@ Results from parameter file ...
   OBLONG     0.04921     x 0.02165      90.000 NO     DARK 
   OBLONG     0.05315     x 0.01772      90.000 NO     DARK 
 
-     SOLDERMASK_TOP created.
+     SOLDERMASK_TOP created with warnings
 
 
 ================================================================
@@ -443,7 +450,7 @@ Results from parameter file ...
   RECTANGLE  0.05512     x 0.04331      90.000 NO     DARK 
   RECTANGLE  0.08661     x 0.03740       0.000 NO     DARK 
 
-     SOLDERMASK_BOTTOM created.
+     SOLDERMASK_BOTTOM created with warnings
 
 
 ================================================================
@@ -494,6 +501,7 @@ Results from parameter file ...
   RECTANGLE  0.06890     x 0.03937      90.000 NO     DARK 
   RECTANGLE  0.07677     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.08661     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.09055     x 0.07087       0.000 NO     DARK 
   RECTANGLE  0.09055     x 0.07087      90.000 NO     DARK 
   RECTANGLE  0.09367     x 0.05823       0.000 NO     DARK 
   RECTANGLE  0.09524     x 0.05390      90.000 NO     DARK 
@@ -502,7 +510,7 @@ Results from parameter file ...
   OBLONG     0.04921     x 0.02165      90.000 NO     DARK 
   OBLONG     0.05315     x 0.01772      90.000 NO     DARK 
 
-     PASTEMASK_TOP created.
+     PASTEMASK_TOP created with warnings
 
 
 ================================================================
@@ -533,7 +541,7 @@ Results from parameter file ...
   RECTANGLE  0.05512     x 0.04331      90.000 NO     DARK 
   RECTANGLE  0.08661     x 0.03740       0.000 NO     DARK 
 
-     PASTEMASK_BOTTOM created.
+     PASTEMASK_BOTTOM created with warnings
 
 
 ================================================================
@@ -567,7 +575,7 @@ Results from parameter file ...
   CIRCLE     0.01500                                  DARK 
   CIRCLE     0.01968                                  DARK 
 
-     SILKSCREEN_TOP created.
+     SILKSCREEN_TOP created with warnings
 
 
 ================================================================
@@ -596,7 +604,7 @@ Results from parameter file ...
   CIRCLE     0.00787                                  DARK 
   CIRCLE     0.00984                                  DARK 
 
-     SILKSCREEN_BOTTOM created.
+     SILKSCREEN_BOTTOM created with warnings
 
 
 ================================================================
@@ -641,15 +649,15 @@ Results from parameter file ...
 ------------------------------------------------------
  SUMMARY:
         TOP created with warnings
-        GND created.
-        POWER created.
+        GND created with warnings
+        POWER created with warnings
         BOTTOM created with warnings
-        SOLDERMASK_TOP created.
-        SOLDERMASK_BOTTOM created.
-        PASTEMASK_TOP created.
-        PASTEMASK_BOTTOM created.
-        SILKSCREEN_TOP created.
-        SILKSCREEN_BOTTOM created.
+        SOLDERMASK_TOP created with warnings
+        SOLDERMASK_BOTTOM created with warnings
+        PASTEMASK_TOP created with warnings
+        PASTEMASK_BOTTOM created with warnings
+        SILKSCREEN_TOP created with warnings
+        SILKSCREEN_BOTTOM created with warnings
         DRILL created with warnings
 
  ARTWORK had warnings

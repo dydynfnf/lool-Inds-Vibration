@@ -3,7 +3,7 @@ G04 Layout Name:  E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.br
 G04 Film Name:    PASTEMASK_BOTTOM*
 G04 File Format:  Gerber RS274X*
 G04 File Origin:  Cadence Allegro 16.6-2015-S065*
-G04 Origin Date:  Fri Jul 15 00:24:26 2016*
+G04 Origin Date:  Sat Jul 16 01:15:56 2016*
 G04 *
 G04 Layer:  PIN/PASTEMASK_BOTTOM*
 G04 *
@@ -24,8 +24,8 @@ G04 ================== end FILE IDENTIFICATION RECORD ====================*
 %LPD*%
 G75*
 G54D10*
-X21900Y76134D03*
-Y67866D03*
+X21900Y67866D03*
+Y76134D03*
 G54D11*
 X22900Y81579D03*
 Y91421D03*

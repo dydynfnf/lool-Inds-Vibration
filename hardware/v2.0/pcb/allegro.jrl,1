@@ -1,6 +1,6 @@
 \t (00:00:02) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:02)     Journal start - Fri Jul 15 00:30:38 2016
-\t (00:00:02)         Host=PSAI-PC User=psai Pid=9896 CPUs=4
+\t (00:00:02)     Journal start - Fri Jul 15 00:33:37 2016
+\t (00:00:02)         Host=PSAI-PC User=psai Pid=8360 CPUs=4
 \t (00:00:02) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
 \t (00:00:02) 
 \t (00:00:04) Opening existing design...
@@ -11,191 +11,29 @@
 \i (00:00:05) trapsize 37067
 \i (00:00:05) trapsize 37067
 \i (00:00:06) generaledit 
-\i (00:00:07) color192 
-\i (00:00:07) setwindow cvf.dialog
-\i (00:00:07) cvf layer_mode
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 3848.714 2217.779
+\i (00:00:06) trapsize 74133
+\i (00:00:07) zoom out 1 
 \i (00:00:07) setwindow pcb
-\i (00:00:07) generaledit 
-\i (00:00:09) setwindow cvf.dialog
-\i (00:00:09) cvf global_invisible
-\i (00:00:10) cvf layer_tree_item 'Conductor' 'Stack-Up'
-\i (00:00:11) cvf layer_tree_item 'Areas'
-\i (00:00:12) cvf layer_tree_item 'Board Geometry'
-\i (00:00:14) cvf layers_visible board_geometry/outline TRUE
-\i (00:00:15) cvf layers_visible board_geometry/silkscreen_top TRUE
-\i (00:00:16) cvf layer_tree_item 'Package Geometry'
-\i (00:00:17) cvf layers_visible package_geometry/silkscreen_top TRUE
-\i (00:00:18) cvf layer_tree_item 'Embedded Geomerty'
-\i (00:00:18) cvf layer_tree_item 'Manufacturing'
-\i (00:00:19) cvf layer_tree_item 'Components'
-\i (00:00:20) cvf layers_visible components ref_des/silkscreen_top TRUE
-\i (00:00:21) cvf apply
-\i (00:00:22) cvf okay
-\i (00:00:23) setwindow pcb
-\i (00:00:23) unrats all 
-\i (00:00:23) generaledit 
-\i (00:00:24) zoom in 1 
-\i (00:00:24) setwindow pcb
-\i (00:00:24) zoom in 1053.885 2195.539
-\i (00:00:24) trapsize 18533
-\i (00:00:24) zoom out 1 
-\i (00:00:24) setwindow pcb
-\i (00:00:24) zoom out 1057.592 2202.952
-\i (00:00:24) trapsize 37067
-\i (00:00:24) zoom out 1 
-\i (00:00:24) setwindow pcb
-\i (00:00:24) zoom out 1057.592 2202.953
-\i (00:00:24) trapsize 74133
-\i (00:00:25) zoom in 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom in 1235.513 3300.127
-\i (00:00:25) trapsize 37067
-\i (00:00:25) zoom in 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom in 1235.514 3300.127
-\i (00:00:25) trapsize 18533
-\i (00:00:25) zoom in 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom in 1235.514 3300.127
-\i (00:00:25) trapsize 9267
-\i (00:00:25) zoom in 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom in 1235.515 3300.127
-\i (00:00:25) trapsize 4633
-\i (00:00:26) zoom out 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom out 1235.515 3300.127
-\i (00:00:26) trapsize 9267
-\i (00:00:26) zoom out 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom out 1235.516 3300.127
-\i (00:00:26) trapsize 18533
-\i (00:00:26) zoom out 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom out 1235.515 3300.128
-\i (00:00:26) trapsize 37067
-\i (00:00:27) zoom out 1 
-\i (00:00:27) setwindow pcb
-\i (00:00:27) zoom out 1235.516 3300.128
-\i (00:00:27) trapsize 74133
-\i (00:00:28) roam start
-\i (00:00:28) roam x -48
-\i (00:00:28) roam y 48
-\i (00:00:28) roam x -16
-\i (00:00:28) roam end
-\i (00:00:29) zoom in 1 
-\i (00:00:29) setwindow pcb
-\i (00:00:29) zoom in 1335.591 2165.886
-\i (00:00:29) trapsize 37067
-\i (00:00:36) plot setup 
-\i (00:00:45) setwindow form.fpfileplotsetup
-\i (00:00:45) FORM fpfileplotsetup done  
-\i (00:00:45) setwindow pcb
-\i (00:00:45) generaledit 
-\i (00:00:47) plot 
-\w (00:00:47) WARNING(SPMHMF-375): Holes will generally not appear in a 'Black and white' plot. [help]
-\i (00:00:49) plotwint initialize "Foxit Reader PDF Printer"
-\i (00:00:49) plotwint orientation 1
-\i (00:00:49) plotwint papername "A4"
-\i (00:00:49) plotwint scale 100
-\i (00:00:49) plotwint copies 1
-\i (00:00:49) plotwint defaultsource 7
-\i (00:00:49) plotwint printquality 600
-\i (00:00:49) plotwint color 2
-\i (00:00:49) plotwint duplex 1
-\i (00:00:49) plotwint execute
-\i (00:01:25) plot setup 
-\i (00:01:26) setwindow form.fpfileplotsetup
-\i (00:01:26) FORM fpfileplotsetup fpplotmirror NO 
-\i (00:01:31) FORM fpfileplotsetup done  
-\i (00:01:31) setwindow pcb
-\i (00:01:31) generaledit 
-\i (00:01:35) plot 
-\w (00:01:35) WARNING(SPMHMF-375): Holes will generally not appear in a 'Black and white' plot. [help]
-\i (00:01:36) plotwint initialize "Foxit Reader PDF Printer"
-\i (00:01:36) plotwint execute
-\i (00:02:00) zoom in 1 
-\i (00:02:00) setwindow pcb
-\i (00:02:00) zoom in 3248.233 3663.381
-\i (00:02:00) trapsize 18533
-\i (00:02:00) zoom in 1 
-\i (00:02:00) setwindow pcb
-\i (00:02:00) zoom in 3248.234 3663.381
-\i (00:02:00) trapsize 9267
-\i (00:02:01) zoom in 1 
-\i (00:02:01) setwindow pcb
-\i (00:02:01) zoom in 3164.834 3691.182
-\i (00:02:01) trapsize 4633
-\i (00:02:01) zoom in 1 
-\i (00:02:01) setwindow pcb
-\i (00:02:01) zoom in 3164.834 3691.182
-\i (00:02:01) trapsize 2317
-\i (00:02:02) zoom out 1 
-\i (00:02:02) setwindow pcb
-\i (00:02:02) zoom out 3176.417 3658.285
-\i (00:02:02) trapsize 4633
-\i (00:02:02) zoom out 1 
-\i (00:02:02) setwindow pcb
-\i (00:02:02) zoom out 3176.417 3654.579
-\i (00:02:02) trapsize 9267
-\i (00:02:02) zoom out 1 
-\i (00:02:02) setwindow pcb
-\i (00:02:02) zoom out 3176.416 3654.580
-\i (00:02:02) trapsize 18533
-\i (00:02:03) zoom out 1 
-\i (00:02:03) setwindow pcb
-\i (00:02:03) zoom out 3176.416 3417.352
-\i (00:02:03) trapsize 37067
-\i (00:02:15) plot setup 
-\i (00:02:16) setwindow form.fpfileplotsetup
-\i (00:02:16) FORM fpfileplotsetup fpplotmirror YES 
-\i (00:02:18) FORM fpfileplotsetup done  
-\i (00:02:18) setwindow pcb
-\i (00:02:18) generaledit 
-\i (00:02:21) color192 
-\i (00:02:21) setwindow cvf.dialog
-\i (00:02:21) cvf layer_mode
-\i (00:02:21) setwindow pcb
-\i (00:02:21) generaledit 
-\i (00:02:24) setwindow cvf.dialog
-\i (00:02:24) cvf layer_tree_item 'Areas'
-\i (00:02:24) cvf layer_tree_item 'Board Geometry'
-\i (00:02:26) cvf layers_visible board_geometry/silkscreen_bottom TRUE
-\i (00:02:26) cvf layers_visible board_geometry/silkscreen_top FALSE
-\i (00:02:27) cvf layer_tree_item 'Package Geometry'
-\i (00:02:28) cvf layers_visible package_geometry/silkscreen_bottom TRUE
-\i (00:02:29) cvf layers_visible package_geometry/silkscreen_top FALSE
-\i (00:02:30) cvf layer_tree_item 'Embedded Geomerty'
-\i (00:02:30) cvf layer_tree_item 'Components'
-\i (00:02:31) cvf layers_visible components ref_des/silkscreen_bottom TRUE
-\i (00:02:32) cvf layers_visible components ref_des/silkscreen_top FALSE
-\i (00:02:32) cvf layer_tree_item 'Manufacturing'
-\i (00:02:33) cvf layer_tree_item 'Drawing Format'
-\i (00:02:33) cvf layer_tree_item 'Analysis'
-\i (00:02:35) cvf apply
-\i (00:02:36) cvf okay
-\i (00:02:36) setwindow pcb
-\i (00:02:36) zoom out 1 
-\i (00:02:36) setwindow pcb
-\i (00:02:36) zoom out 2271.989 2453.619
-\i (00:02:36) trapsize 74133
-\i (00:02:36) zoom out 1 
-\i (00:02:36) setwindow pcb
-\i (00:02:36) zoom out 2271.989 2453.618
-\i (00:02:36) trapsize 148267
-\i (00:02:37) zoom in 1 
-\i (00:02:37) setwindow pcb
-\i (00:02:37) zoom in 2385.905 2068.125
-\i (00:02:37) trapsize 74133
-\i (00:02:37) zoom in 1 
-\i (00:02:37) setwindow pcb
-\i (00:02:37) zoom in 2652.785 1993.992
-\i (00:02:37) trapsize 37067
-\i (00:02:39) plot 
-\w (00:02:39) WARNING(SPMHMF-375): Holes will generally not appear in a 'Black and white' plot. [help]
-\i (00:02:40) plotwint initialize "Foxit Reader PDF Printer"
-\i (00:02:40) plotwint execute
-\i (00:02:53) exit 
-\e (00:02:53) Do you want to save the changes you made to vibration.brd?
-\i (00:02:54) fillin no 
-\t (00:02:54)     Journal end - Fri Jul 15 00:33:29 2016
+\i (00:00:07) zoom out 3715.274 2217.779
+\i (00:00:07) trapsize 148267
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 3715.275 2277.086
+\i (00:00:07) trapsize 74133
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 3715.275 2277.086
+\i (00:00:07) trapsize 37067
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out 3715.275 2277.087
+\i (00:00:08) trapsize 74133
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 3744.928 2291.913
+\i (00:00:10) trapsize 37067
+\i (00:00:13) exit 
+\t (00:00:13)     Journal end - Fri Jul 15 00:33:48 2016
