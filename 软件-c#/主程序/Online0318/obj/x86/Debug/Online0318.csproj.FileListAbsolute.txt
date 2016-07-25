@@ -350,3 +350,16 @@ F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.SystemSetting.
 F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.UserForm.resources
 F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.Loading.resources
 F:\QQrecv\主程序\主程序\Online0318\obj\x86\Debug\Online0318.csproj.GenerateResource.Cache
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.exe
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.pdb
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.csprojResolveAssemblyReference.cache
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.SearchHistory.resources
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.LoadHistory.resources
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.MainForm.resources
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.OnlineMonitor.resources
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.Password.resources
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.Properties.Resources.resources
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.SystemSetting.resources
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.UserForm.resources
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.Loading.resources
+F:\Vibration\软件-c#\主程序\Online0318\obj\x86\Debug\Online0318.csproj.GenerateResource.Cache

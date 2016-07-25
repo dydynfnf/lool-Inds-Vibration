@@ -66,7 +66,7 @@
             this.toolStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow;
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(67, 601);
+            this.toolStrip1.Size = new System.Drawing.Size(70, 601);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -83,7 +83,7 @@
             this.toolStripDropDownButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(64, 48);
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(67, 53);
             this.toolStripDropDownButton1.Text = "系统登录";
             this.toolStripDropDownButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -91,7 +91,7 @@
             // 
             this.登录ToolStripMenuItem.CheckOnClick = true;
             this.登录ToolStripMenuItem.Name = "登录ToolStripMenuItem";
-            this.登录ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.登录ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.登录ToolStripMenuItem.Text = "登录";
             this.登录ToolStripMenuItem.Click += new System.EventHandler(this.登录ToolStripMenuItem_Click);
             // 
@@ -101,7 +101,7 @@
             this.系统管理员身份登录ToolStripMenuItem.CheckOnClick = true;
             this.系统管理员身份登录ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.系统管理员身份登录ToolStripMenuItem.Name = "系统管理员身份登录ToolStripMenuItem";
-            this.系统管理员身份登录ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.系统管理员身份登录ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.系统管理员身份登录ToolStripMenuItem.Text = "系统管理员身份登录";
             this.系统管理员身份登录ToolStripMenuItem.Visible = false;
             this.系统管理员身份登录ToolStripMenuItem.Click += new System.EventHandler(this.系统管理员身份登录ToolStripMenuItem_Click);
@@ -109,21 +109,21 @@
             // 登录历史ToolStripMenuItem
             // 
             this.登录历史ToolStripMenuItem.Name = "登录历史ToolStripMenuItem";
-            this.登录历史ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.登录历史ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.登录历史ToolStripMenuItem.Text = "登录历史";
             this.登录历史ToolStripMenuItem.Click += new System.EventHandler(this.登录历史ToolStripMenuItem_Click);
             // 
             // 注销登录ToolStripMenuItem
             // 
             this.注销登录ToolStripMenuItem.Name = "注销登录ToolStripMenuItem";
-            this.注销登录ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.注销登录ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.注销登录ToolStripMenuItem.Text = "注销登录";
             this.注销登录ToolStripMenuItem.Click += new System.EventHandler(this.注销登录ToolStripMenuItem_Click);
             // 
             // 退出系统ToolStripMenuItem
             // 
             this.退出系统ToolStripMenuItem.Name = "退出系统ToolStripMenuItem";
-            this.退出系统ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.退出系统ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.退出系统ToolStripMenuItem.Text = "退出系统";
             this.退出系统ToolStripMenuItem.Click += new System.EventHandler(this.退出系统ToolStripMenuItem_Click);
             // 
@@ -133,7 +133,7 @@
             this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(64, 48);
+            this.toolStripButton2.Size = new System.Drawing.Size(67, 53);
             this.toolStripButton2.Text = "系统配置";
             this.toolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
@@ -144,7 +144,7 @@
             this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(64, 48);
+            this.toolStripButton3.Size = new System.Drawing.Size(67, 53);
             this.toolStripButton3.Text = "在线监测";
             this.toolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
@@ -156,7 +156,7 @@
             this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(64, 48);
+            this.toolStripButton1.Size = new System.Drawing.Size(67, 53);
             this.toolStripButton1.Text = "PCI采集卡";
             this.toolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
@@ -167,7 +167,7 @@
             this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(64, 48);
+            this.toolStripButton4.Size = new System.Drawing.Size(67, 53);
             this.toolStripButton4.Text = "历史查询";
             this.toolStripButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripButton4.Visible = false;
@@ -184,7 +184,7 @@
             this.toolStripStatusLabel2});
             this.statusStrip1.Location = new System.Drawing.Point(0, 579);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(704, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(701, 22);
             this.statusStrip1.TabIndex = 9;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -205,9 +205,9 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.statusStrip1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(67, 0);
+            this.panel1.Location = new System.Drawing.Point(70, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(704, 601);
+            this.panel1.Size = new System.Drawing.Size(701, 601);
             this.panel1.TabIndex = 1;
             // 
             // pictureBox1
@@ -216,7 +216,7 @@
             this.pictureBox1.Image = global::Online0318.Properties.Resources.desktop;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(704, 579);
+            this.pictureBox1.Size = new System.Drawing.Size(701, 579);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
