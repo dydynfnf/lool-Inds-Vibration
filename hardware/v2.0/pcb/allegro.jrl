@@ -1,83 +1,24 @@
-\t (00:00:04) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:04)     Journal start - Mon Jul 25 10:18:34 2016
-\t (00:00:04)         Host=DAQI-PC User=DaQi Pid=3460 CPUs=4
-\t (00:00:04) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:04) 
-\t (00:00:06) Opening existing design...
-\d (00:00:06) Design opened: F:/Vibration/hardware/v2.0/pcb/vibration.brd
-\i (00:00:06) trapsize 30358
-\i (00:00:06) trapsize 29541
-\i (00:00:06) trapsize 30498
-\i (00:00:08) trapsize 25415
-\i (00:00:08) trapsize 25415
-\i (00:00:09) generaledit 
-\i (00:00:10) zoom in 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom in 1771.183 66.035
-\i (00:00:10) trapsize 12708
-\i (00:00:11) zoom in 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom in 1816.931 81.284
-\i (00:00:11) trapsize 6354
-\i (00:00:11) zoom in 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom in 1816.931 81.284
-\i (00:00:11) trapsize 3177
-\i (00:00:14) show measure 
-\i (00:00:14) zoom in 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom in 1764.830 161.978
-\i (00:00:14) trapsize 1588
-\i (00:00:14) zoom in 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom in 1764.830 161.978
-\i (00:00:14) trapsize 794
-\i (00:00:15) zoom in 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 1753.393 156.260
-\i (00:00:15) trapsize 397
-\i (00:00:15) zoom in 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 1753.394 156.260
-\i (00:00:15) trapsize 199
-\i (00:00:16) pick grid 1755.023 157.492
-\t (00:00:16) last pick:  1755.000 157.000
-\i (00:00:17) zoom out 1 
-\i (00:00:17) setwindow pcb
-\i (00:00:17) zoom out 1752.958 155.268
-\i (00:00:17) trapsize 397
-\i (00:00:17) zoom out 1 
-\i (00:00:17) setwindow pcb
-\i (00:00:17) zoom out 1752.878 154.950
-\i (00:00:17) trapsize 794
-\i (00:00:17) zoom out 1 
-\i (00:00:17) setwindow pcb
-\i (00:00:17) zoom out 1752.560 153.680
-\i (00:00:17) trapsize 1588
-\i (00:00:17) zoom out 1 
-\i (00:00:17) setwindow pcb
-\i (00:00:17) zoom out 1752.559 153.362
-\i (00:00:17) trapsize 3177
-\i (00:00:18) zoom in 1 
-\i (00:00:18) setwindow pcb
-\i (00:00:18) zoom in 2290.093 140.018
-\i (00:00:18) trapsize 1588
-\i (00:00:19) zoom in 1 
-\i (00:00:19) setwindow pcb
-\i (00:00:19) zoom in 2275.797 153.997
-\i (00:00:19) trapsize 794
-\i (00:00:19) zoom in 1 
-\i (00:00:19) setwindow pcb
-\i (00:00:19) zoom in 2275.638 154.156
-\i (00:00:19) trapsize 397
-\i (00:00:19) zoom in 1 
-\i (00:00:19) setwindow pcb
-\i (00:00:19) zoom in 2272.461 157.016
-\i (00:00:19) trapsize 199
-\i (00:00:21) pick grid 2266.981 157.453
-\t (00:00:21) last pick:  2267.000 157.000
-\i (00:01:06) setwindow text
-\i (00:01:06) close 
-\i (00:01:07) setwindow pcb
-\i (00:01:07) exit 
-\t (00:01:09)     Journal end - Mon Jul 25 10:19:39 2016
+\t (00:00:03) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:03)     Journal start - Mon Jul 25 21:47:43 2016
+\t (00:00:03)         Host=PSAI-PC User=psai Pid=2284 CPUs=4
+\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:03) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd
+\i (00:00:05) trapsize 79895
+\i (00:00:05) trapsize 77566
+\i (00:00:05) trapsize 80297
+\i (00:00:05) trapsize 65963
+\i (00:00:05) trapsize 65963
+\i (00:00:06) generaledit 
+\i (00:00:09) xsection 
+   (00:00:09) Loading floor.cxt 
+   (00:00:09) Loading skillExt.cxt 
+   (00:00:09) Loading axlcore.cxt 
+   (00:00:09) Loading signal.cxt 
+\i (00:00:46) setwindow form.fplyrstack
+\i (00:00:46) FORM fplyrstack cancel  
+\i (00:00:46) setwindow pcb
+\i (00:00:46) generaledit 
+\i (00:00:47) exit 
+\t (00:00:47)     Journal end - Mon Jul 25 21:48:28 2016

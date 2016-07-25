@@ -1,6 +1,6 @@
 \t (00:00:06) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:06)     Journal start - Sun Jul 24 16:08:05 2016
-\t (00:00:06)         Host=DAQI-PC User=DaQi Pid=7456 CPUs=4
+\t (00:00:06)     Journal start - Mon Jul 25 08:58:36 2016
+\t (00:00:06)         Host=DAQI-PC User=DaQi Pid=10492 CPUs=4
 \t (00:00:06) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
 \t (00:00:06) 
 \t (00:00:08) Opening existing design...
@@ -11,8 +11,77 @@
 \i (00:00:10) trapsize 61586
 \i (00:00:10) trapsize 101626
 \i (00:00:11) generaledit 
-\i (00:00:14) open 
-\i (00:00:41) fillin "menu_cancel"
-\i (00:00:41) generaledit 
-\i (00:00:43) exit 
-\t (00:00:44)     Journal end - Sun Jul 24 16:08:42 2016
+\i (00:00:59) zoom in 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom in 2169.060 -286.483
+\i (00:00:59) trapsize 50813
+\i (00:00:59) zoom in 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom in 2169.061 -286.483
+\i (00:00:59) trapsize 25407
+\i (00:00:59) zoom in 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom in 2169.061 -286.483
+\i (00:00:59) trapsize 12703
+\i (00:01:01) zoom out 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom out 2209.712 3.152
+\i (00:01:01) trapsize 25407
+\i (00:01:02) zoom in 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom in 3134.508 201.322
+\i (00:01:02) trapsize 12703
+\i (00:01:02) zoom in 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom in 3134.508 201.322
+\i (00:01:02) trapsize 6352
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 3110.372 164.483
+\i (00:01:03) trapsize 12703
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 3095.129 139.076
+\i (00:01:03) trapsize 25407
+\i (00:01:04) zoom in 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom in 3867.486 250.864
+\i (00:01:04) trapsize 12703
+\i (00:01:04) zoom in 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom in 3864.946 248.323
+\i (00:01:04) trapsize 6352
+\i (00:01:04) zoom in 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom in 3873.838 238.160
+\i (00:01:04) trapsize 3176
+\i (00:01:04) zoom in 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom in 3873.839 238.161
+\i (00:01:04) trapsize 1588
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 3872.886 236.573
+\i (00:01:04) trapsize 3176
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 3871.616 235.939
+\i (00:01:04) trapsize 6352
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 3870.346 234.668
+\i (00:01:04) trapsize 12703
+\i (00:01:05) zoom out 1 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) zoom out 3860.184 229.588
+\i (00:01:05) trapsize 25407
+\i (00:01:06) zoom in 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom in 3789.045 224.506
+\i (00:01:06) trapsize 12703
+\i (00:01:24) open 
+\i (00:01:36) fillin "F:\Vibration\hardware\v2.0\pcb\vibration.brd"
+\i (00:01:36) cd "F:\Vibration\hardware\v2.0\pcb"
+\t (00:01:36) Opening existing design...
+\i (00:01:36) trapsize 48424
+\t (00:01:36)     Journal end - Mon Jul 25 09:00:06 2016
