@@ -13,10 +13,10 @@
 int main(void)
 {		
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置系统中断优先级分组2
-	delay_init(168);
-	tim3_init(168);
+	delay_init(162);
+	tim3_init(162);
 	led_init();
-	ads1271_init();
+	ads1271_init(0);
 	sram_init();
 	
 	A0:
