@@ -221,18 +221,18 @@
       (Path "Design Resources" ".\vibration.dsn" "MCU")
       (Path "Design Resources" ".\vibration.dsn" "POWER")
       (Path "Outputs")
-      (Select "Design Resources" ".\vibration.dsn" "POWER" "POWER"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 565"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 821"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 50 930 50 420")
-        (Scroll "2029 0")
+        (Scroll "0 1183")
         (Zoom "200")
         (Occurrence "/P1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V2.0\SCH\VIBRATION.DSN")
