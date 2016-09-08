@@ -5,6 +5,8 @@
 #include "sram.h"
 #include "ethernet.h"
 
+short calculate_drift(u8 channel, u8 precision);
+unsigned char deal_config_command(void);
 unsigned char deal_int(void);
 unsigned char deal_pre(void);
 unsigned char deal_div(void);

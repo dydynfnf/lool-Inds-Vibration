@@ -1,8 +1,8 @@
 #include "ethernet.h"	       
 #include "delay.h"
+#include "flash.h"
 
 #define Bank1_SRAM2_ADDR    ((u32)(0x64000000))
-#define device 16 //设备号 取值2~255 决定物理地址 ip地址 端口号 
 
 /******************************************************************************/
 /*                             ETHERNET配置                                   */
@@ -162,7 +162,7 @@ void w5300_write(unsigned char *pbuffer,unsigned int add,unsigned char n)
 {
 	for(;n>0;n--)
 	{
-        *(vu8*)(Bank1_SRAM2_ADDR+add)=*pbuffer;
+		*(vu8*)(Bank1_SRAM2_ADDR+add)=*pbuffer;
 		add++;
 		pbuffer++;
 	}
@@ -186,19 +186,16 @@ void w5300_read(unsigned char *pbuffer,unsigned int add,unsigned char n)
 /*                            ETHERNET初始化                                  */
 /******************************************************************************/
 
-unsigned char r_gar[4]={192,168,1,1};
-unsigned char r_subr[4]={255,255,255,0};
-unsigned char r_shar[6]={0x3c,0x97,0x0e,0xbd,0xb5,device};
-unsigned char r_sipr[4]={192,168,1,device};
+extern struct Device_Config device_config;
+u8 device;//设备号 取值2~255 决定物理地址 ip地址 端口号
+u8 sha[6] = {0x3c,0x97,0x0e,0xbd,0xb5,0x10};//物理地址
 
 void ethernet_init(void)
 {
-	unsigned char gar[4]={192,168,1,1};
-	unsigned char subr[4]={255,255,255,0};
-	unsigned char shar[6]={0x3c,0x97,0x0e,0xbd,0xb5,device};
-	unsigned char sipr[4]={192,168,1,device};
 	unsigned char data[2];
-
+	device = device_config.sip[3];
+	sha[5] = device;
+	
 	ethernet_config();
 
 	data[0]=0x38,data[1]=0x00;
@@ -207,10 +204,10 @@ void ethernet_init(void)
 	w5300_write(data,IR,2);//清除中断标签
 	data[0]=0x00,data[1]=0x00;
 	w5300_write(data,IMR,2);//屏蔽所有中断
-	w5300_write(shar,SHAR,6);//本地硬件地址
-	w5300_write(gar,GAR,4);//网关ip地址
-	w5300_write(subr,SUBR,4);//子网掩码
-	w5300_write(sipr,SIPR,4);//本地ip
+	w5300_write(sha,SHAR,6);//本地硬件地址
+	w5300_write(device_config.ga,GAR,4);//网关ip地址
+	w5300_write(device_config.sub,SUBR,4);//子网掩码
+	w5300_write(device_config.sip,SIPR,4);//本地ip
 	data[0]=0x07,data[1]=0xd0;
 	w5300_write(data,RTR,2);//重发时间200ms
 	data[0]=0x00,data[1]=0x08;

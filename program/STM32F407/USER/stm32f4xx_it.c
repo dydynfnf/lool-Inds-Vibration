@@ -30,7 +30,9 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_it.h"
 #include "dma.h"
-#include "sram.h"	 
+#include "sram.h"
+#include "flash.h"
+#include "iwgd.h"
 
 /** @addtogroup Template_Project
   * @{
@@ -165,8 +167,54 @@ void SysTick_Handler(void)
   * @}
   */ 
 
+/******************************************************************************/
+/*                             外部中断2                                      */
+/*                             复位按键中断                                   */
+/******************************************************************************/
+
+extern struct Device_Config device_config;
+void EXTI2_IRQHandler(void)
+{
+	//设置ip
+	device_config.sip[0]=192;
+	device_config.sip[1]=168;
+	device_config.sip[2]=1;
+	device_config.sip[3]=16;
+
+	//设置子网掩码
+	device_config.sub[0]=255;
+	device_config.sub[1]=255;
+	device_config.sub[2]=255;
+	device_config.sub[3]=0;
+
+	//设置网关
+	device_config.ga[0]=192;
+	device_config.ga[1]=168;
+	device_config.ga[2]=1;
+	device_config.ga[3]=1;
+	
+	//设置零漂系数
+	device_config.drift1 = 0;
+	device_config.drift2 = 0;
+	device_config.drift3 = 0;
+	device_config.drift4 = 0;
+	
+	//设置分频系数
+	device_config.div = 0;
+	
+	save_device_config();//保存配置到flash
+	
+	EXTI_ClearITPendingBit(EXTI_Line2);//清除LINE4上的中断标志位
+	
+	sys_restart();//复位
+}
+
+/******************************************************************************/
+/*                             缓存深度                                       */
+/******************************************************************************/
 
 extern unsigned int dw;
+
 /******************************************************************************/
 /*                             外部中断4                                      */
 /*                             ADC1中断                                       */
@@ -214,7 +262,7 @@ unsigned int ad_j=0;
 extern unsigned char spi2_rx[6];
 //int exti5_count=0;
 void EXTI15_10_IRQHandler(void)
-{
+{	
 	spi2_rx_dma_transfer_once();//开启一次dma接收
 	spi2_tx_dma_transfer_once();//开启一次dma发送
 	

@@ -1,24 +1,29 @@
-\t (00:00:03) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:03)     Journal start - Mon Jul 25 21:47:43 2016
-\t (00:00:03)         Host=PSAI-PC User=psai Pid=2284 CPUs=4
-\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:03) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd
-\i (00:00:05) trapsize 79895
-\i (00:00:05) trapsize 77566
-\i (00:00:05) trapsize 80297
-\i (00:00:05) trapsize 65963
-\i (00:00:05) trapsize 65963
-\i (00:00:06) generaledit 
-\i (00:00:09) xsection 
-   (00:00:09) Loading floor.cxt 
-   (00:00:09) Loading skillExt.cxt 
-   (00:00:09) Loading axlcore.cxt 
-   (00:00:09) Loading signal.cxt 
-\i (00:00:46) setwindow form.fplyrstack
-\i (00:00:46) FORM fplyrstack cancel  
-\i (00:00:46) setwindow pcb
-\i (00:00:46) generaledit 
-\i (00:00:47) exit 
-\t (00:00:47)     Journal end - Mon Jul 25 21:48:28 2016
+\t (00:03:54) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:03:54)     Journal start - Mon Sep 05 22:34:43 2016
+\t (00:03:54)         Host=PSAI-PC User=psai Pid=17252 CPUs=4
+\t (00:03:54) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:03:54) 
+\d (00:03:54) Design opened: E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd
+\i (00:03:54) generaledit 
+\i (00:03:55) zoom in 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom in 1662.280 2862.809
+\i (00:03:55) trapsize 32982
+\i (00:03:56) zoom in 1 
+\i (00:03:56) setwindow pcb
+\i (00:03:56) zoom in 1662.280 2862.809
+\i (00:03:56) trapsize 16491
+\i (00:03:56) zoom in 1 
+\i (00:03:56) setwindow pcb
+\i (00:03:56) zoom in 1668.876 2862.809
+\i (00:03:56) trapsize 8245
+\i (00:03:56) zoom out 1 
+\i (00:03:56) setwindow pcb
+\i (00:03:56) zoom out 2183.388 2745.725
+\i (00:03:56) trapsize 16491
+\i (00:04:13) open 
+\i (00:04:25) fillin "C:\Users\psai\Desktop\v2.0\pcb\vibration.brd"
+\i (00:04:25) cd "C:\Users\psai\Desktop\v2.0\pcb"
+\t (00:04:25) Opening existing design...
+\i (00:04:25) trapsize 54536
+\t (00:04:25)     Journal end - Mon Sep 05 22:35:14 2016

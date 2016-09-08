@@ -3,11 +3,11 @@
 #include "sys.h"
 
 void led_init(void);
-void led_r(unsigned char status);
-void led_g(unsigned char status);
-void led_y(unsigned char status);
-void led_r_toggle(void);
-void led_g_toggle(void);
-void led_y_toggle(void);
+void led_sample(unsigned char status);
+void led_link(unsigned char status);
+void led_current(unsigned char status);
+void led_sample_toggle(void);
+void led_link_toggle(void);
+void led_current_toggle(void);
 
 #endif

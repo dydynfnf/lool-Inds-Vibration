@@ -1,100 +1,137 @@
-\t (00:00:03) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:03)     Journal start - Mon Jul 25 21:45:16 2016
-\t (00:00:03)         Host=PSAI-PC User=psai Pid=384 CPUs=4
-\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:03) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd
-\i (00:00:05) trapsize 79895
-\i (00:00:05) trapsize 77566
-\i (00:00:05) trapsize 80297
-\i (00:00:05) trapsize 65963
-\i (00:00:05) trapsize 65963
-\i (00:00:06) generaledit 
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in 1952.507 1035.621
-\i (00:00:07) trapsize 32982
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in 1952.507 1035.621
-\i (00:00:07) trapsize 16491
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in 1952.507 1035.622
-\i (00:00:07) trapsize 8245
-\i (00:00:07) zoom out 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom out 1954.157 1035.622
-\i (00:00:07) trapsize 16491
-\i (00:00:07) zoom out 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom out 1954.156 1035.622
-\i (00:00:07) trapsize 32982
-\i (00:00:09) zoom out 1 
+\t (00:00:05) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:05)     Journal start - Mon Sep 05 22:30:55 2016
+\t (00:00:05)         Host=PSAI-PC User=psai Pid=17252 CPUs=4
+\t (00:00:05) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:05) 
+\t (00:00:06) Opening existing design...
+\d (00:00:07) Design opened: E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd
+\i (00:00:07) trapsize 79895
+\i (00:00:07) trapsize 77566
+\i (00:00:07) trapsize 80297
+\i (00:00:07) trapsize 65963
+\i (00:00:07) trapsize 65963
+\i (00:00:08) generaledit 
+\i (00:00:09) zoom in 1 
 \i (00:00:09) setwindow pcb
-\i (00:00:09) zoom out 2739.117 1444.594
-\i (00:00:09) trapsize 65963
-\i (00:00:09) roam start
-\i (00:00:09) roam x 80
-\i (00:00:09) roam y -80
-\i (00:00:09) roam x 96
-\i (00:00:09) roam y -128
-\i (00:00:09) roam y -64
-\i (00:00:10) roam x -32
-\i (00:00:10) roam y 64
-\i (00:00:10) roam x -48
-\i (00:00:10) roam y 96
-\i (00:00:10) roam y 64
-\i (00:00:10) roam end
-\i (00:00:14) dbdoctor 
-\i (00:00:16) setwindow form.dbdoctor_allegro
-\i (00:00:16) FORM dbdoctor_allegro close  
-\i (00:00:16) setwindow pcb
-\i (00:00:16) generaledit 
-\i (00:00:17) status 
-\i (00:00:17) generaledit 
-\i (00:00:21) setwindow form.status
-\i (00:00:21) FORM status drc_update  
-\t (00:00:21) Running DRC, wait...
-\t (00:00:21) Performing DRC...
-\t (00:00:21) Multithreaded DRC update (4 threads).
-\t (00:00:21) No DRC errors detected.
-\t (00:00:21) DRC done.
-\i (00:00:23) FORM status done  
+\i (00:00:09) zoom in 1385.235 2176.793
+\i (00:00:09) trapsize 32982
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 1385.236 2176.793
+\i (00:00:09) trapsize 16491
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 1385.236 2176.793
+\i (00:00:10) trapsize 32982
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 2361.489 1721.648
+\i (00:00:12) trapsize 65963
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 1820.592 85.763
+\i (00:00:12) trapsize 32982
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 1820.592 85.763
+\i (00:00:12) trapsize 16491
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 1820.592 85.763
+\i (00:00:12) trapsize 8245
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 1820.592 85.764
+\i (00:00:13) trapsize 16491
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out 1820.591 85.763
+\i (00:00:14) trapsize 32982
+\i (00:00:16) settoggle no_etch_shape_display 
+\i (00:00:16) redraw 
+\i (00:00:16) trapsize 32982
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 2031.674 1358.851
+\i (00:00:18) trapsize 16491
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 2031.674 1358.851
+\i (00:00:19) trapsize 8245
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 2031.674 1358.851
+\i (00:00:19) trapsize 16491
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in 2536.292 616.767
+\i (00:00:22) trapsize 8245
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out 2536.292 616.767
+\i (00:00:22) trapsize 16491
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 2536.292 616.767
+\i (00:00:23) trapsize 32982
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 524.418 1414.921
+\i (00:00:24) trapsize 16491
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 784.972 1411.623
+\i (00:00:25) trapsize 32982
+\i (00:00:25) roam start
+\i (00:00:25) roam x -32
+\i (00:00:25) roam y -144
+\i (00:00:26) roam x -32
+\i (00:00:26) roam y -80
+\i (00:00:26) roam x -16
+\i (00:00:26) roam y -48
+\i (00:00:26) roam y -48
+\i (00:00:26) roam y -32
+\i (00:00:26) roam end
+\i (00:00:26) zoom in 1 
 \i (00:00:26) setwindow pcb
-\i (00:00:26) dbdoctor 
-\i (00:00:27) setwindow form.dbdoctor_allegro
-\i (00:00:27) FORM dbdoctor_allegro drc YES 
-\i (00:00:27) FORM dbdoctor_allegro execute  
-\t (00:00:27) Dbdoctor in progress - wait...
-\t (00:00:27) Checking db records
-\t (00:00:27)     checking for orphans...
-\t (00:00:27)     Checked  18 percent
-\t (00:00:27)     Checked  37 percent
-\t (00:00:27)     Checked  55 percent
-\t (00:00:27)     Checked  74 percent
-\t (00:00:27)     Checked  93 percent
-   (00:00:27) Loading signal.cxt 
-\t (00:00:27)     Checked 100 percent
-\t (00:00:27) Regenerating DRC
-\t (00:00:27)   Original DRC errors: 0
-\t (00:00:27) Performing DRC...
-\t (00:00:27) Multithreaded DRC update (4 threads).
-\t (00:00:28) No DRC errors detected.
-\t (00:00:28)   Updated DRC errors:  0
-\t (00:00:29) Done dbdoctor.
-\t (00:00:29) Dbdoctor completed.
-\i (00:00:30) FORM dbdoctor_allegro close  
+\i (00:00:26) zoom in 1226.922 3621.382
+\i (00:00:26) trapsize 16491
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 1226.923 3621.382
+\i (00:00:26) trapsize 8245
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 1215.380 3387.213
+\i (00:00:28) trapsize 16491
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 1601.263 3624.680
+\i (00:00:29) trapsize 32982
+\i (00:00:30) zoom in 1 
 \i (00:00:30) setwindow pcb
-\i (00:00:30) generaledit 
-\i (00:00:34) status 
-\i (00:00:34) generaledit 
-\i (00:00:36) setwindow form.status
-\i (00:00:36) FORM status done  
-\i (00:00:39) setwindow pcb
-\i (00:00:39) save 
-\i (00:00:40) fillin yes 
-\i (00:00:40) generaledit 
-\i (00:00:42) exit 
-\t (00:00:42)     Journal end - Mon Jul 25 21:45:56 2016
+\i (00:00:30) zoom in 1416.566 4086.422
+\i (00:00:30) trapsize 16491
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 1202.186 3674.153
+\i (00:00:31) trapsize 32982
+\i (00:00:32) roam start
+\i (00:00:32) roam y 32
+\i (00:00:32) roam x -16
+\i (00:00:32) roam y 16
+\i (00:00:32) roam y 16
+\i (00:00:32) roam y 32
+\i (00:00:32) roam y 16
+\i (00:00:33) roam x -16
+\i (00:00:33) roam end
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 1213.730 2889.193
+\i (00:00:33) trapsize 16491
+\i (00:00:36) open 
+\i (00:00:48) fillin "C:\Users\psai\Desktop\v2.0\pcb\vibration.brd"
+\i (00:00:48) cd "C:\Users\psai\Desktop\v2.0\pcb"
+\t (00:00:48) Opening existing design...
+\i (00:00:48) trapsize 54536
+\t (00:00:48)     Journal end - Mon Sep 05 22:31:37 2016
