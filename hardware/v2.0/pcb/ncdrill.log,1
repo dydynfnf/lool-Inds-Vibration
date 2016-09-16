@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Fri Jul 15 00:29:10 2016                      )
+(    Date/Time        : Sat Jul 16 01:15:33 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -48,7 +48,7 @@ Drill files being output to directory 'E:/material/lool Inds Vibration/hardware/
 
            Num     Size      +/- Tolerance     Plating   Quantity
 
-            1.  12.0000    0.0000/  0.0000      PLATED        893
+            1.  12.0000    0.0000/  0.0000      PLATED        897
             2.  23.6220    0.0000/  0.0000      PLATED          8
             3.  35.4330    0.0000/  0.0000      PLATED          6
             4.  39.3700    0.0000/  0.0000      PLATED         18
@@ -60,7 +60,7 @@ Drill files being output to directory 'E:/material/lool Inds Vibration/hardware/
            10.  39.3700    0.0000/  0.0000  NON_PLATED          4
            11. 137.7950    0.0000/  0.0000  NON_PLATED          2
 
-     ---- Total holes:                                        962
+     ---- Total holes:                                        966
 
-     ---- Total head travel:              11.77 feet (3.59 meters)
+     ---- Total head travel:              11.88 feet (3.62 meters)
 

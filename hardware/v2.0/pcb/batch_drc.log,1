@@ -3,8 +3,8 @@
 (    DRC Update                                                       )
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
-(    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Mon Jul 25 21:33:35 2016                      )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Mon Sep 05 21:56:45 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,6 +22,6 @@
 
  ..... Total number of DRC errors  0
 
- ..... DRC update completed, total CPU time   0:00:00
+ ..... DRC update completed, total CPU time   0:00:01
  *************************************************************************
 

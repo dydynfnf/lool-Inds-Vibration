@@ -1,0 +1,18 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    PLCTXT Log                                                       )
+(                                                                     )
+(    Drawing          : vibration.brd                                 )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Fri Aug 26 21:39:46 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Place by text file using: place_txt.txt
+
+ Unable to open place text file 'place_txt.txt'
+
+Error return
+WARNING(SPMHA1-307): Error opening file.

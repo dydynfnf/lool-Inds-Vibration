@@ -3,12 +3,12 @@
 (    Parameter File WRITE                                             )
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
-(    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Fri May 06 17:32:38 2016                      )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Sun Aug 28 16:53:10 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-	Layout Name   : E:/material/lool Inds Vibration/hardware/v1.0/pcb/vibration.brd
-	Paramfile Name : E:/cadence lib/TOOLS/parameters.prm
+	Layout Name   : F:/Vibration/lool-Inds-Vibration/hardware/v2.0/pcb/vibration.brd
+	Paramfile Name : F:/FirstTry/122.prm
 

@@ -2,102 +2,137 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd             |
-|                                                    Fri Jul 01 21:08:16 2016  |
+|  F:/Vibration/lool-Inds-Vibration/hardware/v2.0/pcb/vibration.brd            |
+|                                                    Sat Sep 03 21:15:56 2016  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins ADDED TO this existing net (pins not previously on any net)
-                                 J9.1                           
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 D2.2            841.000 3982.83
+                                                                     N101702_F2
+                                 D4.2            141.000 3982.83
+                                                                     N101702_F1
+                                 D6.2            2241.00 3982.83
+                                                                     N101702_F6
+                                 D8.2            1541.00 3982.83
+                                                                     N101702_F5
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  JTCK         pins MOVED FROM this net (to net name listed on right)
-                                 R54.1           1644.00 810.000
-                                                                          SWCLK
-                                 U10.109         1940.77 1304.25
-                                                                          SWCLK
+  N158706      pins MOVED FROM this net (to net name listed on right)
+                                 U9.19           628.330 980.000
+                                                                        N164681
+                                 U9.20           648.015 980.000
+                                                                        N164681
+                                 U9.21           667.700 980.000
+                                                                        N164681
+                                 U9.22           687.385 980.000
+                                                                        N164681
+                                 U9.23           707.070 980.000
+                                                                        N164681
+                                 U9.24           726.755 980.000
+                                                                        N164681
+                                 U9.25           746.440 980.000
+                                                                        N164681
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  JTDI         pins DELETED FROM this net (all pins deleted)
-                                 U10.110         1940.77 1323.93
+  N175911      pins MOVED FROM this net (to net name listed on right)
+                                 D3.2            681.000 3982.83
+                                                                          VCC-5
+                                 D4.1            141.000 4160.00
+                                                                           VCC5
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  JTDO         pins DELETED FROM this net (all pins deleted)
-                                 U10.133         1940.77 1776.69
+  N175923      pins MOVED FROM this net (to net name listed on right)
+                                 D1.2            1381.00 3982.83
+                                                                          VCC-5
+                                 D2.1            841.000 4160.00
+                                                                           VCC5
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  JTMS         pins MOVED FROM this net (to net name listed on right)
-                                 R55.1           1744.00 810.000
-                                                                          SWDIO
-                                 U10.105         1804.94 1227.48
-                                                                          SWDIO
+  N175935      pins MOVED FROM this net (to net name listed on right)
+                                 D7.2            2081.00 3982.83
+                                                                          VCC-5
+                                 D8.1            1541.00 4160.00
+                                                                           VCC5
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  JTRST        pins DELETED FROM this net (all pins deleted)
-                                 U10.134         1940.77 1796.37
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SWCLK        pins ADDED TO this new net
-                                 J9.3                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SWDIO        pins ADDED TO this new net
-                                 J9.4                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD3.3       pins ADDED TO this existing net (pins not previously on any net)
-                                 J9.2                           
+  N175947      pins MOVED FROM this net (to net name listed on right)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd             |
-|                                                    Fri Jul 01 21:08:16 2016  |
+|  F:/Vibration/lool-Inds-Vibration/hardware/v2.0/pcb/vibration.brd            |
+|                                                    Sat Sep 03 21:15:56 2016  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- 4 HEADER_H-4_4 HEADER
+                                 D5.2            2781.00 3982.83
+                                                                          VCC-5
+                                 D6.1            2241.00 4160.00
+                                                                           VCC5
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N211423      pins MOVED FROM this net (to net name listed on right)
+                                 Q1.2            3334.00 3425.19
+                                                                           VBAT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VBAT         pins MOVED FROM this net (to net name listed on right)
+                                 Q1.3            3424.55 3462.59
+                                                                        N211423
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC20        pins MOVED FROM this net (to net name listed on right)
+                                 D1.1            1381.00 4160.00
+                                                                     N101702_F2
+                                 D3.1            681.000 4160.00
+                                                                     N101702_F1
+                                 D5.1            2781.00 4160.00
+                                                                     N101702_F6
+                                 D7.1            2081.00 4160.00
+                                                                     N101702_F5
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd             |
-|                                                    Fri Jul 01 21:08:16 2016  |
+|  F:/Vibration/lool-Inds-Vibration/hardware/v2.0/pcb/vibration.brd            |
+|                                                    Sat Sep 03 21:15:56 2016  |
 |------------------------------------------------------------------------------|
 | COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- P2                  JTAG_H-10-2_JTAG      2044.00 730.000
- R53                 RES_0603_10K          1444.00 839.921
- R56                 RES_0603_10K          1844.00 839.921
- R57                 RES_0603_10K          1944.00 839.921
+ R41                 RES_0603_NC           744.000 839.921
+ R114                RES_0603_NC           3405.00 3355.00
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd             |
-|                                                    Fri Jul 01 21:08:16 2016  |
+|  F:/Vibration/lool-Inds-Vibration/hardware/v2.0/pcb/vibration.brd            |
+|                                                    Sat Sep 03 21:15:56 2016  |
 |------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
+| COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J9                  4 HEADER_H-4_4 HEADER 
+ R98                 RES_0603_33           2264.00 3589.92 RES_0603_16
+ R106                RES_0603_33           1564.00 3589.92 RES_0603_16
+ R108                RES_0603_33           864.000 3589.92 RES_0603_16
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|  E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd             |
-|                                                    Fri Jul 01 21:08:16 2016  |
+|  F:/Vibration/lool-Inds-Vibration/hardware/v2.0/pcb/vibration.brd            |
+|                                                    Sat Sep 03 21:15:56 2016  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J9.4                           PRIM_FILE      .\pstchip.dat
+ R98.2          2264.00 3589.92 PRIM_FILE      .\pstchip.dat
+ R106.2         1564.00 3589.92 PRIM_FILE      .\pstchip.dat
+ R108.2         864.000 3589.92 PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
-|       Nets changed          :      11                                        |
-|       Comp definitions added:       1                                        |
-|       Components added      :       1                                        |
-|       Components deleted    :       4                                        |
-|       Slot property added   :       1                                        |
+|       Nets changed          :      25                                        |
+|       Components deleted    :       2                                        |
+|       Components changed    :       3                                        |
+|       Slot property added   :       3                                        |
 |                                                                              |
-|   Total ECO changes reported:      18                                        |
+|   Total ECO changes reported:      33                                        |
 |------------------------------------------------------------------------------|

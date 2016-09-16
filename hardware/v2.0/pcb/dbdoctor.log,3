@@ -3,13 +3,11 @@
 (    DBDOCTOR                                                         )
 (                                                                     )
 (    Drawing          : vibration.brd                                 )
-(    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Mon Jul 25 21:35:29 2016                      )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Sun Aug 28 16:44:14 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
-WARNING   WARNING(SPMHDB-42): Run batch DRC to correctly regenerate DRC errs.
-
-1 warnings, 0 errors detected, 0 errors could be fixed.
+0 warnings, 0 errors detected, 0 errors could be fixed.

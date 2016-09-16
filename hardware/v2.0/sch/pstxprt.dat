@@ -1,0 +1,3908 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Sep-03-2016 at 21:15:09 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='VIBRATION';
+ POST_TIME='Feb 15 2016 19:53:59';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ BEAD1 'RES_0805_10R':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120119@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120119@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120119@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):S@VIBRATION.SPEED(SCH_1):INS134688@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):s@vibration.speed(sch_1):ins134688@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_s@vibration.speed(sch_1):page1_ins134688@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101887@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101887@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101887@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C100 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101779@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101779@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101779@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C101 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105396@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105396@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105396@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C102 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS102027@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins102027@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins102027@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C103 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS109024@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins109024@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins109024@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C104 'CAP+_CAP-7343_10UF50V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS102047@MYLIBRARY.CAP+.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins102047@mylibrary.\cap+.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins102047@mylibrary.\cap+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C105 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS109056@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins109056@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins109056@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C106 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS109072@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins109072@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins109072@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C107 'CAP_0603_200PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101847@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101847@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101847@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C108 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105474@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105474@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105474@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C109 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105240@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105240@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105240@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP_0603_1NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS109008@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins109008@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins109008@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C110 'CAP_0603_47PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101867@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101867@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101867@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C111 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS109108@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins109108@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins109108@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C112 'CAP_0603_5.6NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105256@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105256@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105256@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C113 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101887@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101887@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101887@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C114 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105506@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105506@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105506@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C115 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS109124@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins109124@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins109124@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C116 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105522@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105522@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105522@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C117 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101947@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101947@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101947@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C118 'CAP_0603_5.6NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105340@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105340@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105340@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C119 'CAP_0603_220PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101739@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101739@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101739@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS108992@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins108992@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins108992@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C120 'CAP_0603_120PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101759@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101759@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101759@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C121 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS108992@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins108992@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins108992@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C122 'CAP_0603_1NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS109008@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins109008@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins109008@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C123 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101779@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101779@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101779@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C124 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105396@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105396@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105396@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C125 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS102027@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins102027@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins102027@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C126 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS109024@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins109024@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins109024@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C127 'CAP+_CAP-7343_10UF50V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS102047@MYLIBRARY.CAP+.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins102047@mylibrary.\cap+.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins102047@mylibrary.\cap+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C128 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS109056@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins109056@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins109056@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C129 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS109072@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins109072@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins109072@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS109024@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins109024@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins109024@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C130 'CAP_0603_200PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101847@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101847@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101847@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C131 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105474@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105474@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105474@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C132 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105240@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105240@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105240@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C133 'CAP_0603_47PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101867@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101867@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101867@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C134 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS109108@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins109108@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins109108@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C135 'CAP_0603_5.6NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105256@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105256@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105256@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C136 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101887@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101887@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101887@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C137 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105506@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105506@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105506@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C138 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS109124@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins109124@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins109124@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C139 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105522@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105522@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105522@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAP_0603_5.6NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105340@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105340@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105340@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C140 'CAP_0603_1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS135256@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins135256@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins135256@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C141 'CAP_0603_0.01UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133488@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133488@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133488@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C142 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134668@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134668@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134668@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C143 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133384@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133384@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133384@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C144 'CAP_0603_150PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS183117@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins183117@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins183117@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C145 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134332@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134332@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134332@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C146 'CAP+_CAP-6032_10UF35V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS182909@MYLIBRARY.CAP+.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins182909@mylibrary.\cap+.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins182909@mylibrary.\cap+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C147 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS183085@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins183085@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins183085@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C148 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS183211@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins183211@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins183211@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C149 'CAP_1206_22UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS183021@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins183021@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins183021@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP_0603_5.6NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105256@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105256@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105256@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C150 'CAP_0603_0.01UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133216@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133216@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133216@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C151 'CAP+_CAP-3528_2.2UF35V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133196@MYLIBRARY.CAP+.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133196@mylibrary.\cap+.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133196@mylibrary.\cap+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C152 'CAP+_CAP-3528_1UF35V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134688@MYLIBRARY.CAP+.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134688@mylibrary.\cap+.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134688@mylibrary.\cap+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C153 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134312@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134312@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134312@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C154 'CAP_0603_1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133936@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133936@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133936@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C155 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS135336@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins135336@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins135336@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C156 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134628@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134628@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134628@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C157 'CAP_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS185084@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins185084@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins185084@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C158 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS205543@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins205543@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins205543@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C159 'CAP_0603_2.2NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS185116@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins185116@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins185116@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105396@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105396@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105396@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C160 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS185024@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins185024@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins185024@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C161 'CAP+_CAP-6032_10UF35V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS184976@MYLIBRARY.CAP+.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins184976@mylibrary.\cap+.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins184976@mylibrary.\cap+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C162 'CAP_0603_100PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS185180@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins185180@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins185180@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C163 'CAP_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134412@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134412@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134412@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C164 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134968@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134968@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134968@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C165 'CAP_0603_0.47UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134172@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134172@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134172@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C166 'CAP_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133672@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133672@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133672@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C167 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134132@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134132@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134132@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C168 'CAP_0603_150PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS190154@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins190154@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins190154@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C169 'CAP_0603_1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134800@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134800@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134800@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS109108@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins109108@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins109108@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C170 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134008@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134008@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134008@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C171 'CAP_0603_0.01UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133096@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133096@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133096@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C172 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133752@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133752@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133752@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C173 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134272@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134272@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134272@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C174 'CAP+_CAP-6032_10UF35V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS189946@MYLIBRARY.CAP+.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins189946@mylibrary.\cap+.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins189946@mylibrary.\cap+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C175 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS190122@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins190122@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins190122@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C176 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS190242@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins190242@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins190242@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C177 'CAP_1206_22UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS190058@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins190058@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins190058@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C178 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134292@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134292@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134292@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C179 'CAP+_CAP-6032_100UF10V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS135296@MYLIBRARY.CAP+.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins135296@mylibrary.\cap+.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins135296@mylibrary.\cap+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS109056@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins109056@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins109056@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C180 'CAP_0603_1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134476@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134476@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134476@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C181 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133568@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133568@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133568@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C182 'CAP_0603_0.01UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS135120@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins135120@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins135120@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C183 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133236@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133236@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133236@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C184 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133896@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133896@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133896@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C185 'CAP_0603_10NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134928@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134928@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134928@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C186 'CAP_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134864@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134864@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134864@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C187 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS135236@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins135236@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins135236@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C188 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134456@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134456@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134456@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C189 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134372@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134372@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134372@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS109072@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins109072@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins109072@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C190 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133916@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133916@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133916@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C191 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134744@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134744@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134744@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C192 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS135196@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins135196@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins135196@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C193 'CAP_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133772@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133772@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133772@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C194 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134192@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134192@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134192@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C195 'CAP_0603_150PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192390@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192390@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192390@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C196 'CAP+_CAP-6032_10UF35V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192186@MYLIBRARY.CAP+.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192186@mylibrary.\cap+.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192186@mylibrary.\cap+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C197 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192362@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192362@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192362@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C198 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192478@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192478@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192478@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C199 'CAP_1206_22UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192298@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192298@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192298@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101947@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101947@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101947@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS109124@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins109124@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins109124@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C200 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS135044@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins135044@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins135044@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C201 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133364@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133364@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133364@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C202 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133832@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133832@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133832@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C203 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134084@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134084@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134084@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C204 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS230765@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins230765@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins230765@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C205 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS230739@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins230739@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins230739@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105240@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105240@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105240@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105506@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105506@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105506@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105474@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105474@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105474@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105522@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105522@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105522@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101947@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101947@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101947@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'CAP_0603_5.6NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105340@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105340@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105340@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C27 'CAP_0603_220PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101739@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101739@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101739@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C28 'CAP_0603_120PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101759@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101759@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101759@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C29 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS108992@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins108992@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins108992@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS102027@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins102027@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins102027@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'CAP_0603_1NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS109008@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins109008@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins109008@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C31 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101779@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101779@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101779@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C32 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105396@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105396@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105396@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C33 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS102027@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins102027@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins102027@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C34 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS109024@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins109024@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins109024@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C35 'CAP+_CAP-7343_10UF50V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS102047@MYLIBRARY.CAP+.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins102047@mylibrary.\cap+.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins102047@mylibrary.\cap+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C36 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS109056@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins109056@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins109056@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C37 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS109072@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins109072@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins109072@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C38 'CAP_0603_200PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101847@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101847@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101847@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C39 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105474@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105474@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105474@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP_0603_220PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101739@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101739@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101739@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C40 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105240@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105240@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105240@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C41 'CAP_0603_47PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101867@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101867@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101867@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C42 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS109108@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins109108@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins109108@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C43 'CAP_0603_5.6NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105256@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105256@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105256@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C44 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101887@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101887@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101887@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C45 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105506@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105506@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105506@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C46 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS109124@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins109124@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins109124@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C47 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105522@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105522@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105522@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C48 'CAP_0603_22PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165501@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165501@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165501@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C49 'CAP_0603_22PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS164821@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins164821@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins164821@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP+_CAP-7343_10UF50V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS102047@MYLIBRARY.CAP+.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins102047@mylibrary.\cap+.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins102047@mylibrary.\cap+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C50 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165785@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165785@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165785@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C51 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165893@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165893@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165893@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C52 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165521@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165521@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165521@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C53 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165725@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165725@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165725@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C54 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165353@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165353@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165353@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C55 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165541@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165541@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165541@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C56 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165825@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165825@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165825@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C57 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS164721@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins164721@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins164721@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C58 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS164921@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins164921@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins164921@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C59 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165805@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165805@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165805@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP_0603_120PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101759@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101759@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101759@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C60 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS164781@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins164781@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins164781@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C61 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS164881@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins164881@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins164881@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C63 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165581@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165581@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165581@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C64 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS164761@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins164761@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins164761@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C65 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165953@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165953@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165953@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C66 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165845@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165845@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165845@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C67 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165461@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165461@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165461@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C68 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165973@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165973@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165973@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C69 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS164741@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins164741@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins164741@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP_0603_200PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101847@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101847@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101847@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C70 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165933@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165933@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165933@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C71 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS164901@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins164901@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins164901@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C72 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120739@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120739@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120739@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C73 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120383@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120383@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120383@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C74 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS141382@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins141382@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins141382@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C75 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS141597@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins141597@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins141597@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C76 'CAP_0603_22PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120423@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120423@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120423@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C77 'CAP_0603_22PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS119899@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins119899@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins119899@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C78 'CAP_0603_2.2UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS119859@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins119859@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins119859@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C79 'CAP_0603_2.2UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120619@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120619@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120619@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP_0603_47PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101867@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101867@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101867@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C80 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS121203@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins121203@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins121203@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C81 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS121031@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins121031@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins121031@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C82 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS119819@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins119819@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins119819@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C83 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120139@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120139@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120139@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C84 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120599@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120599@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120599@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C85 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS121143@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins121143@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins121143@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C86 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS119839@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins119839@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins119839@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C87 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120315@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120315@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120315@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C88 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120659@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120659@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120659@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C89 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120079@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120079@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120079@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101779@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101779@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101779@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C90 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120159@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120159@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120159@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C91 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120443@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120443@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120443@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C92 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120679@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120679@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120679@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C93 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120699@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120699@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120699@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C94 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101947@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101947@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101947@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C95 'CAP_0603_5.6NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105340@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105340@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105340@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C96 'CAP_0603_220PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101739@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101739@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101739@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C97 'CAP_0603_120PF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101759@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101759@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101759@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C98 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS108992@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins108992@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins108992@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C99 'CAP_0603_1NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS109008@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins109008@mylibrary.\cap.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins109008@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 '1N5819_SMA_B340A-13-F':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS190050@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins190050@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins190050@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D10 '1N5819_SOD123_CMMSH1-40':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS185048@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins185048@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins185048@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D11 '1N5819_SMA_B340A-13-F':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS190030@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins190030@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins190030@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D12 '1N5819_SMA_B340A-13-F':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192266@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192266@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192266@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D13 '1N5819_1N457-DIP_1N457':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS248231@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins248231@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins248231@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D14 '1N5819_1N457-DIP_1N457':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS253917@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins253917@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins253917@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D15 '1N5819_1N457-DIP_1N457':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS253969@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins253969@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins253969@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D16 '1N5819_1N457-DIP_1N457':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS254021@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins254021@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins254021@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 '1N5819_SMA_B340A-13-F':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS190076@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins190076@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins190076@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 '1N5819_SMA_B340A-13-F':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS190050@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins190050@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins190050@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 '1N5819_SMA_B340A-13-F':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS190076@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins190076@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins190076@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 '1N5819_SMA_B340A-13-F':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS190050@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins190050@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins190050@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 '1N5819_SMA_B340A-13-F':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS190076@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins190076@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins190076@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D7 '1N5819_SMA_B340A-13-F':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS190050@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins190050@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins190050@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D8 '1N5819_SMA_B340A-13-F':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS190076@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins190076@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins190076@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D9 '1N5819_SMA_B340A-13-F':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS182997@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins182997@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins182997@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'GX12-3P_GX12-3P_GX12-3P':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):S@VIBRATION.SPEED(SCH_1):INS136001@MYLIBRARY.GX12-3P.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):s@vibration.speed(sch_1):ins136001@mylibrary.\gx12-3p.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_s@vibration.speed(sch_1):page1_ins136001@mylibrary.\gx12-3p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'BNC_BNC_BNC':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS106009@MYLIBRARY.BNC.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins106009@mylibrary.\bnc.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins106009@mylibrary.\bnc.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'BNC_BNC_BNC':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS106009@MYLIBRARY.BNC.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins106009@mylibrary.\bnc.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins106009@mylibrary.\bnc.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'RJ45_RJ45_RJ45':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165373@MYLIBRARY.RJ45.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165373@mylibrary.\rj45.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165373@mylibrary.\rj45.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'BNC_BNC_BNC':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS106009@MYLIBRARY.BNC.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins106009@mylibrary.\bnc.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins106009@mylibrary.\bnc.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'BNC_BNC_BNC':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS106009@MYLIBRARY.BNC.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins106009@mylibrary.\bnc.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins106009@mylibrary.\bnc.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 '4 HEADER_MOLEX-2-2_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134104@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134104@connector.\4 header.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134104@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'HEADER 2_MOLEX-2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS221294@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins221294@connector.\header 2.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins221294@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 '4 HEADER_H-4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS233891@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins233891@connector.\4 header.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins233891@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ K1 'KEY-HD11_KEY-HD11_KEY-HD11':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS191385@MYLIBRARY.KEY-HD11.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins191385@mylibrary.\key-hd11.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins191385@mylibrary.\key-hd11.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_1008_1UH':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS164841@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins164841@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins164841@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'INDUCTOR_1008_1UH':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165685@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165685@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165685@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'INDUCTOR_L-7-7-3_15UH':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS182981@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins182981@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins182981@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'INDUCTOR_L-7-7-3_4.7UH':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS185068@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins185068@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins185068@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L5 'INDUCTOR_L-7-7-3_4.7UH':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS185100@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins185100@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins185100@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L6 'INDUCTOR_L-7-7-3_15UH':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS190014@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins190014@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins190014@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L7 'INDUCTOR_L-7-7-3_15UH':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192250@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192250@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192250@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED1 'LED-3_LED-3_LED-3':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134048@MYLIBRARY.LED-3.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134048@mylibrary.\led-3.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134048@mylibrary.\led-3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ O1 'OSC-N_OSC-3225_25M':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165865@MYLIBRARY.OSC-N.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165865@mylibrary.\osc-n.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165865@mylibrary.\osc-n.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ O2 'OSC-N_OSC-3225_8M':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS121003@MYLIBRARY.OSC-N.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins121003@mylibrary.\osc-n.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins121003@mylibrary.\osc-n.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'AO3407_AO3407-SOT23_AO3407':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS240004@MYLIBRARY.AO3407.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins240004@mylibrary.\ao3407.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins240004@mylibrary.\ao3407.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'S9014_S9014-SOT23_S9014':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS240083@MYLIBRARY.S9014.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins240083@mylibrary.\s9014.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins240083@mylibrary.\s9014.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RES_0603_75':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):INS189161@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):ins189161@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_ins189161@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'RES_0603_240':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):S@VIBRATION.SPEED(SCH_1):INS133156@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):s@vibration.speed(sch_1):ins133156@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_s@vibration.speed(sch_1):page1_ins133156@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R100 'RES_0603_120K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS189978@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins189978@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins189978@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R101 'RES_0603_100K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS190090@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins190090@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins190090@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R102 'RES_0603_100K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS190170@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins190170@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins190170@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R103 'RES_0603_100':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133712@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133712@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133712@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R104 'RES_0603_1K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134352@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134352@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134352@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R105 'RES_0603_1K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS135356@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins135356@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins135356@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R106 'RES_0603_33':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134948@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134948@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134948@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R107 'RES_0603_100':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133792@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133792@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133792@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R108 'RES_0603_33':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133076@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133076@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133076@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R109 'RES_0603_20K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192234@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192234@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192234@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'RES_0603_2.7K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101987@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101987@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101987@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R110 'RES_0603_120K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192214@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192214@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192214@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R111 'RES_0603_100K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192330@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192330@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192330@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R112 'RES_0603_100K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192410@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192410@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192410@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R113 'RES_0603_4.7K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS228503@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins228503@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins228503@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R115 'RES_0603_6.8K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS228529@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins228529@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins228529@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R116 'RES_0603_33K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS228471@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins228471@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins228471@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R117 'RES_0603_330':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS248846@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins248846@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins248846@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R118 'RES_0603_330':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS253933@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins253933@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins253933@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R119 'RES_0603_330':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS253985@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins253985@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins253985@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'RES_0603_2.7K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101907@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101907@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101907@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R120 'RES_0603_330':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS254037@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins254037@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins254037@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R121 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS209535@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins209535@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins209535@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'RES_0603_6.8K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101927@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101927@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101927@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'RES_0603_6.8K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS102007@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins102007@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins102007@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'RES_0603_200K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101967@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101967@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101967@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'RES_0603_510':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105320@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105320@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105320@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'RES_0603_510':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105490@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105490@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105490@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'RES_0603_240':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105192@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105192@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105192@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'RES_0603_240':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105216@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105216@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105216@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RES_0603_75':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):INS190675@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):ins190675@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_ins190675@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'RES_0603_51':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105454@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105454@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105454@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 'RES_0603_51':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105412@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105412@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105412@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'RES_0603_510':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105320@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105320@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105320@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'RES_0603_200K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101967@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101967@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101967@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'RES_0603_2.7K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101987@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101987@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101987@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'RES_0603_6.8K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS102007@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins102007@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins102007@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R27 'RES_0603_51':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105412@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105412@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105412@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R29 'RES_0603_240':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105192@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105192@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105192@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R30 'RES_0603_51':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105454@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105454@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105454@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R31 'RES_0603_240':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105216@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105216@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105216@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R32 'RES_0603_510':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105490@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105490@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105490@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R33 'RES_0603_2.7K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101907@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101907@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101907@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R34 'RES_0603_6.8K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101927@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101927@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101927@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R35 'RES_0603_1M':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165665@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165665@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165665@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R36 'RES_0603_300':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165705@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165705@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165705@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R37 'RES_0603_12K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165481@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165481@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165481@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R38 'RES_0603_75':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165601@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165601@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165601@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R39 'RES_0603_75':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165765@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165765@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165765@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R40 'RES_0603_0':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165913@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165913@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165913@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R42 'RES_0603_75':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS164861@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins164861@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins164861@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R43 'RES_0603_75':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165561@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165561@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165561@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R44 'RES_0603_200':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165621@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165621@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165621@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R45 'RES_0603_200':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165441@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165441@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165441@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R46 'RES_0603_36':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS175541@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins175541@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins175541@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R47 'RES_0603_18':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS175682@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins175682@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins175682@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R48 'RES_0603_0':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS178897@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins178897@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins178897@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R49 'RES_0603_36':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS175585@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins175585@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins175585@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RES_0603_75':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):INS189569@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):ins189569@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_ins189569@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R50 'RES_0603_18':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS175716@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins175716@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins175716@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R51 'RES_0603_1M':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120099@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120099@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120099@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R52 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120719@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120719@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120719@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R54 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS121163@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins121163@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins121163@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R55 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120639@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120639@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120639@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R58 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS121183@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins121183@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins121183@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R59 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120403@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120403@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120403@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RES_0603_75':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):INS190731@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):ins190731@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_ins190731@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R60 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS119919@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins119919@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins119919@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R61 'RES_0603_510':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105320@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105320@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105320@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R62 'RES_0603_200K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101967@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101967@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101967@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R63 'RES_0603_2.7K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101987@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101987@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101987@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R64 'RES_0603_6.8K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS102007@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins102007@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins102007@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R65 'RES_0603_51':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105412@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105412@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105412@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R67 'RES_0603_240':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105192@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105192@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105192@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R68 'RES_0603_51':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105454@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105454@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105454@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R69 'RES_0603_240':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105216@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105216@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105216@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RES_0603_75':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):INS189517@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):ins189517@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_ins189517@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R70 'RES_0603_510':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105490@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105490@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105490@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R71 'RES_0603_2.7K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101907@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101907@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101907@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R72 'RES_0603_6.8K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101927@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101927@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101927@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R73 'RES_0603_510':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105320@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105320@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105320@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R74 'RES_0603_200K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101967@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101967@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101967@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R75 'RES_0603_2.7K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101987@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101987@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101987@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R76 'RES_0603_6.8K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS102007@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins102007@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins102007@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R77 'RES_0603_51':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105412@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105412@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105412@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R79 'RES_0603_240':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105192@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105192@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105192@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RES_0603_75':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):INS190715@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):ins190715@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_ins190715@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R80 'RES_0603_51':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105454@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105454@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105454@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R81 'RES_0603_240':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105216@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105216@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105216@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R82 'RES_0603_510':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105490@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105490@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105490@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R83 'RES_0603_2.7K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101907@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101907@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101907@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R84 'RES_0603_6.8K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101927@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101927@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101927@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R85 'RES_0603_20K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS182961@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins182961@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins182961@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R86 'RES_0603_120K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS182945@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins182945@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins182945@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R87 'RES_0603_100K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS183049@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins183049@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins183049@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R88 'RES_0603_100K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS183137@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins183137@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins183137@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R89 'RES_0603_4.7K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133136@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133136@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133136@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'RES_0603_360':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):S@VIBRATION.SPEED(SCH_1):INS134714@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):s@vibration.speed(sch_1):ins134714@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_s@vibration.speed(sch_1):page1_ins134714@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R90 'RES_0603_2M':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133652@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133652@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133652@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R91 'RES_0603_1K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134648@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134648@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134648@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R92 'RES_0603_1K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS135316@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins135316@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins135316@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R93 'RES_0603_1K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133692@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133692@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133692@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R94 'RES_0603_36K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS185008@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins185008@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins185008@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R95 'RES_0603_68K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS185164@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins185164@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins185164@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R96 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS185132@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins185132@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins185132@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R97 'RES_0603_33':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133404@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133404@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133404@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R98 'RES_0603_33':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134392@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134392@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134392@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R99 'RES_0603_20K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS189994@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins189994@mylibrary.\res.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins189994@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'FOD060L_FOD060L-SOIC8_FOD060L':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):S@VIBRATION.SPEED(SCH_1):INS38@MYLIBRARY.FOD060L.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):s@vibration.speed(sch_1):ins38@mylibrary.\fod060l.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_s@vibration.speed(sch_1):page1_ins38@mylibrary.\fod060l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U10 'STM32F407ZGT6_STM32F407ZGT6-LQF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120199@MYLIBRARY.STM32F407ZGT6A.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120199@mylibrary.\stm32f407zgt6a.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120199@mylibrary.\stm32f407zgt6a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120871@MYLIBRARY.STM32F407ZGT6B.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120871@mylibrary.\stm32f407zgt6b.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120871@mylibrary.\stm32f407zgt6b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS119939@MYLIBRARY.STM32F407ZGT6C.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins119939@mylibrary.\stm32f407zgt6c.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins119939@mylibrary.\stm32f407zgt6c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120463@MYLIBRARY.STM32F407ZGT6D.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120463@mylibrary.\stm32f407zgt6d.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120463@mylibrary.\stm32f407zgt6d.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+SECTION_NUMBER 5
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS120759@MYLIBRARY.STM32F407ZGT6E.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins120759@mylibrary.\stm32f407zgt6e.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins120759@mylibrary.\stm32f407zgt6e.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='E';
+
+PART_NAME
+ U11 'IS61WV51216BLL_IS61WV51216BLL-T':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):M@VIBRATION.MCU(SCH_1):INS140137@MYLIBRARY.IS61WV51216BLL.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):m@vibration.mcu(sch_1):ins140137@mylibrary.\is61wv51216bll.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_m@vibration.mcu(sch_1):page1_ins140137@mylibrary.\is61wv51216bll.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U12 'ADS1271_ADS1271-SOP16_ADS1271':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS108948@MYLIBRARY.ADS1271.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins108948@mylibrary.\ads1271.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins108948@mylibrary.\ads1271.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U13 'ADA4898-2_ADA4898-2-SOIC8_ADA48':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS101799@MYLIBRARY.ADA4898-2.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins101799@mylibrary.\ada4898-2.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins101799@mylibrary.\ada4898-2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U14 'THS4131IDGN_THS4131IDGN-SOP8_TH':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F6@VIBRATION.ADC(SCH_1):INS105272@MYLIBRARY.THS4131IDGN.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f6@vibration.adc(sch_1):ins105272@mylibrary.\ths4131idgn.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f6@vibration.adc(sch_1):page0_ins105272@mylibrary.\ths4131idgn.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U15 'ADS1271_ADS1271-SOP16_ADS1271':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS108948@MYLIBRARY.ADS1271.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins108948@mylibrary.\ads1271.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins108948@mylibrary.\ads1271.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U16 'ADA4898-2_ADA4898-2-SOIC8_ADA48':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS101799@MYLIBRARY.ADA4898-2.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins101799@mylibrary.\ada4898-2.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins101799@mylibrary.\ada4898-2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U17 'THS4131IDGN_THS4131IDGN-SOP8_TH':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F5@VIBRATION.ADC(SCH_1):INS105272@MYLIBRARY.THS4131IDGN.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f5@vibration.adc(sch_1):ins105272@mylibrary.\ths4131idgn.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f5@vibration.adc(sch_1):page0_ins105272@mylibrary.\ths4131idgn.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U18 'MP1584_MP1584-SOIC8_MP1584':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS183239@MYLIBRARY.MP1584.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins183239@mylibrary.\mp1584.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins183239@mylibrary.\mp1584.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U19 'LT3080_LT3080-SOP8_LT3080':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS208824@MYLIBRARY.LT3080.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins208824@mylibrary.\lt3080.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins208824@mylibrary.\lt3080.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'ADA4898-2_ADA4898-2-SOIC8_ADA48':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS101799@MYLIBRARY.ADA4898-2.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins101799@mylibrary.\ada4898-2.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins101799@mylibrary.\ada4898-2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U20 'LT1763_LT1763-SOP8_LT1763-5':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133852@MYLIBRARY.LT1763.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133852@mylibrary.\lt1763.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133852@mylibrary.\lt1763.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U21 'LT1964-5_LT1964-5-SOT23_LT1964-':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133976@MYLIBRARY.LT1964-5.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133976@mylibrary.\lt1964-5.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133976@mylibrary.\lt1964-5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U22 'LT3580_LT3580-SOP8_LT3580':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS184946@MYLIBRARY.LT3580.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins184946@mylibrary.\lt3580.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins184946@mylibrary.\lt3580.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U23 'LM334SM_LM334SM-SOP8_LM334SM':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134584@MYLIBRARY.LM334SM.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134584@mylibrary.\lm334sm.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134584@mylibrary.\lm334sm.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U24 'REF3125_REF3125-SOT23_REF3125':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134432@MYLIBRARY.REF3125.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134432@mylibrary.\ref3125.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134432@mylibrary.\ref3125.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U25 'LM334SM_LM334SM-SOP8_LM334SM':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133320@MYLIBRARY.LM334SM.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133320@mylibrary.\lm334sm.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133320@mylibrary.\lm334sm.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U26 'MP1584_MP1584-SOIC8_MP1584':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS190266@MYLIBRARY.MP1584.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins190266@mylibrary.\mp1584.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins190266@mylibrary.\mp1584.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U27 'LT1763_LT1763-SOP8_LT1763-5':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134884@MYLIBRARY.LT1763.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134884@mylibrary.\lt1763.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134884@mylibrary.\lt1763.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U28 'LT1763_LT1763-SOP8_LT1763-3.3':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134496@MYLIBRARY.LT1763.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134496@mylibrary.\lt1763.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134496@mylibrary.\lt1763.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U29 'LM334SM_LM334SM-SOP8_LM334SM':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134540@MYLIBRARY.LM334SM.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134540@mylibrary.\lm334sm.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134540@mylibrary.\lm334sm.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'ADS1271_ADS1271-SOP16_ADS1271':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS108948@MYLIBRARY.ADS1271.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins108948@mylibrary.\ads1271.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins108948@mylibrary.\ads1271.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U30 'OPA350UA_OPA350UA-SOP8_OPA350UA':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133424@MYLIBRARY.OPA350UA.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133424@mylibrary.\opa350ua.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133424@mylibrary.\opa350ua.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U31 'LM334SM_LM334SM-SOP8_LM334SM':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133256@MYLIBRARY.LM334SM.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133256@mylibrary.\lm334sm.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133256@mylibrary.\lm334sm.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U32 'LT1963_LT1963-SOP8_LT1963-3.3':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS134820@MYLIBRARY.LT1963.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins134820@mylibrary.\lt1963.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins134820@mylibrary.\lt1963.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U33 'MP1584_MP1584-SOIC8_MP1584':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS192506@MYLIBRARY.MP1584.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins192506@mylibrary.\mp1584.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins192506@mylibrary.\mp1584.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U34 'LT1963_LT1963-SOP8_LT1963-3.3':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):P@VIBRATION.POWER(SCH_1):INS133588@MYLIBRARY.LT1963.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):p@vibration.power(sch_1):ins133588@mylibrary.\lt1963.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_p@vibration.power(sch_1):page1_ins133588@mylibrary.\lt1963.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'THS4131IDGN_THS4131IDGN-SOP8_TH':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F2@VIBRATION.ADC(SCH_1):INS105272@MYLIBRARY.THS4131IDGN.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f2@vibration.adc(sch_1):ins105272@mylibrary.\ths4131idgn.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f2@vibration.adc(sch_1):page1_ins105272@mylibrary.\ths4131idgn.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'ADS1271_ADS1271-SOP16_ADS1271':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS108948@MYLIBRARY.ADS1271.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins108948@mylibrary.\ads1271.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins108948@mylibrary.\ads1271.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'ADA4898-2_ADA4898-2-SOIC8_ADA48':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS101799@MYLIBRARY.ADA4898-2.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins101799@mylibrary.\ada4898-2.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins101799@mylibrary.\ada4898-2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'THS4131IDGN_THS4131IDGN-SOP8_TH':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):F1@VIBRATION.ADC(SCH_1):INS105272@MYLIBRARY.THS4131IDGN.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):f1@vibration.adc(sch_1):ins105272@mylibrary.\ths4131idgn.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_f1@vibration.adc(sch_1):page0_ins105272@mylibrary.\ths4131idgn.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'BAW56_BAW56-SOT23_BAW56':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS165641@MYLIBRARY.BAW56.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins165641@mylibrary.\baw56.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins165641@mylibrary.\baw56.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U9 'W5300_W5300-QFP100_W5300':;
+
+SECTION_NUMBER 1
+ '@VIBRATION.TOP(SCH_1):E@VIBRATION.ETHERNET(SCH_1):INS164941@MYLIBRARY.W5300.NORMAL(CHIPS)':
+ C_PATH='@vibration.top(sch_1):e@vibration.ethernet(sch_1):ins164941@mylibrary.\w5300.normal\(chips)',
+ P_PATH='@vibration.top(sch_1):page1_e@vibration.ethernet(sch_1):page1_ins164941@mylibrary.\w5300.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
