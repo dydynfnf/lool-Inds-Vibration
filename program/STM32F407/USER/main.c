@@ -19,7 +19,7 @@ int main(void)
 	delay_init(162);//延时初始化
 	tim3_init(162);//时钟初始化
 	sram_init();//SRAM初始化
-	ads1271_init(0);//ad初始化
+	ads1271_init(0);//ad初始化 参数为0 高速模式
 	
 	led_init();//LED初始化
 	read_device_config();//读取flash中设备配置

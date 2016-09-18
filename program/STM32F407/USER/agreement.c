@@ -2,6 +2,7 @@
 #include "led.h"
 #include "flash.h"
 #include "sram.h"
+#include "ads1271.h"
 
 extern unsigned int TIM3_ms;
 extern struct Device_Config device_config;
@@ -194,6 +195,7 @@ unsigned char deal_pre(void)
 			if(command[0]=='P'&&command[1]=='R'&&command[2]=='E')//收到'PRE'
 			{
 				pre=command[7];//获取预分频值
+				ads1271_clk_scaler(pre);//设置AD时钟为预分频值
 				
 				command[0]='A';//'ACK'应答
 				command[1]='C';
@@ -210,6 +212,8 @@ unsigned char deal_pre(void)
 /*                           'DIV'命令处理                                    */
 /*                             错误返回0                                      */
 /*                             成功返回1                                      */
+/******************************************************************************/
+/*                        该指令暂时未作处理                                  */
 /******************************************************************************/
 
 unsigned char div[4];
