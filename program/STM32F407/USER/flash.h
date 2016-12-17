@@ -14,11 +14,9 @@ struct Device_Config //固定长度 100byte
 	short drift3;//通道1零漂系数
 	short drift4;//通道1零漂系数
 	
-	u8 div;//分频系数
-	
 	u8 cur;//恒流源
 	
-	u8 res[78];//预留
+	u8 res[79];//预留
 };
 
 u8 FlashWrite(u32 *pBuffer,u32 ByteToWrite);
