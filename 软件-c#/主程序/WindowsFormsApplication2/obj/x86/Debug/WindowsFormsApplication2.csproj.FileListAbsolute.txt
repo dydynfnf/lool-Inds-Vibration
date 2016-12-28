@@ -128,3 +128,4 @@ F:\Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsF
 F:\Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
 F:\Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.dll
 F:\Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+E:\material\lool Inds Vibration\软件-c#\主程序\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
