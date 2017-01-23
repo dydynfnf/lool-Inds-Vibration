@@ -199,8 +199,8 @@ void EXTI2_IRQHandler(void)
 	device_config.drift3 = 0;
 	device_config.drift4 = 0;
 	
-	//设置分频系数
-	device_config.div = 0;
+	//设置恒流源为打开
+	device_config.cur = 1;
 	
 	save_device_config();//保存配置到flash
 	
