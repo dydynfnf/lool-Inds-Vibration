@@ -1,13 +1,94 @@
-\t (00:00:07) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:07)     Journal start - Fri Sep 16 21:43:55 2016
-\t (00:00:07)         Host=DESKTOP-5QD1SMV User=DaQi Pid=808 CPUs=4
-\t (00:00:07) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:07) 
-   (00:00:07) Loading axlcore.cxt 
-\e (00:00:12) Retrieval of 'PCB_design_expert' license failed: 'ERROR (LMF-13015): License call failed for feature Allegro_design_expert. The license server search path is defined as 5280@localhost. The FLEXnet error message is as follows,
-    FLEXnet ERROR(-15, 234, 10061): Cannot connect to license server system.
-
-Run 'lic_error LMF-13015' for more information.'. Report the licenses in use log via the menu item File->Viewlog: license_use.log
-\i (00:00:14) fillin confirm
-\i (00:00:15) fillin menu_cancel
-\t (00:00:15)     Journal end - Fri Sep 16 21:44:03 2016
+\t (00:00:05) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:05)     Journal start - Fri Sep 16 21:45:29 2016
+\t (00:00:05)         Host=DESKTOP-5QD1SMV User=DaQi Pid=12056 CPUs=4
+\t (00:00:05) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:05) 
+   (00:00:05) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Design opened: F:/Vibration/lool-Inds-Vibration/hardware/v2.0/pcb/vibration.brd
+\i (00:00:08) trapsize 40434
+\i (00:00:08) trapsize 39346
+\i (00:00:08) trapsize 40622
+\i (00:00:11) trapsize 33851
+\i (00:00:11) trapsize 33851
+\i (00:00:12) generaledit 
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 2384.850 2771.364
+\i (00:00:13) trapsize 67703
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 2344.229 2703.661
+\i (00:00:13) trapsize 135405
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 2425.471 130.967
+\i (00:00:13) trapsize 67703
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 2425.471 144.507
+\i (00:00:14) trapsize 33851
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 2439.012 137.737
+\i (00:00:14) trapsize 16926
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 2344.229 90.345
+\i (00:00:15) trapsize 33851
+\i (00:00:18) open 
+\i (00:00:26) fillin "vibration.brd"
+\t (00:00:26) Opening existing design...
+\i (00:00:26) trapsize 33851
+\d (00:00:27) Design opened: F:/Vibration/lool-Inds-Vibration/hardware/v2.0/pcb/vibration.brd
+\i (00:00:27) generaledit 
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 929.246 3252.052
+\i (00:00:28) trapsize 67703
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 929.246 3252.051
+\i (00:00:28) trapsize 135405
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 2207.780 2250.055
+\i (00:00:29) trapsize 67703
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 2234.861 2331.298
+\i (00:00:29) trapsize 33851
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 2248.402 2331.298
+\i (00:00:30) trapsize 16926
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 2299.179 2084.184
+\i (00:00:31) trapsize 33851
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 1777.870 3593.951
+\i (00:00:31) trapsize 16926
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 1869.268 3468.702
+\i (00:00:32) trapsize 8463
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out 2043.602 3424.696
+\i (00:00:35) trapsize 16926
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 929.896 3062.487
+\i (00:00:36) trapsize 8463
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 929.896 3062.487
+\i (00:00:37) trapsize 16926
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 929.896 3062.488
+\i (00:00:37) trapsize 33851
+\i (00:00:38) exit 
+\t (00:00:39)     Journal end - Fri Sep 16 21:46:04 2016

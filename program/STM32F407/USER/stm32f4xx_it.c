@@ -244,7 +244,8 @@ void EXTI4_IRQHandler(void)
 	
 	if(dw >=  Max_Buffer)//缓存深度最多等于缓存长度
 	{
-		dw = Max_Buffer;
+		//dw = Max_Buffer;//读出和写入指针不是同一个，这种方法会使读出和写入指针存在恒定延时
+		dw = 0;
 	}
 	
 //	exti4_count++;
