@@ -148,7 +148,7 @@ void ethernet_config(void)
 	GPIO_SetBits(GPIOD,GPIO_Pin_3);
 	delay_ms(10);
   GPIO_ResetBits(GPIOD,GPIO_Pin_3);
-	delay_ms(1);
+	delay_ms(10);
   GPIO_SetBits(GPIOD,GPIO_Pin_3);
 	delay_ms(10);	
 	

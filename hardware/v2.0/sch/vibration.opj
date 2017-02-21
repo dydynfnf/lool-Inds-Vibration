@@ -233,18 +233,18 @@
       (Path "Design Resources" ".\vibration.dsn" "POWER")
       (Path "Design Resources" ".\vibration.dsn" "SPEED")
       (Path "Outputs")
-      (Select "Design Resources" ".\vibration.dsn" "POWER" "POWER"))
+      (Select "Design Resources" ".\vibration.dsn" "MCU" "MCU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 697"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 821"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 1139 25 370")
-        (Scroll "-48 0")
+        (Scroll "-48 332")
         (Zoom "100")
         (Occurrence "/"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V2.0\SCH\VIBRATION.DSN")
@@ -253,8 +253,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 1168 50 399")
-        (Scroll "-133 0")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1168 50 399")
+        (Scroll "-50 0")
         (Zoom "100")
         (Occurrence "/A1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V2.0\SCH\VIBRATION.DSN")
@@ -264,12 +264,32 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 1193 75 424")
-        (Scroll "0 0")
+        (Scroll "0 212")
         (Zoom "100")
         (Occurrence "/P1"))
       (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V2.0\SCH\VIBRATION.DSN")
       (Schematic "POWER")
-      (Page "POWER")))
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 798 100 630")
+        (Scroll "0 0")
+        (Zoom "120")
+        (Occurrence "/E1"))
+      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V2.0\SCH\VIBRATION.DSN")
+      (Schematic "ETHERNET")
+      (Page "ETHERNET"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 823 125 655")
+        (Scroll "0 0")
+        (Zoom "60")
+        (Occurrence "/M1"))
+      (Path "E:\MATERIAL\LOOL INDS VIBRATION\HARDWARE\V2.0\SCH\VIBRATION.DSN")
+      (Schematic "MCU")
+      (Page "MCU")))
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.6\tools\capture\library")
   (MPSSessionName "psai")
   (ISPCBBASICLICENSE "false"))
