@@ -1,106 +1,19 @@
-\t (00:00:30) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:30)     Journal start - Tue Feb 21 21:34:51 2017
-\t (00:00:30)         Host=PSAI-PC User=psai Pid=3368 CPUs=4
-\t (00:00:30) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:30) 
-\d (00:00:30) Design opened: E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd
-\i (00:00:30) generaledit 
-\i (00:00:32) settoggle no_etch_shape_display 
-\i (00:00:32) redraw 
-\i (00:00:32) trapsize 36257
-\i (00:00:33) zoom out 1 
-\i (00:00:33) setwindow pcb
-\i (00:00:33) zoom out 3906.422 3002.431
-\i (00:00:33) trapsize 72514
-\i (00:00:34) zoom in 1 
-\i (00:00:34) setwindow pcb
-\i (00:00:34) zoom in 3268.295 493.432
-\i (00:00:34) trapsize 36257
-\i (00:00:34) zoom in 1 
-\i (00:00:34) setwindow pcb
-\i (00:00:34) zoom in 3290.050 442.672
-\i (00:00:34) trapsize 18129
-\i (00:00:34) zoom in 1 
-\i (00:00:34) setwindow pcb
-\i (00:00:34) zoom in 3130.518 417.292
-\i (00:00:34) trapsize 9064
-\i (00:00:35) zoom out 1 
-\i (00:00:35) setwindow pcb
-\i (00:00:35) zoom out 2506.895 645.712
-\i (00:00:35) trapsize 18129
-\i (00:00:36) roam start
-\i (00:00:36) roam x -80
-\i (00:00:36) roam x -96
-\i (00:00:36) roam y -16
-\i (00:00:36) roam x -128
-\i (00:00:36) roam y -32
-\i (00:00:36) roam x -128
-\i (00:00:36) roam y -48
-\i (00:00:36) roam x -80
-\i (00:00:36) roam y -32
-\i (00:00:37) roam x 32
-\i (00:00:37) roam x 80
-\i (00:00:37) roam y 32
-\i (00:00:37) roam x 48
-\i (00:00:37) roam y 16
-\i (00:00:37) roam x 32
-\i (00:00:37) roam y 16
-\i (00:00:37) roam x 32
-\i (00:00:38) roam x 16
-\i (00:00:38) roam y 16
-\i (00:00:38) roam x -32
-\i (00:00:38) roam y -16
-\i (00:00:38) roam x -32
-\i (00:00:38) roam y -32
-\i (00:00:38) roam y -48
-\i (00:00:38) roam y -32
-\i (00:00:38) roam y -32
-\i (00:00:38) roam x -16
-\i (00:00:39) roam end
-\i (00:00:42) zoom in 1 
-\i (00:00:42) setwindow pcb
-\i (00:00:42) zoom in 1333.740 942.163
-\i (00:00:42) trapsize 9064
-\i (00:00:43) zoom in 1 
-\i (00:00:43) setwindow pcb
-\i (00:00:43) zoom in 1333.741 942.163
-\i (00:00:43) trapsize 4532
-\i (00:00:43) zoom out 1 
-\i (00:00:43) setwindow pcb
-\i (00:00:43) zoom out 1333.741 942.163
-\i (00:00:43) trapsize 9064
-\i (00:00:43) zoom out 1 
-\i (00:00:43) setwindow pcb
-\i (00:00:43) zoom out 1333.741 942.164
-\i (00:00:43) trapsize 18129
-\i (00:00:48) xhilite 
-\i (00:00:48) xNet N178020 
-\i (00:00:48) xname_flush 
-\i (00:00:48) trapsize 7273
-\t (00:00:48) Net "N178020" highlighted.
-\i (00:00:48) done 
-\i (00:00:48) generaledit 
-\i (00:00:53) zoom out 1 
-\i (00:00:53) setwindow pcb
-\i (00:00:53) zoom out 1076.472 1088.219
-\i (00:00:53) trapsize 14546
-\i (00:00:54) zoom in 1 
-\i (00:00:54) setwindow pcb
-\i (00:00:54) zoom in 1076.472 1088.220
-\i (00:00:54) trapsize 7273
-\i (00:00:59) hilight 
-\i (00:01:00) pick grid 1111.381 1142.039
-\t (00:01:00) last pick:  1111.380 1142.040
-\t (00:01:00) Net "N178020" highlighted.
-\i (00:01:05) pick grid 1115.745 1142.039
-\t (00:01:05) last pick:  1115.750 1142.040
-\t (00:01:05) Net "N178020" highlighted.
-\i (00:01:06) hilight 
-\i (00:01:08) pick grid 1143.382 1139.130
-\t (00:01:08) last pick:  1143.380 1139.130
-\t (00:01:08) Net "N178020" highlighted.
-\i (00:01:11) assign color 
-\i (00:20:35) exit 
-\e (00:20:35) Do you want to save the changes you made to vibration.brd?
-\i (00:20:37) fillin no 
-\t (00:20:38)     Journal end - Tue Feb 21 21:54:58 2017
+\t (00:00:05) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:05)     Journal start - Thu Feb 23 21:21:56 2017
+\t (00:00:05)         Host=PSAI-PC User=psai Pid=14784 CPUs=4
+\t (00:00:05) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:05) 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd
+\i (00:00:06) trapsize 43915
+\i (00:00:06) trapsize 42635
+\i (00:00:06) trapsize 44136
+\i (00:00:06) trapsize 36257
+\i (00:00:06) trapsize 36257
+\i (00:00:07) generaledit 
+\i (00:00:08) open 
+\i (00:00:15) fillin "C:\Users\psai\Desktop\hyp\core.brd"
+\i (00:00:15) cd "C:\Users\psai\Desktop\hyp"
+\t (00:00:15) Opening existing design...
+\i (00:00:15) trapsize 10668
+\t (00:00:15)     Journal end - Thu Feb 23 21:22:06 2017

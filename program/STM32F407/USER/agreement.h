@@ -5,6 +5,10 @@
 #include "sram.h"
 #include "ethernet.h"
 
+//Íø¿¨´íÎó¶¨Òå
+#define NET_ERR 1
+#define NET_DISCONNECT 2
+
 short calculate_drift(u8 channel, u8 precision);
 unsigned char deal_config_command(void);
 unsigned char deal_int(void);

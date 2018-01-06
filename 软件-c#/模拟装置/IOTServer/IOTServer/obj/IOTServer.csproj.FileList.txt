@@ -1,0 +1,8 @@
+bin\Debug\IOTServer.exe
+bin\Debug\IOTServer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\IOTServer.Properties.Resources.resources
+obj\Debug\IOTServer.csproj.GenerateResource.Cache
+obj\Debug\IOTServer.exe
+obj\Debug\IOTServer.pdb
+obj\Debug\IOTServer.IOTServer.resources

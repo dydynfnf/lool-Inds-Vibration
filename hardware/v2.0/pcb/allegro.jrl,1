@@ -1,19 +1,681 @@
-\t (00:00:07) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:07)     Journal start - Sun Feb 19 14:42:32 2017
-\t (00:00:07)         Host=PSAI-PC User=psai Pid=10520 CPUs=4
-\t (00:00:07) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:07) 
-\t (00:00:09) Opening existing design...
-\d (00:00:10) Design opened: E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd
-\i (00:00:10) trapsize 43915
-\i (00:00:10) trapsize 42635
-\i (00:00:10) trapsize 44136
-\i (00:00:11) trapsize 36257
-\i (00:00:11) trapsize 36257
-\i (00:00:12) generaledit 
-\i (00:00:13) open 
-\i (00:00:22) fillin "C:\Users\psai\Desktop\hyp\core.brd"
-\i (00:00:22) cd "C:\Users\psai\Desktop\hyp"
-\t (00:00:22) Opening existing design...
-\i (00:00:22) trapsize 10668
-\t (00:00:22)     Journal end - Sun Feb 19 14:42:46 2017
+\t (00:00:02) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:02)     Journal start - Thu Feb 23 00:43:47 2017
+\t (00:00:02)         Host=PSAI-PC User=psai Pid=14884 CPUs=4
+\t (00:00:02) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:02) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd
+\i (00:00:05) trapsize 43915
+\i (00:00:05) trapsize 42635
+\i (00:00:05) trapsize 44136
+\i (00:00:05) trapsize 36257
+\i (00:00:05) trapsize 36257
+\i (00:00:06) generaledit 
+\i (00:00:09) settoggle no_etch_shape_display 
+\i (00:00:09) redraw 
+\i (00:00:09) trapsize 36257
+\i (00:00:11) setwindow form.find
+\i (00:00:11) FORM find symbols YES 
+\i (00:56:24) setwindow pcb
+\i (00:56:24) zoom in 1 
+\i (00:56:24) setwindow pcb
+\i (00:56:24) zoom in 1317.657 1863.955
+\i (00:56:24) trapsize 18129
+\i (00:56:24) zoom in 1 
+\i (00:56:24) setwindow pcb
+\i (00:56:24) zoom in 1317.657 1863.955
+\i (00:56:24) trapsize 9064
+\i (00:56:24) zoom in 1 
+\i (00:56:24) setwindow pcb
+\i (00:56:24) zoom in 1317.658 1863.955
+\i (00:56:24) trapsize 4532
+\i (00:56:25) zoom out 1 
+\i (00:56:25) setwindow pcb
+\i (00:56:25) zoom out 1292.278 1902.025
+\i (00:56:25) trapsize 9064
+\i (00:56:27) zoom in 1 
+\i (00:56:27) setwindow pcb
+\i (00:56:27) zoom in 752.046 2645.299
+\i (00:56:27) trapsize 4532
+\i (00:56:27) zoom in 1 
+\i (00:56:27) setwindow pcb
+\i (00:56:27) zoom in 752.046 2645.299
+\i (00:56:27) trapsize 2266
+\i (00:56:28) roam start
+\i (00:56:28) roam x 16
+\i (00:56:28) roam y -32
+\i (00:56:28) roam y -16
+\i (00:56:28) roam y -80
+\i (00:56:28) roam y -48
+\i (00:56:28) roam y -48
+\i (00:56:28) roam y -32
+\i (00:56:28) roam y -48
+\i (00:56:28) roam y -32
+\i (00:56:29) roam end
+\i (00:56:33) setwindow form.find
+\i (00:56:33) FORM find nets YES 
+\i (00:56:34) setwindow pcb
+\i (00:56:34) pick grid 695.604 2689.297
+\t (00:56:34) last pick:  695.600 2689.300
+\i (00:56:35) zoom out 1 
+\i (00:56:35) setwindow pcb
+\i (00:56:35) zoom out 831.115 2570.554
+\i (00:56:35) trapsize 4532
+\i (00:56:35) zoom out 1 
+\i (00:56:35) setwindow pcb
+\i (00:56:35) zoom out 837.460 2566.929
+\i (00:56:35) trapsize 9064
+\i (00:56:35) zoom out 1 
+\i (00:56:35) setwindow pcb
+\i (00:56:35) zoom out 837.461 2565.116
+\i (00:56:35) trapsize 18129
+\i (00:56:35) roam start
+\i (00:56:36) roam y 64
+\i (00:56:36) roam x -32
+\i (00:56:36) roam y 96
+\i (00:56:36) roam y 48
+\i (00:56:36) roam x -16
+\i (00:56:36) roam y 48
+\i (00:56:36) roam end
+\i (00:56:36) zoom in 1 
+\i (00:56:36) setwindow pcb
+\i (00:56:36) zoom in 909.531 1964.616
+\i (00:56:36) trapsize 9064
+\i (00:56:36) zoom in 1 
+\i (00:56:36) setwindow pcb
+\i (00:56:36) zoom in 909.532 1966.429
+\i (00:56:36) trapsize 4532
+\i (00:56:38) roam start
+\i (00:56:38) roam y 48
+\i (00:56:38) roam x 16
+\i (00:56:38) roam y 64
+\i (00:56:38) roam y 48
+\i (00:56:38) roam end
+\i (00:56:38) zoom in 1 
+\i (00:56:38) setwindow pcb
+\i (00:56:38) zoom in 931.276 1830.454
+\i (00:56:38) trapsize 2266
+\i (00:56:38) zoom in 1 
+\i (00:56:38) setwindow pcb
+\i (00:56:38) zoom in 931.276 1830.454
+\i (00:56:38) trapsize 1133
+\i (00:56:48) pick grid 926.064 1827.282
+\t (00:56:48) last pick:  926.060 1827.280
+\i (00:56:50) prepopup 938.527 1826.828
+\i (00:56:54) show element 
+\i (00:56:55) generaledit 
+\i (00:56:59) zoom out 1 
+\i (00:56:59) setwindow pcb
+\i (00:56:59) zoom out 1014.214 1785.359
+\i (00:56:59) trapsize 2266
+\i (00:56:59) zoom in 1 
+\i (00:56:59) setwindow pcb
+\i (00:56:59) zoom in 1015.121 1784.453
+\i (00:56:59) trapsize 1133
+\i (00:58:32) settoggle no_etch_shape_display 
+\i (00:58:32) redraw 
+\i (00:58:32) trapsize 1133
+\i (01:00:47) zoom out 1 
+\i (01:00:47) setwindow pcb
+\i (01:00:47) zoom out 968.894 1826.375
+\i (01:00:47) trapsize 2266
+\i (01:00:47) zoom out 1 
+\i (01:00:47) setwindow pcb
+\i (01:00:47) zoom out 968.893 1826.376
+\i (01:00:47) trapsize 4532
+\i (01:00:47) zoom out 1 
+\i (01:00:47) setwindow pcb
+\i (01:00:47) zoom out 968.893 1826.375
+\i (01:00:47) trapsize 9064
+\i (01:00:47) zoom out 1 
+\i (01:00:47) setwindow pcb
+\i (01:00:47) zoom out 968.894 1826.376
+\i (01:00:47) trapsize 18129
+\i (01:00:48) zoom out 1 
+\i (01:00:48) setwindow pcb
+\i (01:00:48) zoom out 968.895 1826.376
+\i (01:00:48) trapsize 36257
+\i (01:00:50) zoom in 1 
+\i (01:00:50) setwindow pcb
+\i (01:00:50) zoom in 2281.406 1137.490
+\i (01:00:50) trapsize 18129
+\i (01:00:50) zoom in 1 
+\i (01:00:50) setwindow pcb
+\i (01:00:50) zoom in 2281.405 1137.490
+\i (01:00:50) trapsize 9064
+\i (01:00:50) zoom out 1 
+\i (01:00:50) setwindow pcb
+\i (01:00:50) zoom out 2281.405 1137.490
+\i (01:00:50) trapsize 18129
+\i (01:00:51) zoom out 1 
+\i (01:00:51) setwindow pcb
+\i (01:00:51) zoom out 2270.528 1137.491
+\i (01:00:51) trapsize 36257
+\i (01:00:52) zoom in 1 
+\i (01:00:52) setwindow pcb
+\i (01:00:52) zoom in 2270.528 1137.491
+\i (01:00:52) trapsize 18129
+\i (01:03:12) setwindow text
+\i (01:03:12) close 
+\i (01:09:49) setwindow pcb
+\i (01:09:49) zoom out 1 
+\i (01:09:49) setwindow pcb
+\i (01:09:49) zoom out 2498.949 1061.351
+\i (01:09:49) trapsize 36257
+\i (01:09:49) zoom out 1 
+\i (01:09:49) setwindow pcb
+\i (01:09:49) zoom out 2498.948 1061.351
+\i (01:09:49) trapsize 72514
+\i (01:09:49) zoom in 1 
+\i (01:09:49) setwindow pcb
+\i (01:09:49) zoom in 4166.780 988.836
+\i (01:09:49) trapsize 36257
+\i (01:09:49) zoom in 1 
+\i (01:09:49) setwindow pcb
+\i (01:09:49) zoom in 4166.780 988.837
+\i (01:09:49) trapsize 18129
+\i (01:09:50) zoom in 1 
+\i (01:09:50) setwindow pcb
+\i (01:09:50) zoom in 4152.277 992.463
+\i (01:09:50) trapsize 9064
+\i (01:09:54) pick grid 3519.589 1264.392
+\t (01:09:54) last pick:  3519.590 1264.390
+\i (01:10:01) cmgr 
+\i (01:10:02) generaledit 
+\i (01:10:12) setwindow cmgr
+\i (01:10:12) cm newView ( worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (01:10:26) cm select ( worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (01:10:26) cm select ( worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (01:10:27) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" 5:Timing "6:Switch/Settle Delays" )
+\i (01:10:28) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing 8:Wiring )
+\i (01:10:34) cm newView ( worksheet 53:Electrical 66:Net 22:Timing "23:Switch/Settle Delays" )
+\i (01:10:36) cm scope Design "vibration"
+\i (01:10:36) cm expand ( row ( NetGroup "POWER" ) )
+\i (01:10:44) cm collapse ( row ( NetGroup "POWER" ) )
+\i (01:11:00) setwindow pcb
+\i (01:11:00) settoggle no_etch_shape_display 
+\i (01:11:00) redraw 
+\i (01:11:00) trapsize 9064
+\i (01:11:01) roam start
+\i (01:11:01) roam x -16
+\i (01:11:01) roam y -48
+\i (01:11:01) roam y -48
+\i (01:11:01) roam x -16
+\i (01:11:01) roam y -48
+\i (01:11:01) roam y -48
+\i (01:11:01) roam y -32
+\i (01:11:02) roam x -16
+\i (01:11:02) roam y -16
+\i (01:11:02) roam end
+\i (01:11:03) zoom in 1 
+\i (01:11:03) setwindow pcb
+\i (01:11:03) zoom in 3385.899 2073.387
+\i (01:11:03) trapsize 4532
+\i (01:11:03) zoom in 1 
+\i (01:11:03) setwindow pcb
+\i (01:11:03) zoom in 3385.899 2073.387
+\i (01:11:03) trapsize 2266
+\i (01:11:03) zoom out 1 
+\i (01:11:04) setwindow pcb
+\i (01:11:04) zoom out 3385.900 2073.388
+\i (01:11:04) trapsize 4532
+\i (01:11:04) zoom out 1 
+\i (01:11:04) setwindow pcb
+\i (01:11:04) zoom out 3385.899 2073.387
+\i (01:11:04) trapsize 9064
+\i (01:11:05) roam start
+\i (01:11:05) roam y 48
+\i (01:11:05) roam y 64
+\i (01:11:05) roam x -16
+\i (01:11:05) roam y 64
+\i (01:11:05) roam y 80
+\i (01:11:05) roam x -32
+\i (01:11:05) roam y 112
+\i (01:11:05) roam x -16
+\i (01:11:05) roam y 96
+\i (01:11:05) roam x -16
+\i (01:11:05) roam y 48
+\i (01:11:05) roam y 32
+\i (01:11:06) roam y 16
+\i (01:11:06) roam y -16
+\i (01:11:06) roam x 16
+\i (01:11:06) roam y -16
+\i (01:11:06) roam y -32
+\i (01:11:06) roam x 16
+\i (01:11:06) roam y -48
+\i (01:11:06) roam x 16
+\i (01:11:06) roam y -48
+\i (01:11:07) roam x 16
+\i (01:11:07) roam y -32
+\i (01:11:07) roam x 16
+\i (01:11:07) roam y -48
+\i (01:11:07) roam y -16
+\i (01:11:07) roam y -32
+\i (01:11:07) roam x 16
+\i (01:11:07) roam y -32
+\i (01:11:07) roam y -16
+\i (01:11:07) roam end
+\i (01:11:17) setwindow cmgr
+\i (01:11:17) cm select ( worksheet 53:Electrical 66:Net 22:Timing "23:Switch/Settle Delays" )
+\i (01:11:17) cm select ( worksheet 53:Electrical 66:Net 22:Timing "23:Switch/Settle Delays" )
+\i (01:11:17) cm select ( worksheet 53:Electrical 66:Net 22:Timing "23:Switch/Settle Delays" )
+\i (01:11:19) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:11:25) setwindow pcb
+\i (01:11:25) pick grid 3819.171 1542.220
+\t (01:11:25) last pick:  3819.170 1542.220
+\i (01:11:28) hilight 
+\i (01:11:30) pick grid 3516.424 1429.822
+\t (01:11:30) last pick:  3516.420 1429.820
+\i (01:11:30) setwindow cmgr
+\i (01:11:30) cm expand ( row ( Design "vibration" ) )
+\i (01:11:30) cm expand ( row ( Design "vibration" ) )
+\i (01:11:30) cm expand ( row ( Design "vibration" ) )
+\i (01:11:30) cm expand ( row ( NetGroup "POWER" ) )
+\i (01:11:30) cm expand ( row ( Design "vibration" ) )
+\i (01:11:30) cm expand ( row ( Design "vibration" ) )
+\i (01:11:30) cm expand ( row ( NetGroup "POWER" ) )
+\i (01:11:30) cm expand ( row ( NetGroup "POWER" ) )
+\t (01:11:30) Net "N11014" highlighted.
+\i (01:11:49) setwindow pcb
+\i (01:11:49) prepopup 3518.237 1429.822
+\i (01:11:50) oops 
+\i (01:13:05) prepopup 3831.861 1875.786
+\e (01:13:10) Command not found: ~F
+\i (01:13:36) pick grid 3956.949 1388.127
+\t (01:13:36) last pick:  3956.950 1388.130
+\i (01:13:37) prepopup 3840.926 1482.395
+\i (01:13:38) oops 
+\i (01:13:56) setwindow cmgr
+\i (01:13:56) cm setViewSubFilter ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:13:56) cm setColumnFilter ( column 55:Physical 61:Net "62:All Layers" "63:All Layers" 0:Objects 0:Type ) Dsn|Net|NCls|DPr|Bus|PPr|NInt|NGrp
+\i (01:14:06) cm setViewSubFilter ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:14:06) cm setColumnFilter ( column 55:Physical 61:Net "62:All Layers" "63:All Layers" 0:Objects 0:Type ) *
+\i (01:14:08) cm setViewSubFilter ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" ) "Net:Nets of XNet:1"
+\i (01:14:08) cm setColumnFilter ( column 55:Physical 61:Net "62:All Layers" "63:All Layers" 0:Objects 0:Type ) *
+\i (01:14:11) cm setViewSubFilter ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:14:11) cm setColumnFilter ( column 55:Physical 61:Net "62:All Layers" "63:All Layers" 0:Objects 0:Type ) *
+\i (01:14:12) cm setViewSubFilter ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:14:12) cm setColumnFilter ( column 55:Physical 61:Net "62:All Layers" "63:All Layers" 0:Objects 0:Type ) Dsn|Net|NCls|DPr|Bus|PPr|NInt|NGrp
+\i (01:14:14) cm setViewSubFilter ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:14:14) cm setColumnFilter ( column 55:Physical 61:Net "62:All Layers" "63:All Layers" 0:Objects 0:Type ) Dsn|Net|NCls|DPr|Bus|PPr|NInt|NGrp
+\i (01:14:42) cm startTransaction ( System "System" ) ( System "System" ) TS_XPROBE
+\i (01:14:42) cm commitTransaction ( System "System" ) ( System "System" ) TS_XPROBE
+\i (01:14:42) setwindow pcb
+\i (01:14:42) trapsize 8352
+\t (01:14:42) Net "N11014" highlighted.
+\i (01:14:55) setwindow cmgr
+\i (01:14:55) cm setViewSubFilter ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:14:55) cm setColumnFilter ( column 55:Physical 61:Net "62:All Layers" "63:All Layers" 0:Objects 0:Type ) *
+\i (01:16:30) cm collapse ( row ( NetGroup "POWER" ) )
+\i (01:16:31) cm expand ( row ( NetGroup "POWER" ) )
+\i (01:16:32) cm collapse ( row ( NetGroup "POWER" ) )
+\i (01:16:35) cm expand ( row ( NetGroup "POWER" ) )
+\i (01:16:55) setwindow pcb
+\i (01:16:55) pick grid 3794.705 1886.063
+\t (01:16:55) last pick:  3794.710 1886.060
+\i (01:16:55) prepopup 3799.717 1932.835
+\i (01:16:56) oops 
+\i (01:17:00) hilight 
+\i (01:17:10) pick grid 3796.376 1536.943
+\t (01:17:10) last pick:  3796.380 1536.940
+\i (01:17:10) zoom out 1 
+\i (01:17:10) setwindow pcb
+\i (01:17:10) zoom out 3783.012 1536.943
+\i (01:17:10) trapsize 16704
+\i (01:17:10) zoom out 1 
+\i (01:17:10) setwindow pcb
+\i (01:17:10) zoom out 3783.013 1536.943
+\i (01:17:10) trapsize 33409
+\i (01:17:10) zoom out 1 
+\i (01:17:10) setwindow pcb
+\i (01:17:10) zoom out 3783.013 1536.943
+\i (01:17:10) trapsize 66817
+\i (01:17:11) zoom in 1 
+\i (01:17:11) setwindow pcb
+\i (01:17:11) zoom in 3863.193 1617.125
+\i (01:17:11) trapsize 33409
+\i (01:17:11) zoom in 1 
+\i (01:17:11) setwindow pcb
+\i (01:17:11) zoom in 3863.193 1617.125
+\i (01:17:11) trapsize 16704
+\i (01:17:12) prepopup 4434.479 2722.949
+\i (01:17:13) oops 
+\i (01:17:17) setwindow cmgr
+\i (01:17:17) cm startTransaction ( System "System" ) ( System "System" ) TS_XPROBE
+\i (01:17:17) cm commitTransaction ( System "System" ) ( System "System" ) TS_XPROBE
+\i (01:17:17) setwindow pcb
+\i (01:17:17) trapsize 8980
+\t (01:17:17) Net "N190200" highlighted.
+\t (01:17:17) Net "N21405" highlighted.
+\t (01:17:17) Net "N190056" highlighted.
+\t (01:17:17) Net "N190112" highlighted.
+\i (01:17:20) zoom out 1 
+\i (01:17:20) setwindow pcb
+\i (01:17:20) zoom out 3693.302 1501.587
+\i (01:17:20) trapsize 17960
+\i (01:17:21) zoom in 1 
+\i (01:17:21) setwindow pcb
+\i (01:17:21) zoom in 3693.303 1501.588
+\i (01:17:21) trapsize 8980
+\i (01:17:55) setwindow cmgr
+\i (01:17:55) cm startTransaction ( System "System" ) ( System "System" ) TS_XPROBE
+\i (01:17:55) cm commitTransaction ( System "System" ) ( System "System" ) TS_XPROBE
+\i (01:17:55) setwindow pcb
+\i (01:17:55) trapsize 8943
+\t (01:17:55) Net "N192348" highlighted.
+\t (01:17:55) Net "N192288" highlighted.
+\t (01:17:55) Net "N25711" highlighted.
+\t (01:17:55) Net "N192436" highlighted.
+\i (01:28:05) zoom out 1 
+\i (01:28:05) setwindow pcb
+\i (01:28:05) zoom out 2418.392 1282.470
+\i (01:28:05) trapsize 17886
+\i (01:28:05) zoom out 1 
+\i (01:28:05) setwindow pcb
+\i (01:28:05) zoom out 2418.393 1282.471
+\i (01:28:05) trapsize 35773
+\i (01:28:06) zoom in 1 
+\i (01:28:06) setwindow pcb
+\i (01:28:06) zoom in 1330.894 2169.640
+\i (01:28:06) trapsize 17886
+\i (01:28:06) zoom in 1 
+\i (01:28:06) setwindow pcb
+\i (01:28:06) zoom in 1330.895 2169.641
+\i (01:28:06) trapsize 8943
+\i (01:28:06) zoom in 1 
+\i (01:28:06) setwindow pcb
+\i (01:28:06) zoom in 1330.895 2169.641
+\i (01:28:06) trapsize 4472
+\i (01:28:07) zoom out 1 
+\i (01:28:07) setwindow pcb
+\i (01:28:07) zoom out 1297.806 2217.935
+\i (01:28:07) trapsize 8943
+\i (01:28:07) zoom out 1 
+\i (01:28:07) setwindow pcb
+\i (01:28:07) zoom out 1290.650 2232.244
+\i (01:28:07) trapsize 17886
+\i (01:28:08) roam start
+\i (01:28:08) roam x -80
+\i (01:28:08) roam y -80
+\i (01:28:08) roam end
+\i (01:28:08) zoom in 1 
+\i (01:28:08) setwindow pcb
+\i (01:28:08) zoom in 794.840 2730.159
+\i (01:28:08) trapsize 8943
+\i (01:28:08) zoom in 1 
+\i (01:28:08) setwindow pcb
+\i (01:28:08) zoom in 798.418 2731.948
+\i (01:28:08) trapsize 4472
+\i (01:28:08) zoom in 1 
+\i (01:28:08) setwindow pcb
+\i (01:28:08) zoom in 800.207 2733.737
+\i (01:28:08) trapsize 2236
+\i (01:28:09) zoom out 1 
+\i (01:28:09) setwindow pcb
+\i (01:28:09) zoom out 765.776 2683.208
+\i (01:28:09) trapsize 4472
+\i (01:28:13) pick grid 837.322 2651.013
+\t (01:28:13) last pick:  837.320 2651.010
+\i (01:28:13) setwindow cmgr
+\i (01:28:13) cm expand ( row ( Design "vibration" ) )
+\i (01:28:13) cm expand ( row ( Design "vibration" ) )
+\i (01:28:13) cm expand ( row ( Design "vibration" ) )
+\t (01:28:13) Net "N189451" highlighted.
+\i (01:28:14) setwindow pcb
+\i (01:28:14) prepopup 837.322 2651.013
+\i (01:28:17) show element 
+\i (01:28:23) setwindow text
+\i (01:28:23) close 
+\i (01:28:30) setwindow pcb
+\i (01:28:30) show measure 
+\i (01:28:31) pick grid 843.582 2651.013
+\t (01:28:31) last pick:  843.580 2651.010
+\i (01:28:33) setwindow text
+\i (01:28:33) close 
+\i (01:28:34) setwindow pcb
+\i (01:28:34) pick grid 792.605 2566.052
+\t (01:28:34) last pick:  792.610 2566.050
+\i (01:28:36) setwindow text
+\i (01:28:36) close 
+\i (01:28:41) setwindow pcb
+\i (01:28:41) show measure 
+\i (01:28:53) prepopup 1024.236 2896.952
+\i (01:28:55) oops 
+\i (01:28:58) show measure 
+\i (01:29:03) setwindow form.find
+\i (01:29:03) FORM find all_on  
+\i (01:29:06) setwindow pcb
+\i (01:29:06) pick grid 846.265 2653.696
+\t (01:29:06) last pick:  846.270 2653.700
+\i (01:29:08) setwindow text
+\i (01:29:08) close 
+\i (01:29:14) setwindow pcb
+\i (01:29:14) xsection 
+   (01:29:15) Loading signal.cxt 
+   (01:29:15) Loading floor.cxt 
+   (01:29:15) Loading skillExt.cxt 
+   (01:29:15) Loading axlcore.cxt 
+\i (01:29:47) setwindow form.fplyrstack
+\i (01:29:47) FORM fplyrstack cancel  
+\i (01:29:47) setwindow pcb
+\i (01:29:47) generaledit 
+\i (01:29:49) zoom out 1 
+\i (01:29:49) setwindow pcb
+\i (01:29:49) zoom out 1057.326 2625.077
+\i (01:29:49) trapsize 8943
+\i (01:29:49) zoom out 1 
+\i (01:29:49) setwindow pcb
+\i (01:29:49) zoom out 1057.325 2625.078
+\i (01:29:49) trapsize 17886
+\i (01:29:50) zoom out 1 
+\i (01:29:50) setwindow pcb
+\i (01:29:50) zoom out 1057.325 2625.077
+\i (01:29:50) trapsize 35773
+\i (01:29:50) zoom in 1 
+\i (01:29:50) setwindow pcb
+\i (01:29:50) zoom in 1057.326 2625.078
+\i (01:29:50) trapsize 17886
+\i (01:29:50) zoom in 1 
+\i (01:29:50) setwindow pcb
+\i (01:29:50) zoom in 1057.326 2625.078
+\i (01:29:50) trapsize 8943
+\i (01:29:50) zoom in 1 
+\i (01:29:50) setwindow pcb
+\i (01:29:50) zoom in 1057.326 2625.079
+\i (01:29:50) trapsize 4472
+\i (01:29:50) zoom out 1 
+\i (01:29:50) setwindow pcb
+\i (01:29:50) zoom out 1057.327 2625.974
+\i (01:29:50) trapsize 8943
+\i (01:29:50) zoom out 1 
+\i (01:29:50) setwindow pcb
+\i (01:29:50) zoom out 1057.326 2625.973
+\i (01:29:50) trapsize 17886
+\i (01:29:53) pick grid 903.502 2572.314
+\t (01:29:53) last pick:  903.500 2572.310
+\i (01:29:53) setwindow cmgr
+\i (01:29:53) cm expand ( row ( Design "vibration" ) )
+\i (01:29:53) cm expand ( row ( Design "vibration" ) )
+\i (01:29:53) cm expand ( row ( Design "vibration" ) )
+\i (01:29:53) cm expand ( row ( NetGroup "POWER" ) )
+\i (01:29:53) cm expand ( row ( NetGroup "POWER" ) )
+\i (01:29:53) cm expand ( row ( Design "vibration" ) )
+\i (01:29:53) cm expand ( row ( Design "vibration" ) )
+\i (01:29:53) cm expand ( row ( NetGroup "POWER" ) )
+\i (01:29:54) setwindow pcb
+\i (01:29:54) pick grid -395.057 2761.911
+\t (01:29:54) last pick:  -395.060 2761.910
+\i (01:30:42) zoom out 1 
+\i (01:30:42) setwindow pcb
+\i (01:30:42) zoom out 2445.318 2150.193
+\i (01:30:42) trapsize 35773
+\i (01:30:42) zoom out 1 
+\i (01:30:43) setwindow pcb
+\i (01:30:43) zoom out 2380.928 2092.956
+\i (01:30:43) trapsize 71546
+\i (01:30:43) zoom out 1 
+\i (01:30:43) setwindow pcb
+\i (01:30:43) zoom out 2252.145 1921.245
+\i (01:30:43) trapsize 143092
+\i (01:30:43) zoom out 1 
+\i (01:30:43) setwindow pcb
+\i (01:30:43) zoom out 8818.725 1835.390
+\i (01:30:43) trapsize 263852
+\i (01:30:43) zoom in 1 
+\i (01:30:43) setwindow pcb
+\i (01:30:43) zoom in 3588.391 1055.409
+\i (01:30:43) trapsize 131926
+\i (01:30:43) zoom in 1 
+\i (01:30:43) setwindow pcb
+\i (01:30:43) zoom in -131.926 1055.409
+\i (01:30:43) trapsize 65963
+\i (01:30:43) zoom in 1 
+\i (01:30:43) setwindow pcb
+\i (01:30:43) zoom in -131.925 1055.409
+\i (01:30:43) trapsize 32982
+\i (01:30:44) zoom in 1 
+\i (01:30:44) setwindow pcb
+\i (01:30:44) zoom in 1464.381 633.245
+\i (01:30:44) trapsize 16491
+\i (01:30:45) zoom in 1 
+\i (01:30:45) setwindow pcb
+\i (01:30:45) zoom in 1998.682 277.045
+\i (01:30:45) trapsize 8245
+\i (01:30:45) zoom out 1 
+\i (01:30:45) setwindow pcb
+\i (01:30:45) zoom out 1997.033 275.396
+\i (01:30:45) trapsize 16491
+\i (01:30:48) roam start
+\i (01:30:48) roam x 96
+\i (01:30:48) roam y -16
+\i (01:30:48) roam x 176
+\i (01:30:48) roam x 160
+\i (01:30:48) roam x 128
+\i (01:30:48) roam x 48
+\i (01:30:48) roam x -16
+\i (01:30:48) roam x -80
+\i (01:30:48) roam x -112
+\i (01:30:48) roam y -32
+\i (01:30:49) roam x -16
+\i (01:30:49) roam x -96
+\i (01:30:49) roam x -16
+\i (01:30:49) roam x -64
+\i (01:30:49) roam x -64
+\i (01:30:49) roam x -32
+\i (01:30:49) roam x -16
+\i (01:30:49) roam x -16
+\i (01:30:49) roam y 48
+\i (01:30:49) roam x -16
+\i (01:30:49) roam y 32
+\i (01:30:49) roam x -16
+\i (01:30:49) roam x -16
+\i (01:30:49) roam y 32
+\i (01:30:50) roam end
+\i (01:30:50) zoom in 1 
+\i (01:30:50) setwindow pcb
+\i (01:30:50) zoom in 375.999 719.007
+\i (01:30:50) trapsize 8245
+\i (01:30:50) zoom in 1 
+\i (01:30:50) setwindow pcb
+\i (01:30:50) zoom in 394.139 722.305
+\i (01:30:50) trapsize 4123
+\i (01:37:00) pick grid 594.502 725.603
+\t (01:37:00) last pick:  594.500 725.600
+\i (01:37:00) setwindow cmgr
+\i (01:37:00) cm expand ( row ( Design "vibration" ) )
+\i (01:37:00) cm expand ( row ( Design "vibration" ) )
+\i (01:37:00) cm expand ( row ( Design "vibration" ) )
+\i (01:37:00) cm expand ( row ( "Diff Pair" "RXI" ) )
+\i (01:37:00) cm expand ( row ( "Diff Pair" "RXI" ) )
+\i (01:37:00) cm expand ( row ( Design "vibration" ) )
+\i (01:37:00) cm expand ( row ( Design "vibration" ) )
+\i (01:37:00) cm expand ( row ( "Diff Pair" "RXI" ) )
+\i (01:37:00) cm expand ( row ( "Diff Pair" "RXI" ) )
+\i (01:37:01) setwindow pcb
+\i (01:37:01) roam start
+\i (01:37:01) roam y -48
+\i (01:37:01) roam x -16
+\i (01:37:01) roam y -32
+\i (01:37:01) roam y -16
+\i (01:37:01) roam y -32
+\i (01:37:01) roam x -16
+\i (01:37:01) roam y -32
+\i (01:37:01) roam y -32
+\i (01:37:01) roam end
+\i (01:37:02) zoom out 1 
+\i (01:37:02) setwindow pcb
+\i (01:37:02) zoom out 234.163 749.499
+\i (01:37:02) trapsize 8245
+\i (01:37:03) zoom out 1 
+\i (01:37:03) setwindow pcb
+\i (01:37:03) zoom out 234.163 749.500
+\i (01:37:03) trapsize 16491
+\i (01:37:03) zoom in 1 
+\i (01:37:03) setwindow pcb
+\i (01:37:03) zoom in -151.723 640.660
+\i (01:37:03) trapsize 8245
+\i (01:37:05) pick grid 453.489 752.797
+\t (01:37:05) last pick:  453.490 752.800
+\i (01:37:05) setwindow cmgr
+\i (01:37:05) cm expand ( row ( Design "vibration" ) )
+\i (01:37:05) cm expand ( row ( Design "vibration" ) )
+\i (01:37:05) cm expand ( row ( Design "vibration" ) )
+\i (01:37:05) cm expand ( row ( "Diff Pair" "RXI" ) )
+\i (01:37:05) cm expand ( row ( Design "vibration" ) )
+\i (01:37:05) cm expand ( row ( Design "vibration" ) )
+\i (01:37:05) cm expand ( row ( "Diff Pair" "RXI" ) )
+\i (01:37:07) setwindow pcb
+\i (01:37:07) pick grid 352.895 769.288
+\t (01:37:07) last pick:  352.900 769.290
+\i (01:37:07) setwindow cmgr
+\i (01:37:07) cm expand ( row ( Design "vibration" ) )
+\i (01:37:07) cm expand ( row ( Design "vibration" ) )
+\i (01:37:07) cm expand ( row ( Design "vibration" ) )
+\i (01:37:07) cm expand ( row ( "Diff Pair" "TXO" ) )
+\i (01:37:07) cm expand ( row ( "Diff Pair" "TXO" ) )
+\i (01:37:07) cm expand ( row ( Design "vibration" ) )
+\i (01:37:07) cm expand ( row ( Design "vibration" ) )
+\i (01:37:07) cm expand ( row ( "Diff Pair" "TXO" ) )
+\i (01:37:07) cm expand ( row ( "Diff Pair" "TXO" ) )
+\i (01:37:07) setwindow pcb
+\i (01:37:07) pick grid 329.808 772.586
+\t (01:37:07) last pick:  329.810 772.590
+\i (01:37:07) setwindow cmgr
+\i (01:37:07) cm expand ( row ( Design "vibration" ) )
+\i (01:37:07) cm expand ( row ( Design "vibration" ) )
+\i (01:37:07) cm expand ( row ( Design "vibration" ) )
+\i (01:37:07) cm expand ( row ( "Diff Pair" "TXO" ) )
+\i (01:37:07) cm expand ( row ( Design "vibration" ) )
+\i (01:37:07) cm expand ( row ( Design "vibration" ) )
+\i (01:37:07) cm expand ( row ( "Diff Pair" "TXO" ) )
+\i (01:37:08) setwindow pcb
+\i (01:37:08) zoom out 1 
+\i (01:37:08) setwindow pcb
+\i (01:37:08) zoom out 621.695 617.573
+\i (01:37:08) trapsize 16491
+\i (01:37:10) roam start
+\i (01:37:10) roam x 80
+\i (01:37:10) roam y -64
+\i (01:37:10) roam x 80
+\i (01:37:10) roam y -64
+\i (01:37:10) roam x 112
+\i (01:37:10) roam y -64
+\i (01:37:10) roam x 112
+\i (01:37:10) roam y -64
+\i (01:37:10) roam x 48
+\i (01:37:10) roam y -32
+\i (01:37:11) roam end
+\i (01:37:11) roam start
+\i (01:37:11) roam x 16
+\i (01:37:11) roam y -80
+\i (01:37:11) roam y -176
+\i (01:37:11) roam x -16
+\i (01:37:11) roam y -112
+\i (01:37:12) roam x -16
+\i (01:37:12) roam y -80
+\i (01:37:12) roam y -48
+\i (01:37:12) roam end
+\i (01:37:13) exit 
+\e (01:37:13) Do you want to save the changes you made to vibration.brd?
+\i (01:37:14) fillin no 
+\t (01:37:14)     Journal end - Thu Feb 23 02:20:59 2017

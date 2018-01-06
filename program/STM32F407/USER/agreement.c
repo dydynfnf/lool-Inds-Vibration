@@ -61,8 +61,8 @@ short calculate_drift(u8 channel, u8 precision)
 
 /******************************************************************************/
 /*                'INT','IPC','CAL','CUR'等配置命令处理                       */
-/*                             错误返回0                                      */
-/*                             成功返回1                                      */
+/*                   错误返回NET_DISCONNECT / NET_ERR                         */
+/*                             成功返回0                                      */
 /******************************************************************************/
 
 unsigned char deal_int(void)
@@ -76,7 +76,7 @@ unsigned char deal_int(void)
 		w5300_read(&state,Sn_SSR1(0),1);//检测连接是否断开
 		if(state!=SOCK_ESTABLISHED)//连接断开
 		{
-			return 0;//失败
+			return NET_DISCONNECT;//失败
 		}
 		
 		len=recv_len();//收到数据长度
@@ -112,7 +112,7 @@ unsigned char deal_int(void)
 				command[2]='K';
 				send_data(command,16);//发送应答
 				
-				return 0;//返回0使程序重启
+				return NET_ERR;//返回NET_ERR使程序重启
 			}
 			else if(command[0]=='C'&&command[1]=='A'&&command[2]=='L')//收到'CAL'
 			{
@@ -131,7 +131,7 @@ unsigned char deal_int(void)
 				command[2]='K';
 				send_data(command,8);//发送应答
 				
-				return 0;//返回0使程序重启
+				return NET_ERR;//返回NET_ERR使程序重启
 			}
 			else if(command[0]=='C'&&command[1]=='U'&&command[2]=='R')
 			{
@@ -147,7 +147,7 @@ unsigned char deal_int(void)
 				command[2]='K';
 				send_data(command,8);//发送应答
 				
-				return 0;//返回0使程序重启
+				return NET_ERR;//返回NET_ERR使程序重启
 			}
 			else if(command[0]=='I'&&command[1]=='N'&&command[2]=='T')//收到'INT'
 			{
@@ -160,7 +160,7 @@ unsigned char deal_int(void)
 				command[7]=4;//振动通道数
 				send_data(command,8);//发送应答
 				
-				return 1;//成功
+				return 0;//成功
 			}
 		}
 	}
@@ -169,8 +169,8 @@ unsigned char deal_int(void)
 	
 /******************************************************************************/
 /*                           'PRE'命令处理                                    */
-/*                             错误返回0                                      */
-/*                             成功返回1                                      */
+/*                   错误返回NET_DISCONNECT / NET_ERR                         */
+/*                             成功返回0                                      */
 /******************************************************************************/
 
 unsigned char pre;
@@ -185,7 +185,7 @@ unsigned char deal_pre(void)
 		w5300_read(&state,Sn_SSR1(0),1);//检测连接是否断开
 		if(state!=SOCK_ESTABLISHED)//连接断开
 		{
-			return 0;//失败
+			return NET_DISCONNECT;//失败
 		}
 		
 		len=recv_len();//收到数据长度
@@ -202,7 +202,7 @@ unsigned char deal_pre(void)
 				command[2]='K';
 				send_data(command,8);//发送应答
 				
-				return 1;//成功
+				return 0;//成功
 			}
 		}
 	}
@@ -210,8 +210,8 @@ unsigned char deal_pre(void)
 	
 /******************************************************************************/
 /*                           'DIV'命令处理                                    */
-/*                             错误返回0                                      */
-/*                             成功返回1                                      */
+/*                   错误返回NET_DISCONNECT / NET_ERR                         */
+/*                             成功返回0                                      */
 /******************************************************************************/
 /*                        该指令暂时未作处理                                  */
 /******************************************************************************/
@@ -230,7 +230,7 @@ unsigned char deal_div(void)
 		w5300_read(&state,Sn_SSR1(0),1);//检测连接是否断开
 		if(state!=SOCK_ESTABLISHED)//连接断开
 		{
-			return 0;//失败
+			return NET_DISCONNECT;//失败
 		}
 		
 		len=recv_len();//收到数据长度
@@ -249,7 +249,7 @@ unsigned char deal_div(void)
 				i++;
 				if(i>=4)//4通道
 				{
-					return 1;//成功
+					return 0;//成功
 				}
 			}
 		}
@@ -258,8 +258,8 @@ unsigned char deal_div(void)
 	
 /******************************************************************************/
 /*                           'STA'命令处理                                    */
-/*                             错误返回0                                      */
-/*                             成功返回1                                      */
+/*                   错误返回NET_DISCONNECT / NET_ERR                         */
+/*                             成功返回0                                      */
 /******************************************************************************/
 
 unsigned char deal_sta(void)
@@ -273,7 +273,7 @@ unsigned char deal_sta(void)
 		w5300_read(&state,Sn_SSR1(0),1);//检测连接是否断开
 		if(state!=SOCK_ESTABLISHED)//连接断开
 		{
-			return 0;//失败
+			return NET_DISCONNECT;//失败
 		}
 		
 		len=recv_len();//收到数据长度
@@ -282,7 +282,7 @@ unsigned char deal_sta(void)
 			recv_data(command,len);//接收数据
 			if(command[0]=='S'&&command[1]=='T'&&command[2]=='A')//收到'STA'
 			{
-				return 1;//成功
+				return 0;//成功
 			}
 		}
 	}
@@ -290,9 +290,9 @@ unsigned char deal_sta(void)
 	
 /******************************************************************************/
 /*                             数据传输                                       */
-/*                             错误返回0                                      */
-/*                             成功返回1                                      */
-/******************************************************************************/	
+/*                   错误返回NET_DISCONNECT / NET_ERR                         */
+/*                             成功返回0                                      */
+/******************************************************************************/
 
 unsigned char package[5000];
 extern unsigned char  ad1_buffer[Max_Buffer],
@@ -318,7 +318,7 @@ unsigned char deal_data(void)
 	w5300_read(&state,Sn_SSR1(0),1);//检测连接是否断开
 	if(state!=SOCK_ESTABLISHED)//连接断开
 	{
-		return 0;//失败
+		return NET_DISCONNECT;//失败
 	}
 	
 	p_package = package;//数据包指针
@@ -440,5 +440,5 @@ unsigned char deal_data(void)
 
 	send_data(package, p_package-package);//发送数据包
 	
-	return 1;//成功
+	return 0;//成功
 }

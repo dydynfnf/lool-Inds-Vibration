@@ -1,0 +1,19 @@
+\t (00:00:03) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:03)     Journal start - Sat Sep 23 21:32:59 2017
+\t (00:00:03)         Host=PSAI-PC User=psai Pid=10524 CPUs=4
+\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:03) 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: E:/material/lool Inds Vibration/hardware/v2.0/pcb/vibration.brd
+\i (00:00:05) trapsize 40434
+\i (00:00:05) trapsize 39346
+\i (00:00:05) trapsize 40622
+\i (00:00:05) trapsize 33851
+\i (00:00:05) trapsize 33851
+\i (00:00:06) generaledit 
+\i (00:00:27) new 
+\i (00:00:29) newdrawfillin "menu_cancel"
+\i (00:00:29) generaledit 
+\i (00:30:28) new 
+\i (00:31:05) newdrawfillin "USR-C322.dra" "Package Symbol"
+\t (00:31:05)     Journal end - Sat Sep 23 22:04:02 2017

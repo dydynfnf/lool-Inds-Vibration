@@ -14,7 +14,9 @@
 #include "iwgd.h"
 
 int main(void)
-{		
+{
+	int ret;
+	
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置系统中断优先级分组2
 	delay_init(162);//延时初始化
 	tim3_init(162);//时钟初始化
@@ -29,35 +31,35 @@ int main(void)
 	tcp_sever();//建立tcp服务器
 	while(!is_con());//等待连接
 	led_link(1);//开启连接灯
-	
-	while(1)
-	{		
-		if(deal_int() == 0)//INT处理部分
-		{
-			sys_restart();//重启
-		}
-		
-		if(deal_pre() == 0)//PRE处理部分
-		{
-			sys_restart();//重启
-		}
 
-		if(deal_div() == 0)//DIV处理
-		{
+	while(1)
+	{
+		//INT处理部分
+		ret = deal_int();
+		if((ret == NET_ERR) || (ret == NET_DISCONNECT))
 			sys_restart();//重启
-		}
-	
-		if(deal_sta() == 0)//STA处理
-		{
+		
+		//PRE处理部分
+		ret = deal_pre();
+		if((ret == NET_ERR) || (ret == NET_DISCONNECT))
 			sys_restart();//重启
-		}
-	
+		
+		//DIV处理
+		ret = deal_div();
+		if((ret == NET_ERR) || (ret == NET_DISCONNECT))
+			sys_restart();//重启
+		
+		//STA处理
+		ret = deal_sta();
+		if((ret == NET_ERR) || (ret == NET_DISCONNECT))
+			sys_restart();//重启
+		
+		//数据传输
 		while(1)
 		{
-			if(deal_data() == 0)//数据传输
-			{
+			ret = deal_data();
+			if((ret == NET_ERR) || (ret == NET_DISCONNECT))
 				sys_restart();//重启
-			}
 		}
 	}
 }
