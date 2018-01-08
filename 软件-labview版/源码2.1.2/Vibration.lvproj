@@ -55,31 +55,32 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/psai/Desktop/应用程序</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../应用程序</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4BE7057E-B73C-4C29-B2CE-1E56CB51FE4B}</Property>
 				<Property Name="Destination[0].destName" Type="Str">振动测试.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/psai/Desktop/应用程序/振动测试.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../应用程序/振动测试.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/psai/Desktop/应用程序/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../应用程序/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/64X64.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BA778722-68AC-483C-8E1B-A1E594691AC9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0BB39A7F-C35F-4EDE-8F38-52A08556FF91}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Vibration.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">lool</Property>
+				<Property Name="TgtF_companyName" Type="Str">KurTos</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Vibration</Property>
-				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">2</Property>
+				<Property Name="TgtF_fileVersion.minor" Type="Int">1</Property>
+				<Property Name="TgtF_fileVersion.patch" Type="Int">2</Property>
 				<Property Name="TgtF_internalName" Type="Str">Vibration</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">版权 2017 lool</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2017 KurTos</Property>
 				<Property Name="TgtF_productName" Type="Str">Vibration</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{35C3869C-89DD-4A4B-B0E0-531AE3D5A54E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">振动测试.exe</Property>
@@ -91,22 +92,22 @@
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{3854EDA2-20A9-4A25-9A29-47A8BBF48DEB}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW运行引擎2012</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{5157CC53-EB17-4E69-A5C9-73E5695198B1}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW运行引擎2012 SP1 f3</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{20385C41-50B1-4416-AC2A-F7D6423A9BD6}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">lool</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/psai/Desktop/安装程序</Property>
+				<Property Name="INST_buildLocation" Type="Path">../安装程序</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">安装程序</Property>
 				<Property Name="INST_defaultDir" Type="Str">{59D96CD5-07C5-4242-B969-4E1DB292B92E}</Property>
 				<Property Name="INST_language" Type="Int">2052</Property>
 				<Property Name="INST_productName" Type="Str">Vibration</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.12</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">12008024</Property>
-				<Property Name="MSI_arpCompany" Type="Str">lool</Property>
-				<Property Name="MSI_arpURL" Type="Str">http://www.lool.com/</Property>
+				<Property Name="MSI_arpCompany" Type="Str">KurTos</Property>
 				<Property Name="MSI_distID" Type="Str">{EF11CB77-11E3-436C-90A2-288F4BDE283E}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{D1E71240-95BF-4AB6-BC1E-3B34716E2650}</Property>
